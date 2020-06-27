@@ -5,7 +5,7 @@ A table of available apps and their properties can be hard for a human to parse.
 Most apps do not export their data in any form and those that do usualy require some convoluted process.
 Network graphs made by the netCoin package can easily vizualise this process and all the data in a table.
 
-[Early Snapshot](CaptureOfAnEarlyState.PNG)
+![Early Snapshot](CaptureOfAnEarlyState.PNG)
 
 # Instructions
 Download zip or file and unpack. Get to netCoin_DataFlow directory and open index.html
