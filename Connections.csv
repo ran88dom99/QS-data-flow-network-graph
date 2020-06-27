@@ -1,0 +1,28 @@
+Name;Category;Description;Price;Synonyms;Manual_Out;Manual_In;Automatic_Out;Automatic_In;Link_Out;Link_In
+mbientlabs;sensor;;5;MMR,Mbientlabs;CSV File;;;;;
+bitesnap;app;;3;Bitesnap,BiteSnap;Google Health,CSV File;;;;;
+miband3;sensor;;4;Mi Band 3,MIBand3;Google Health;;;;;
+openhumans.org;aggregator;;1;Open Humans ,openhumans;CSV File;CSV File;;;;
+Google Health;aggregator;;0;;CSV File;;;;;
+CSV File;file;;;comma separated , csv ;;;;;;
+food;whatomeasure;;;;bitesnap;;;;;
+heart_rate;whatomeasure;;;;miband3;;;;;
+steps;whatomeasure;;;;miband3;;;;;
+sleep;whatomeasure;;;;miband3;;;;;
+lumens;whatomeasure;;;;mbientlabs;;;;;
+accelerometry;whatomeasure;;;;mbientlabs;sleep;;;;
+near_body_temperature;whatomeasure;;;;mbientlabs;;;;;
+air_pressure;whatomeasure;;;;mbientlabs;;;;;
+analysis;file;;;;;openhumans.org;;;;
+gait;whatomeasure;;;;accelerometry;steps;;;;
+mySymptoms;app;;3;;CSV File;activity,symptoms,sleep,bowels,journal_notes;;;;
+activity;whatomeasure;;;;;;;;;
+symptoms;whatomeasure;;;;;;;;;
+bowels;whatomeasure;;;;;;;;;
+journal_notes;whatomeasure;;;;;;;;;
+cognitive;whatomeasure;;;;;;;;;
+humanbenchmark;app;;2;;manual_entry;cognitive;;;;
+manual_entry;file;;;;CSV File;;;;;
+quantified_mind;app;;1;;CSV File;cognitive;;;;
+hexoskin;sensor;;6;;;;;;;
+astroskin;sensor;;7;;;;;;;

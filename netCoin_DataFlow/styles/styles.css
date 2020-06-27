@@ -1,0 +1,332 @@
+body {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: #333;
+}
+
+a {
+  color: #47c0c0;
+}
+ul {
+  list-style-type: none;
+}
+button, input, select {
+  border: solid 1px #aaa;
+  margin: 2px;
+  font-family: sans-serif;
+  font-size: 100%;
+  color: #333;
+  background-color: #ddd;
+}
+select {
+  background-color: #fff;
+}
+table {
+  color: #444;
+  border-collapse: collapse;
+} 
+td, th {
+  border: solid 0px #fff;
+  padding: 4px;
+} 
+tr.selected {
+  background-color: #fffacd !important;
+}
+tr:nth-child(even) {
+  background-color: #eee;
+}
+tr:nth-child(odd) {
+  background-color: #fff;
+}
+th {
+  background-color: #ddd;
+  padding: 6px;
+  text-align: left;
+}
+.tables {
+  background-color: #f5f5f5;
+  padding: 6px 10px;
+}
+.tables div.title{
+  font-size: 120%;
+  margin: 10px 0;
+  padding-top: 10px;
+}
+.tables div.title span{
+  font-weight: bold;
+  font-size: 140%;
+}
+.tables div.nodes,
+.tables div.links {
+  margin: 10px;
+}
+.tables table {
+  cursor: initial;
+  max-width: 99%;
+}
+.tables td {
+  white-space: nowrap;
+}
+img.icon {
+  cursor: pointer;
+  float: right;
+  margin: 3px;
+}
+.selectButton{
+  padding: 5px 10px;
+}
+.selectButton>div{
+  border-radius:3px;
+  background:#ddd;
+  border:solid 1px #aaa;
+  padding:2px 8px;
+  color:#333;
+  display:inline-block;
+  margin:0 5px 5px 0;
+  cursor:pointer;
+}
+div.switchNodeLink{
+  height: 0px;
+}
+div.switchNodeLink > div{
+  position: relative;
+  display: inline-block;
+  padding: 4px 8px;
+  margin: 0 2px;
+  border-radius: 5px 5px 0 0;
+  background: #eeeeee;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+}
+div.switchNodeLink > div > h3{
+  font-size: 120%;
+  color: #666;
+}
+div.main {
+  font-size: 240%;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 8px;
+}
+div.note {
+  padding: 0 20px;
+}
+.clear {
+  clear: both;
+}
+.sidebar {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+}
+.sidebar h2 {
+  margin: 0 0 6px 2px;
+  color: #bbb;
+  font-size: 120%;
+  text-transform: uppercase;
+}
+.sidebar h3 {
+  margin: 0 0 4px 2px;
+  color: #666;
+  font-size: 120%;
+}
+.sidebar h4 {
+  margin: 0 0 2px 2px;
+  font-size: 100%;
+}
+.subSidebar {
+  width: 88%;
+  background-color: #f5f5f5;
+  padding: 6px 6%;
+  margin: 0 0% 10px;
+}
+.subSidebar>div {
+  margin-bottom: 12px;
+}
+.subSidebar select {
+  width: 97%;
+}
+.subSidebar button {
+  width: 72px;
+  overflow: hidden;
+}
+.subSidebar .visSel span {
+  margin-top: 6px;
+  width: 29%;
+}
+.subSidebar .visSel select {
+  width: 68%;
+}
+.subSidebar .visSel select, .subSidebar .visSel span {
+  display: inline-block;
+  float: left;
+  white-space: nowrap;
+}
+.subSidebar .filter {
+  display: none;
+}
+textarea[name=query] {
+  font-family: monospace;
+  width: 87%; resize: none;
+  margin: 0 1.4%;
+}
+.panel {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+div.window {
+  font-size: 140%;
+}
+div.window h2 {
+  font-size: 140%;
+  padding-bottom: 10px;
+}
+div.topbar {
+  margin: 10px;
+  background-color: #f5f5f5;
+  padding: 6px 10px;
+}
+.topbar h3 {
+  display: inline-block;
+  padding-right: 4px;
+  color: #999;
+  font-size: 120%;
+}
+.topbar select {
+  margin-right: 20px;
+}
+.subSidebar.multigraph h3 {
+  width: 34%;
+  display: inline-block;
+}
+.subSidebar.multigraph select {
+  width: 60%;
+}
+ul.picker>li {
+  cursor: pointer;
+  margin: 5px 0;
+}
+
+div.loading {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0,0,0,0.8);
+  z-index": 10;
+}
+
+div.loading > p {
+  color: #fff;
+  font-size: 200%;
+  font-weight: bold;
+  margin: 20px;
+}
+
+div.infopanel {
+  background: #f5f5f5;
+  padding: 20px;
+  border: 4px solid #888;
+  overflow-y: auto;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+}
+div.infopanel .drag {
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 10px;
+    cursor: w-resize;
+}
+div.infopanel .close-button {
+  font-size: 10px;
+  color: #666;
+  position: absolute;
+  top: 6px;
+  right: 10px;
+}
+div.infopanel > div:last-child {
+  width: 100%;
+  height: 100%;
+}
+
+/* svg buttons and brush */
+.close-button {
+  font-size: 20px;
+  text-align: center;
+  cursor: pointer;
+}
+svg .buttons rect,
+svg .handle {
+  fill: #888;
+  stroke: #666;
+  stroke-width: 1.5px;
+  cursor: pointer;
+}
+svg .buttons text {
+  pointer-events: none;
+  stroke-width: 0.5px;
+  font-size: 100%;
+  fill: #444;
+}
+svg .axis.brushSlider .domain {
+  stroke: #666;
+  stroke-width: 4px;
+  stroke-linecap: round;
+}
+svg .brush .extent {
+  fill-opacity: .1;
+  stroke: #fff;
+  shape-rendering: crispEdges;
+}
+
+/* slider */
+.slider-tray {
+  position: absolute;
+  width: 100%;
+  height: 6px;
+  border: solid 1px #ccc;
+  border-top-color: #aaa;
+  border-radius: 4px;
+  background-color: #f0f0f0;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.08);
+}
+
+.slider-handle-icon {
+  width: 14px;
+  height: 14px;
+  border: solid 1px #aaa;
+  position: absolute;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+  top: -7px;
+  left: -7px;
+}
+
+.slider-extent {
+  position: absolute;
+  display: block;
+  top: 1px;
+  height: 6px;
+  opacity: .8;
+  background-color: #47c0c0;
+}
+
+.slider-min, .slider-max, .slider-text {
+    position: absolute;
+    display: block;
+    color: #333;
+    line-height: 1.333;
+    padding: 1px 3px;
+    background: rgba(0,0,0,0.1);
+    border-radius: 3px;
+}
+
+.slider-text {
+	color: #fff;
+	background: #47c0c0;
+}
