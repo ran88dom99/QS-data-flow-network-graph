@@ -1,0 +1,39 @@
+"in_data","out_data","Aggregation","Difficulty","Weit","ConnectInGraph","Explanation"
+"activity","hexoskin",3,3,6,"F","what about without quotes"
+"cognitive","quantified_mind",4,2,6,"T","tests from ""formal published papers"
+"activity","astroskin",3,3,0,"F","shouldhavebeenremoved[kw]"
+"bitesnap","Google Health",3,5,8,"T","jk,jk"
+"cognitive","humanbenchmark",3,3,6,"T","fun but not rigorous"
+"bowels","mySymptoms",5,3,8,"T","Bristol!"
+"air_pressure","mbientlabs",4,3,7,"T","also sound up to 20Hz"
+"accelerometry","mbientlabs",5,2,7,"T","9dof but fills up memory fast"
+"time_tracking","mySymptoms",3,3,6,"T",NA
+"symptoms","mySymptoms",3,3,6,"T",NA
+"steps","accelerometry",3,3,6,"T",NA
+"steps","hexoskin",3,3,6,"T",NA
+"steps","miband3",3,3,6,"T",NA
+"sleep","accelerometry",3,3,6,"T",NA
+"sleep","astroskin",3,3,6,"T",NA
+"sleep","hexoskin",3,3,6,"T",NA
+"sleep","miband3",3,3,6,"T",NA
+"sleep","mySymptoms",3,3,6,"T",NA
+"quantified_mind","CSV File",3,3,6,"T",NA
+"openhumans.org","analysis",3,3,6,"T",NA
+"openhumans.org","CSV File",3,3,6,"T",NA
+"near_body_temperature","mbientlabs",3,3,6,"T",NA
+"mySymptoms","CSV File",3,3,6,"T",NA
+"miband3","Google Health",3,3,6,"T",NA
+"mbientlabs","CSV File",3,3,6,"T",NA
+"manual_entry","CSV File",3,3,6,"T",NA
+"lumens","mbientlabs",3,3,6,"T",NA
+"journal_notes","mySymptoms",3,2,5,"T",NA
+"humanbenchmark","manual_entry",2,2,4,"T",NA
+"hexoskin","astroskin",3,3,6,"T",NA
+"heart_rate","ECG",4,4,8,"T",NA
+"heart_rate","miband3",1,5,6,"T",NA
+"Google Health","CSV File",3,4,7,"T",NA
+"food","bitesnap",4,2,6,"T",NA
+"ECG","hexoskin",4,2,6,"T",NA
+"CSV File","openhumans.org",5,3,8,"T",NA
+"bitesnap","CSV File",4,4,8,"T",NA
+"hexoskin","hexoskin",3,3,6,"F",NA

@@ -59,11 +59,13 @@ for(i in 1:dim(notsimple)[2]){
 }
 no.connect <- no.connect[!(Cs$Name[no.connect] %in% vecsim)]
 print("Entries absolutely unconnected to any others")
-print(Cs$Name[no.connect])   
-unnamed_connections<-!(unique(vecsim) %in% c(Cs$Name,"",NA))
+print(Cs$Name[no.connect]) 
+vecsim<-unique(vecsim)  
+unnamed_connections<-!(vecsim %in% c(Cs$Name,"",NA))
 print("Connetions without a name")
-print(Cs$Name[unnamed_connections]) 
+print(removeedges<-vecsim[unnamed_connections]) 
 Cs<-as.data.frame(Cs)
+
 
 #### Edges from table ####
 Cs$W_Out <- (paste(Cs$Manual_Out,Cs$Automatic_Out,sep=","))
@@ -90,16 +92,53 @@ print(dim(edg))
 edg <- unique(edg)
 print(dim(edg))
 View(edg)
+edg<-edg[!(edg$in_data %in% removeedges),]
+edg<-edg[!(edg$out_data %in% removeedges),]
+edg<-edg[!(edg$out_data == edg$in_data),]
 #print(warnings())
+#### more user input on the edges ####
+# Complicated data flow
+# Take file user edits to change basic Aggreg, Difficulty, and Weight.
+# To it add new connections with just default values.
+# Some values must be visible as needing update. 
+# Data user made must never be lost even if connection removed.
+#edg$Aggregation <- 3
+#edg$Difficulty <- 3
+#edg$Explanation <- "bc"
+#edg$Weit<-edg$Difficulty+edg3Aggregation
+#write.csv(edg,file="edgAutoFromConnect.csv",row.names = F)
+edg$ConnectInGraph<-"T"
+edg2 <- read_csv("EdgeUInputDifficulty.csv")
+print(problems(edg2))
+edg2 <- as.data.frame(edg2)
+edg2$ConnectInGraph<-NULL
+edg2$Weit[-grep("[kw]",edg2$Explanation,fixed=T)] <- NA
+#edg2$X<-NULL
+edg3 <- merge.data.frame(edg2,edg,all = T, by=c("in_data","out_data"))
+print("dimensions of edge frames")
+print(paste(dim(edg),dim(edg2),dim(edg3)))
+
+edg3$ConnectInGraph[is.na(edg3$ConnectInGraph)] <- "F"
+edg3$Aggregation[is.na(edg3$Aggregation)] <- 3
+edg3$Difficulty[is.na(edg3$Difficulty)] <- 3
+edg3$Weit[is.na(edg3$Weit)] <- edg3$Difficulty[is.na(edg3$Weit)] + edg3$Aggregation[is.na(edg3$Weit)]
+#edg3$Weit <- edg3$Difficulty + edg3$Aggregation
+
+edg3<-edg3[order(edg3$in_data,decreasing=T),]
+edg3<-edg3[order(edg3$ConnectInGraph,decreasing=T),]
+edg3<-edg3[order(edg3$Explanation,decreasing=T),c("in_data","out_data","Aggregation",
+           "Difficulty","Weit","ConnectInGraph","Explanation")]
+write.csv(edg3,file="EdgeUInputDifficulty.csv",row.names = F)
+#edg3$Explanation[is.na(edg3$Explanation)] <- "bc"
 
 #### Make graph ####
 require(netCoin)
 names(Cs)[1]<-"name"
-names(edg)<-c("Source","Target")
-edg$ForColor<-1
-Net <- netCoin(Cs,edg,dir="netCoin_DataFlow",
+names(edg3)[1:2]<-c("Source","Target")
+Net <- netCoin(Cs,edg3,dir="netCoin_DataFlow",
                size="degree",color="Category",shape="Price",
-               showArrows = T, lcolor = "ForColor"
-               )
+               showArrows = T, lcolor = "Difficulty",
+               lwidth="Aggregation", lweight = "Weit",
+               ltext = "Explanation")
 
 #print(warnings())
