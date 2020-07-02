@@ -1,17 +1,13 @@
 Name;Category;Description;Price;Synonyms;Manual_Out;Manual_In;Automatic_Out;Automatic_In;Link_Out;Link_In
-openhumans.org;aggregator;;1;Open Humans ,openhumans;CSV File;CSV File;;;;
 googlefit;aggregator;;;Google Health, google fit;CSV File;;;;;
-bitesnap;app;;3;Bitesnap,BiteSnap;googlefit,CSV File;;;;;
+bitesnap;app;;3;Bitesnap,BiteSnap;CSV File;;;;;
 mySymptoms;app;;3;;CSV File;time_tracking,symptoms,sleep,bowels,journal_notes;;;;
 humanbenchmark;app;;2;;text_editor;cognitive;;;;
 quantified_mind;app;;1;;CSV File;cognitive;;;;
 CSV File;file;;;comma separated , csv;;;;;;
-analysis;file;;;;;openhumans.org;;;;
 text_editor;file;;;;CSV File;journal_notes;;;;
 mbientlabs;sensor;;120;MMR,Mbientlabs;CSV File;room_temp;;;;
 miband3;sensor;;30;Mi Band 3,MIBand3;googlefit;;;;;
-hexoskin;sensor;;600;;CSV File;;;steps,sleep,hexoskin;;https://www.hexoskin.com/,https://www.hexoskin.com/pages/key-metrics
-astroskin;sensor;;2000;;CSV File;;;sleep,astroskin;;https://www.hexoskin.com/pages/astroskin-vital-signs-monitoring-platform-for-advanced-research
 food;whatomeasure;;;;bitesnap;;;;;
 heart_rate;whatomeasure;;;;miband3;;;;;
 steps;whatomeasure;;;;miband3;excersis;;;;
@@ -25,10 +21,9 @@ symptoms;whatomeasure;;;;;;;;;
 bowels;whatomeasure;;;;;;;;;
 journal_notes;whatomeasure;;;;;;;;;
 cognitive;whatomeasure;;;;;;;;;
-ECG;whatomeasure;;;EKG;hexoskin;heart_rate;;;;
 room_temp;whatomeasure;;;;;;;;;
 location;whatomeasure;;;;mySymptoms;;;;;
-activitywatch;app;;;ActivityWatch;;computer_time;;;;
+activitywatch;app;;1;ActivityWatch;CSV File;computer_time;;;;
 computer_time;whatomeasure;;;;;;;;;
 excersis;whatomeasure;;;;;;;;;
-smartertime;app;;;Smarter Time;CSV File;computer_time,location,time_tracking;;;;
+smartertime;app;;3;Smarter Time;CSV File;computer_time,location,time_tracking;;;;

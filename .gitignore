@@ -38,4 +38,7 @@ vignettes/*.pdf
 # R Environment Variables
 .Renviron
 .Rproj.user
+
+# manual addition
 Thumbs.db
+ScreenCapOfMyQSDataFlow2020_5days.PNG

@@ -2,14 +2,16 @@
 #by searching thorough web pages
 
 #load file
-#reload all data?,
-#find unparsed links
+#reload all data or just find unparsed links?
 #
-#for each link 
-# load page
-# get strings to search for
-# search page
-# update data
+#for both in and out
+#for each item with links to do
+# separate string into char vec of links 
+# load char vec of pages
+# for each line get name and syns
+#  for each page 
+#   add line's detected to vector 
+# save vector to cell
 #
 #save file
 #
@@ -48,8 +50,24 @@ for (l in which(lix)) {#l<-26
       if(any(str_detect(hld, eachstring))) foundstrng <- c(foundstrng,Cs$Name[i])
     }
   }
-  
   Cs$Automatic_In[l]<-paste(unique(foundstrng),collapse = ",")
+}
+
+for (l in which(lox)) {#l<-26
+  pagel <- str_split(Cs$Link_Out[l],",")
+  gethtml <- Vectorize(function(pgl){html_text(read_html(pgl))},vectorize.args ="pgl")
+  pge <- gethtml(pagel[[1]])
+  pge <- str_conv(pge,encoding = "UTF-8")
+  foundstrng <- vector()
+  for(i in 1:dim(Cs)[1]){ #i<-1
+    eachstring <- c(Cs$Name[i],str_split(Cs$Synonyms[i],",")[[1]])
+    eachstring <- eachstring[!is.na(eachstring)]
+    for (hld in pge) {
+      #print(which(pge==hld))
+      if(any(str_detect(hld, eachstring))) foundstrng <- c(foundstrng,Cs$Name[i])
+    }
+  }
+  Cs$Automatic_Out[l]<-paste(unique(foundstrng),collapse = ",")
 }
 #### save ####
 write.table(Cs,file="Connections.csv",quote = F,sep = ";",na="",row.names = F)
