@@ -62,3 +62,5 @@ https://terpconnect.umd.edu/~choe/download/JAMIA-2019-Kim-DataAccessibility.pdf
 https://doi.org/10.18710/QXMY88
 
 https://doi.org/10.1186/s12937-018-0366-6
+
+https://forum.quantifiedself.com/t/mapping-qs-data-flows-and-apis/977
