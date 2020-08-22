@@ -7,6 +7,7 @@ While at this I tried to use every aesthetic to convey usefull info.
 A curated menue of apps and devices is better for beginers but noone should curate without this project. 
 
 ![Snapshot after 3 days](CaptureOfAnEarlyState.PNG)
+![Snapshot after 5 days](ScreenCapOfMyQSDataFlow2020aftdays.PNG)
 
 # Instructions
 Download zip or file and unpack. Get to netCoin_DataFlow directory and open index.html
@@ -53,3 +54,8 @@ User can edit Aggregation Difficulty Explanation. Weit too if they add [kw] tag 
 Agg and Diff are rated of a scale of 1 to 5 with 1 being the least complete-thourough and most difficult.
 Weit, which brings nodes closer together, is usualy just Agg+Dif but is not being used atm bc of clutter.
  
+# Sources
+https://forum.quantifiedself.com/t/i-made-a-community-powered-biotracking-tools-list/6715
+https://terpconnect.umd.edu/~choe/download/JAMIA-2019-Kim-DataAccessibility.pdf
+https://doi.org/10.18710/QXMY88
+https://doi.org/10.1186/s12937-018-0366-6
