@@ -8,14 +8,15 @@
 # cnnections and name missing their opposite
 options(stringsAsFactors=F)
 print(warnings())
+options(warn=1)
+options(scipen=0)
+
 require(readr)
 Ns <- read_delim("Connections.csv", 
-                  ";", escape_double = FALSE, trim_ws = TRUE)
+                 ";", escape_double = FALSE, trim_ws = TRUE)
 Ns$Price[is.na(Ns$Price)] <- 0
-Ns$Price[Ns$Price > 3 & Ns$Price <= 70] <- 4
-Ns$Price[Ns$Price > 70 & Ns$Price <= 200] <- 5
-Ns$Price[Ns$Price > 200 & Ns$Price <= 600] <- 6
-Ns$Price[Ns$Price > 600] <- 7 
+Ns$PriceBin<-cut(Ns$Price,breaks=c(0,1,3,70,200,600,99999),include.lowest = T)
+
 
 View(Ns)
 bad.names <- 
@@ -30,30 +31,39 @@ bad.cat <-
     which((Ns$Category %in% c(""," ",NA))))
 print(paste("Bad Categories - "
             ,Ns$Name[bad.cat]))
+#Ns$Category[bad.cat]<-"unk"
+Ns$Category[Ns$Category %in% c("app","device","wear")]<-"app-device"
+Ns<-Ns[(Ns$Category !="app-device"),]
+Ns$Category[Ns$Category %in% c("test","sensor")]<-"sensor-test"
+
+require(stringr)
+lower_connections<-c("Manual_Out","Manual_In",
+                     "Automatic_Out","Automatic_In","Name","Synonyms")
+ilc <- lower_connections[1]
+for(ilc in lower_connections) Ns[,ilc]<-(str_to_lower(as.vector(Ns[,ilc,drop=T])))
 
 no.connect <- 
-    is.na(Ns$Manual_Out) &
-    is.na(Ns$Manual_In) &
-    is.na(Ns$Automatic_Out) &
-    is.na(Ns$Automatic_In)
+  is.na(Ns$Manual_Out) &
+  is.na(Ns$Manual_In) &
+  is.na(Ns$Automatic_Out) &
+  is.na(Ns$Automatic_In)
 no.connect <- which(no.connect)
 print("Entries maybe missing connections")
 print(Ns$Name[no.connect])   
 vec.1 <- c((Ns$Manual_Out),
-  (Ns$Manual_In),
-  (Ns$Automatic_Out),
-  (Ns$Automatic_In))
-require(stringr)
+           (Ns$Manual_In),
+           (Ns$Automatic_Out),
+           (Ns$Automatic_In))
 notsimple <- str_split(vec.1,",",simplify = T)
 vecsim <- vector()
 for(i in 1:dim(notsimple)[2]){
   vecsim <- c(vecsim,notsimple[,i])
 }
 no.connect <- no.connect[!(Ns$Name[no.connect] %in% vecsim)]
-print("Entries absolutely unconnected to any others")
+print("Entries absolutely unconnected to any others !!!! ### synonyms not included right above")
 print(Ns$Name[no.connect]) 
 vecsim <- unique(vecsim)  
-unnamed_connections <- !(vecsim %in% c(Ns$Name,"",NA))
+unnamed_connections <- !(vecsim %in% c(Ns$Name,unlist(strsplit(Ns$Synonyms,split=",")),"",NA))
 print("Connetions without a name")
 print(removeedges <- vecsim[unnamed_connections]) 
 Ns <- as.data.frame(Ns)
@@ -63,11 +73,14 @@ Ns <- as.data.frame(Ns)
 #combine auto and manual
 #for each item 
 # fill edges frame
+#for each edge
+# all mentions of a synonym made into nym name
 #edge frame cleaned
 # NA unique duplicate
 # connections without a line
 Ns$W_Out <- (paste(Ns$Manual_Out,Ns$Automatic_Out,sep=","))
 Ns$W_In <- (paste(Ns$Manual_In,Ns$Automatic_In,sep=","))
+
 
 #Ns$Unq_Out <- str_split(Ns$W_Out,",",simplify = F)
 #Ns$Unq_In <- unique(str_split(Ns$W_In,",",simplify = F))
@@ -85,6 +98,11 @@ for (nm in 1:dim(Ns)[1]) {
   edg <- rbind(edg,dumy)
 }
 edg <- edg[!(edg$in_data== "NA" | edg$out_data== "NA"),]
+nm<-1
+for (nm in 1:dim(Ns)[1]) {
+  edg$in_data[(edg$in_data %in% Ns$Synonyms[nm])]<-Ns$Name[nm]
+  edg$out_data[(edg$out_data %in% Ns$Synonyms[nm])]<-Ns$Name[nm]
+}
 print("if following differ there were duplicates")
 print(dim(edg))
 edg <- unique(edg)
@@ -132,7 +150,7 @@ edg3$Weit[is.na(edg3$Weit)] <- edg3$Difficulty[is.na(edg3$Weit)] + edg3$Aggregat
 edg3 <- edg3[order(edg3$in_data,decreasing=T),]
 edg3 <- edg3[order(edg3$Explanation,decreasing=T),
              c("in_data","out_data","Aggregation",
-           "Difficulty","Weit","ConnectInGraph","Explanation")]
+               "Difficulty","Weit","ConnectInGraph","Explanation")]
 edg3 <- edg3[order(edg3$ConnectInGraph,decreasing=T),]
 write.csv(edg3,file="EdgeUInputDifficulty.csv",row.names = F)
 #edg3$Explanation[is.na(edg3$Explanation)] <- "bc"
@@ -176,9 +194,9 @@ Ns<-merge(Ns,cent)
 
 ReduceWeitByDegree <- function(trgedg,degf,cut=5,cuthigh=1000, sett=.8){
   cts<-(trgedg$Source %in% degf$name[degf$Degree>=cut 
-             & degf$Degree<=cuthigh] |
+                                     & degf$Degree<=cuthigh] |
           trgedg$Target %in% degf$name[degf$Degree>=cut 
-             & degf$Degree<=cuthigh])
+                                       & degf$Degree<=cuthigh])
   trgedg$Weit[cts] <-  sett  
   return(trgedg)
 }
@@ -200,12 +218,12 @@ edg3 <- ReduceWeitByDegree(edg3, Ns, cut=1, cuthigh=1, sett = max(edg3$Weit)+(sd
 #edg3 <- ReduceWeitByDegree(edg3, Ns, cut=2, cuthigh=2, sett = max(edg3$Weit))
 
 
-Net <- netCoin(Ns, edg3, dir = "netCoin_DataFlow",
+Net <- netCoin(Ns, edg3, dir = "netCoin_DataFlow_NoDevices",
                size = "Degree", color = "Category", 
-               shape = "Price",
+               shape = "PriceBin",
                showArrows = T, lcolor = "Difficulty",
                lwidth = "Aggregation", lweight = "Weit",
-               ltext = "Explanation")
+               ltext = "Explanation")#, degreeFilter = 6)
 
 #print(warnings())
 

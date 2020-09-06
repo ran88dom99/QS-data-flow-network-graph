@@ -1,55 +1,2617 @@
 "in_data","out_data","Aggregation","Difficulty","Weit","ConnectInGraph","Explanation"
-"googlefit","CSV File",3,4,11,"T","will need ot be kept together[kw]"
-"cognitive","quantified_mind",4,2,6,"T","tests from ""formal published papers"
-"bitesnap","googlefit",3,5,8,"T","jk,jk"
-"cognitive","humanbenchmark",3,3,6,"T","fun but not rigorous"
-"bowels","mySymptoms",5,3,8,"T","Bristol!"
 "air_pressure","mbientlabs",4,3,7,"T","also sound up to 20Hz"
-"accelerometry","mbientlabs",5,2,7,"T","9dof but fills up memory fast"
-"time_tracking","mySymptoms",4,2,6,"T",NA
-"time_tracking","smartertime",3,3,6,"T",NA
-"text_editor","CSV File",5,4,9,"T",NA
-"symptoms","mySymptoms",5,5,10,"T",NA
-"steps","accelerometry",5,1,6,"T",NA
-"steps","hexoskin",3,3,6,"T",NA
-"steps","miband3",3,5,8,"T",NA
-"smartertime","CSV File",3,3,6,"T",NA
-"sleep","accelerometry",5,1,6,"T",NA
+"zenobase","file",3,3,6,"T",NA
+"zenobase","web api",3,3,6,"T",NA
+"workout","fitnesssyncer",3,3,6,"T",NA
+"workout","healthgraph",3,3,6,"T",NA
+"workout","sportycloud",3,3,6,"T",NA
+"workout","stridekick",3,3,6,"T",NA
+"weight goals","healthkit",3,3,6,"T",NA
+"water","samsung health",3,3,6,"T",NA
+"validic","web api",3,3,6,"T",NA
+"time tracking","flaredown",3,3,6,"T",NA
+"text_editor","csv file",3,3,6,"T",NA
+"temperature","body temperature",3,3,6,"T",NA
+"tactio health","file",3,3,6,"T",NA
+"stress level","samsung health",3,3,6,"T",NA
+"steps","accelerometer",3,3,6,"T",NA
+"sleep","accelerometer",3,3,6,"T",NA
 "sleep","astroskin",3,3,6,"T",NA
-"sleep","hexoskin",3,3,6,"T",NA
-"sleep","miband3",4,5,9,"T",NA
-"sleep","mySymptoms",4,3,7,"T",NA
+"sleep","samsung health",3,3,6,"T",NA
+"samsung health","advices",3,3,6,"T",NA
+"samsung health","challanges",3,3,6,"T",NA
+"samsung health","connected users",3,3,6,"T",NA
+"samsung health","fitnesssyncer",3,3,6,"T",NA
+"samsung health","reminders/notifications",3,3,6,"T",NA
+"samsung health","sdk",3,3,6,"T",NA
+"samsung health","web api",3,3,6,"T",NA
+"s health","fitnesssyncer",3,3,6,"T",NA
 "room_temp","mbientlabs",3,3,6,"T",NA
-"quantified_mind","CSV File",4,5,9,"T",NA
-"openhumans.org","analysis",5,3,8,"T",NA
-"openhumans.org","CSV File",5,3,8,"T",NA
+"pedometer","samsung health",3,3,6,"T",NA
+"oxygen saturation","ppg",3,3,6,"T",NA
+"oxygen saturation","samsung health",3,3,6,"T",NA
+"open humans","analysis",3,3,6,"T",NA
+"open humans","csv file",3,3,6,"T",NA
+"nutrition goals","samsung health",3,3,6,"T",NA
 "near_body_temperature","mbientlabs",4,3,7,"T",NA
-"mySymptoms","CSV File",5,5,10,"T",NA
-"miband3","googlefit",4,4,8,"T",NA
-"mbientlabs","CSV File",5,3,8,"T",NA
-"lumens","mbientlabs",4,4,8,"T",NA
-"location","mySymptoms",2,2,4,"T",NA
-"location","smartertime",5,5,10,"T",NA
-"journal_notes","mySymptoms",3,2,5,"T",NA
+"mbientlabs","csv file",3,3,6,"T",NA
+"macronutrients","healthkit",3,3,6,"T",NA
 "journal_notes","text_editor",4,4,8,"T",NA
-"humanbenchmark","text_editor",3,3,6,"T",NA
-"hexoskin","CSV File",3,3,6,"T",NA
-"heart_rate","ECG",4,4,8,"T",NA
-"heart_rate","miband3",1,5,6,"T",NA
-"food","bitesnap",4,2,6,"T",NA
+"ifttt","file",3,3,6,"T",NA
+"ifttt","google drive",3,3,6,"T",NA
+"ifttt","web api",3,3,6,"T",NA
+"humanapi.co","web api",3,3,6,"T",NA
+"heartrate","samsung health",3,3,6,"T",NA
+"heart rate variability","heartrate",3,3,6,"T",NA
+"healthvault","file",3,3,6,"T",NA
+"healthvault","sdk",3,3,6,"T",NA
+"healthvault","web api",3,3,6,"T",NA
+"healthkit","file",3,3,6,"T",NA
+"healthkit","sdk",3,3,6,"T",NA
+"healthkit","web api",3,3,6,"T",NA
+"healthgraph","web api",3,3,6,"T",NA
+"health records","humanapi.co",3,3,6,"T",NA
+"googlefit","csv file",3,3,6,"T",NA
+"googlefit","file",3,3,6,"T",NA
+"googlefit","google drive",3,3,6,"T",NA
+"googlefit","web api",3,3,6,"T",NA
+"glooko","blood glucose",3,3,6,"T",NA
+"food","flaredown",3,3,6,"T",NA
+"fitnesssyncer","file",3,3,6,"T",NA
+"fitnesssyncer","google drive",3,3,6,"T",NA
+"fitness goals","samsung health",3,3,6,"T",NA
+"fitness goals","weight goals",3,3,6,"T",NA
 "excersis","steps",3,3,6,"T",NA
-"excersis","time_tracking",4,2,6,"T",NA
-"ECG","hexoskin",4,2,6,"T",NA
-"CSV File","openhumans.org",5,3,8,"T",NA
-"computer_time","activitywatch",4,4,8,"T",NA
-"computer_time","smartertime",4,4,8,"T",NA
-"computer_time","time_tracking",3,2,5,"T",NA
-"bitesnap","CSV File",4,4,8,"T",NA
-"astroskin","CSV File",3,3,6,"T",NA
+"excersis","time tracking",3,3,6,"T",NA
+"excercise","samsung health",3,3,6,"T",NA
+"electronic health record","health data aggregators",3,3,6,"T",NA
+"data schema","data access",3,3,6,"T",NA
+"data access","file format",3,3,6,"T",NA
+"csv file","open humans",3,3,6,"T",NA
+"computer_time","time tracking",3,3,6,"T",NA
+"cgm","samsung health",3,3,6,"T",NA
+"calories","healthkit",3,3,6,"T",NA
+"body weight","samsung health",3,3,6,"T",NA
+"body composition","samsung health",3,3,6,"T",NA
+"bmr","healthkit",3,3,6,"T",NA
+"bmi","healthkit",3,3,6,"T",NA
+"blood pressure","ome health",3,3,6,"T",NA
+"blood pressure","ppg",3,3,6,"T",NA
+"astroskin","csv file",3,3,6,"T",NA
+"ambient light","mbientlabs",3,3,6,"T",NA
+"activity","healthkit",3,3,6,"T",NA
+"activity","humanapi.co",3,3,6,"T",NA
+"activity","samsung health",3,3,6,"T",NA
+"accelerometer","inertial measurement unit sensor",3,3,6,"T",NA
+"accelerometer","mbientlabs",3,3,6,"T",NA
+"googlefit","CSV File",3,4,11,"F","will need ot be kept together[kw]"
 "activity","hexoskin",3,3,6,"F","what about without quotes"
+"cognitive","quantified_mind",4,2,6,"F","tests from ""formal published papers"
 "activity","astroskin",3,3,0,"F","shouldhavebeenremoved[kw]"
+"bitesnap","googlefit",3,5,8,"F","jk,jk"
+"cognitive","humanbenchmark",3,3,6,"F","fun but not rigorous"
+"bowels","mySymptoms",5,3,8,"F","Bristol!"
+"accelerometry","mbientlabs",5,2,7,"F","9dof but fills up memory fast"
+"zebra dart tag","api",3,3,6,"F",NA
+"Yazio Calorie Counter & Diet Tracker","healthkit",3,3,6,"F",NA
+"yazio calorie counter & diet tracker","file",3,3,6,"F",NA
+"yazio calorie counter & diet tracker","healthkit",3,3,6,"F",NA
+"yazio","healthkit",3,3,6,"F",NA
+"xsens mvn","file",3,3,6,"F",NA
+"Xiaomi Fit",NA,3,3,6,"F",NA
+"Xiaomi Fit",NA,3,3,6,"F",NA
+"xiaomi fit","googlefit",3,3,6,"F",NA
+"xiaomi fit",NA,3,3,6,"F",NA
+"xiaomi fit",NA,3,3,6,"F",NA
+"xiaomi fit",NA,3,3,6,"F",NA
+"workout","digifit",3,3,6,"F",NA
+"workout","Digifit",3,3,6,"F",NA
+"workout","Fitnesssyncer",3,3,6,"F",NA
+"workout","foodprint diet",3,3,6,"F",NA
+"workout","FoodPrint Diet",3,3,6,"F",NA
+"workout","Healthgraph",3,3,6,"F",NA
+"workout","nutrition tracker biostatus health",3,3,6,"F",NA
+"workout","Nutrition Tracker BioStatus Health",3,3,6,"F",NA
+"workout","rungap.com",3,3,6,"F",NA
+"workout","sparkpeople",3,3,6,"F",NA
+"workout","SparkPeople",3,3,6,"F",NA
+"workout","SportyCloud",3,3,6,"F",NA
+"workout","strava",3,3,6,"F",NA
+"workout","Strava",3,3,6,"F",NA
+"withings thermo","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings thermo","withings",3,3,6,"F",NA
+"withings sleep tracking pad","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings sleep tracking pad","withings",3,3,6,"F",NA
+"withings move ecg","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings move ecg","withings",3,3,6,"F",NA
+"withings bpm core","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings bpm core","withings",3,3,6,"F",NA
+"withings blood pressure monitor","blood pressure",3,3,6,"F",NA
+"withings blood pressure monitor","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings blood pressure monitor","heart rate variability",3,3,6,"F",NA
+"withings blood pressure monitor","withings",3,3,6,"F",NA
+"withings activit","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings activit","withings",3,3,6,"F",NA
+"Withings","glooko",3,3,6,"F",NA
+"withings","glooko",3,3,6,"F",NA
+"withings","google fit",3,3,6,"F",NA
+"withings","googlefit",3,3,6,"F",NA
+"withings","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"withings","rest api",3,3,6,"F",NA
+"wellograph co. ltd.","mapmyfitness",3,3,6,"F",NA
+"weightwar clevapps","reminders/notifications",3,3,6,"F",NA
+"Weight Watchers Mobile International","healthkit",3,3,6,"F",NA
+"weight watchers mobile international","connected users",3,3,6,"F",NA
+"weight watchers mobile international","healthkit",3,3,6,"F",NA
+"weight watchers mobile international","inspirations",3,3,6,"F",NA
+"weight watchers","healthkit",3,3,6,"F",NA
+"weight loss & fitness program healthkart","advices",3,3,6,"F",NA
+"weight loss & fitness program healthkart","coaching",3,3,6,"F",NA
+"weight loss & fitness program healthkart","connected users",3,3,6,"F",NA
+"weight loss & fitness program healthkart","fitbit charge 2",3,3,6,"F",NA
+"weight loss & fitness program healthkart","googlefit",3,3,6,"F",NA
+"weight loss & fitness program healthkart","personal feedback",3,3,6,"F",NA
+"weight loss & fitness program healthkart","reminders/notifications",3,3,6,"F",NA
+"weight loss & fitness program healthkart","social support",3,3,6,"F",NA
+"weight loss & fitness program","googlefit",3,3,6,"F",NA
+"weight goals","20/20 lifestyles",3,3,6,"F",NA
+"weight goals","advices",3,3,6,"F",NA
+"weight goals","calorie counter by fatsecret",3,3,6,"F",NA
+"weight goals","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"weight goals","calorie counter+ nutratech",3,3,6,"F",NA
+"weight goals","calories calculator ebmacs",3,3,6,"F",NA
+"weight goals","caloriesmart calorie tracker",3,3,6,"F",NA
+"weight goals","careot nutrition tracker",3,3,6,"F",NA
+"weight goals","carrot hunger - talking calorie counter",3,3,6,"F",NA
+"weight goals","challanges",3,3,6,"F",NA
+"weight goals","coaching",3,3,6,"F",NA
+"weight goals","connected users",3,3,6,"F",NA
+"weight goals","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"weight goals","diet assistant alberto portela",3,3,6,"F",NA
+"weight goals","diet2 go free",3,3,6,"F",NA
+"weight goals","dietgenie easy diet plans",3,3,6,"F",NA
+"weight goals","edibles world media group",3,3,6,"F",NA
+"weight goals","file",3,3,6,"F",NA
+"weight goals","fitbit",3,3,6,"F",NA
+"weight goals","fitbit charge 2",3,3,6,"F",NA
+"weight goals","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"weight goals","foodprint diet",3,3,6,"F",NA
+"weight goals","googlefit",3,3,6,"F",NA
+"weight goals","hapicoach nutrition coaching",3,3,6,"F",NA
+"weight goals","healthgraph",3,3,6,"F",NA
+"weight goals","healthifyme weight loss coach",3,3,6,"F",NA
+"weight goals","hi droid infinity",3,3,6,"F",NA
+"weight goals","ifood lite: calorie counter",3,3,6,"F",NA
+"weight goals","jawbone up",3,3,6,"F",NA
+"weight goals","lose it! fitnow",3,3,6,"F",NA
+"weight goals","my diet coach - weight loss inspiredapps",3,3,6,"F",NA
+"weight goals","nutrition tracker meuuha apps",3,3,6,"F",NA
+"weight goals","nutritionist+ outlier",3,3,6,"F",NA
+"weight goals","personal feedback",3,3,6,"F",NA
+"weight goals","pic healthy photo food",3,3,6,"F",NA
+"weight goals","reminders/notifications",3,3,6,"F",NA
+"weight goals","samsung health",3,3,6,"F",NA
+"weight goals","smartfoodtracker - food logger",3,3,6,"F",NA
+"weight goals","social support",3,3,6,"F",NA
+"weight goals","tap & track nanobitsoftware",3,3,6,"F",NA
+"weight goals","tomtom mysports",3,3,6,"F",NA
+"weight goals","weighfit weightbmi mz development",3,3,6,"F",NA
+"weight goals","weight loss & fitness program healthkart",3,3,6,"F",NA
+"weight goals","weightwar clevapps",3,3,6,"F",NA
+"weight calorie watch baskaran arunasalam","advices",3,3,6,"F",NA
+"water log water diet fast builder","challanges",3,3,6,"F",NA
+"water log water diet fast builder","reminders/notifications",3,3,6,"F",NA
+"water drink reminder northpark.android","googlefit",3,3,6,"F",NA
+"water drink reminder northpark.android","reminders/notifications",3,3,6,"F",NA
+"water drink reminder northpark.android","s health",3,3,6,"F",NA
+"water drink reminder","googlefit",3,3,6,"F",NA
+"water drink reminder","samsung health",3,3,6,"F",NA
+"water","7 day food journal challenge",3,3,6,"F",NA
+"water","all-in fitness by sport.com",3,3,6,"F",NA
+"water","argus health & calorie counter",3,3,6,"F",NA
+"water","bowelle ibs tracker",3,3,6,"F",NA
+"water","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"water","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"water","calorie counter+ nutratech",3,3,6,"F",NA
+"water","daily water free maxwell software",3,3,6,"F",NA
+"water","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"water","diet watch stettiner",3,3,6,"F",NA
+"water","dietgenie easy diet plans",3,3,6,"F",NA
+"water","fitwell fitness health diet",3,3,6,"F",NA
+"water","foodprint diet",3,3,6,"F",NA
+"water","health & weight loss coach obino",3,3,6,"F",NA
+"water","hi droid infinity",3,3,6,"F",NA
+"water","hydro coach - drink water",3,3,6,"F",NA
+"water","ifood lite: calorie counter",3,3,6,"F",NA
+"water","keto low carb venn interactive",3,3,6,"F",NA
+"water","lifesum health movement",3,3,6,"F",NA
+"water","lose weight with applause 12 labs",3,3,6,"F",NA
+"water","mdietguru",3,3,6,"F",NA
+"water","mevolife",3,3,6,"F",NA
+"water","my daily plate",3,3,6,"F",NA
+"water","my diet coach - weight loss inspiredapps",3,3,6,"F",NA
+"water","my diet journal harvey g. payne",3,3,6,"F",NA
+"water","water drink reminder northpark.android",3,3,6,"F",NA
+"water","water log water diet fast builder",3,3,6,"F",NA
+"water","weight goals",3,3,6,"F",NA
+"water","weight loss & fitness program healthkart",3,3,6,"F",NA
+"water","weightwar clevapps",3,3,6,"F",NA
+"wahoo tickr","rest api",3,3,6,"F",NA
+"vuzix","api",3,3,6,"F",NA
+"uv sensor","microsoft band",3,3,6,"F",NA
+"uv sensor","opter pose pendant",3,3,6,"F",NA
+"uv sensor","pico brilliant",3,3,6,"F",NA
+"uv sensor","qsun uv exposure",3,3,6,"F",NA
+"up smart coach for health","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"up smart coach for health","fitnesssyncer",3,3,6,"F",NA
+"up smart coach for health","foodprint diet",3,3,6,"F",NA
+"up smart coach for health","healthgraph",3,3,6,"F",NA
+"up smart coach for health","healthkit",3,3,6,"F",NA
+"up smart coach for health","humanapi.co",3,3,6,"F",NA
+"up smart coach for health","ifttt",3,3,6,"F",NA
+"up smart coach for health","lifesum health movement",3,3,6,"F",NA
+"up smart coach for health","lose it! fitnow",3,3,6,"F",NA
+"up smart coach for health","myfitnesspal",3,3,6,"F",NA
+"up smart coach for health","nudge health tracking",3,3,6,"F",NA
+"up smart coach for health","pic healthy photo food",3,3,6,"F",NA
+"up smart coach for health","poundaweek - calorie counter",3,3,6,"F",NA
+"up smart coach for health","samsung health",3,3,6,"F",NA
+"up smart coach for health","sparkpeople",3,3,6,"F",NA
+"up smart coach for health","tactio health",3,3,6,"F",NA
+"up smart coach for health","ultimate food value diary",3,3,6,"F",NA
+"up smart coach for health","validic",3,3,6,"F",NA
+"up smart coach for health","zenobase",3,3,6,"F",NA
+"ultraviolet","Netatmo",3,3,6,"F",NA
+"ultimate food value diary plus - diet & weight tracker","googlefit",3,3,6,"F",NA
+"ultimate food value diary plus - diet & weight tracker","healthkit",3,3,6,"F",NA
+"Ultimate Food Value Diary","healthkit",3,3,6,"F",NA
+"ultimate food value diary","allowance badge",3,3,6,"F",NA
+"ultimate food value diary","file",3,3,6,"F",NA
+"ultimate food value diary","fitbit charge 2",3,3,6,"F",NA
+"ultimate food value diary","googlefit",3,3,6,"F",NA
+"ultimate food value diary","healthkit",3,3,6,"F",NA
+"ultimate food value diary","reminders/notifications",3,3,6,"F",NA
+"ultimate food value diary","social support",3,3,6,"F",NA
+"ultimate food value diary","up24",3,3,6,"F",NA
+"ua healthbox","googlefit",3,3,6,"F",NA
+"ua healthbox","healthkit",3,3,6,"F",NA
+"ua healthbox","myfitnesspal",3,3,6,"F",NA
+"ua healthbox","poundaweek - calorie counter",3,3,6,"F",NA
+"trainer labs workout & nutrition","coaching",3,3,6,"F",NA
+"trainer labs workout & nutrition","connected users",3,3,6,"F",NA
+"tomtom mysports","fitnesssyncer",3,3,6,"F",NA
+"tomtom mysports","rest api",3,3,6,"F",NA
+"tomtom mysports","validic",3,3,6,"F",NA
+"time_tracking","mySymptoms",4,2,6,"F",NA
+"time_tracking","smartertime",3,3,6,"F",NA
+"time tracking","mysymptoms",3,3,6,"F",NA
+"time tracking","smartertime",3,3,6,"F",NA
+"time tracking","taplog",3,3,6,"F",NA
+"time tracking","TapLog",3,3,6,"F",NA
+"text_editor","CSV File",5,4,9,"F",NA
+"temperature sensor","empatica",3,3,6,"F",NA
+"temperature sensor","hexoskin",3,3,6,"F",NA
+"temperature sensor","neuroon",3,3,6,"F",NA
+"temperature sensor","o-synce",3,3,6,"F",NA
+"temperature sensor","qmedic",3,3,6,"F",NA
+"temperature sensor","sensecore",3,3,6,"F",NA
+"temperature sensor","siren.care",3,3,6,"F",NA
+"temperature sensor","vancive medical technologies",3,3,6,"F",NA
+"temperature sensor","whoop strap",3,3,6,"F",NA
+"temperature","amiigo",3,3,6,"F",NA
+"temperature","empatica",3,3,6,"F",NA
+"temperature","illume health sauna tracker",3,3,6,"F",NA
+"temperature","intel basis peak",3,3,6,"F",NA
+"temperature","netatmo",3,3,6,"F",NA
+"temperature","neuroon",3,3,6,"F",NA
+"temperature","pico brilliant",3,3,6,"F",NA
+"temperature","qardiocore",3,3,6,"F",NA
+"temperature","siren.care",3,3,6,"F",NA
+"temperature","spree wearables",3,3,6,"F",NA
+"temperature","whoop strap",3,3,6,"F",NA
+"temperature","wisewear",3,3,6,"F",NA
+"temperature","withings thermo",3,3,6,"F",NA
+"telemedicine","medhelp",3,3,6,"F",NA
+"telemedicine","MedHelp",3,3,6,"F",NA
+"tdee","calories calculator ebmacs",3,3,6,"F",NA
+"tap & track nanobitsoftware","file",3,3,6,"F",NA
+"tandem diabetes care","tidepool",3,3,6,"F",NA
+"tag heuer connected","api",3,3,6,"F",NA
+"tag heuer connected","google fit",3,3,6,"F",NA
+"tag heuer connected","rest api",3,3,6,"F",NA
+"symptoms","21 day tummy tracker",3,3,6,"F",NA
+"symptoms","21 Day Tummy Tracker",3,3,6,"F",NA
+"symptoms","bowelle ibs tracker",3,3,6,"F",NA
+"symptoms","Bowelle IBS tracker",3,3,6,"F",NA
+"symptoms","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"symptoms","Diabetes & Diet Tracker MyNetDiary",3,3,6,"F",NA
+"symptoms","eventloggers",3,3,6,"F",NA
+"symptoms","EventLoggers",3,3,6,"F",NA
+"symptoms","fodmap monash university",3,3,6,"F",NA
+"symptoms","FODMAP Monash University",3,3,6,"F",NA
+"symptoms","food allergyfree",3,3,6,"F",NA
+"symptoms","Food AllergyFree",3,3,6,"F",NA
+"symptoms","food and symptoms diary nmi-portal / panthera.cc",3,3,6,"F",NA
+"symptoms","Food and Symptoms Diary nmi-Portal / panthera.cc",3,3,6,"F",NA
+"symptoms","food diary geoff holden",3,3,6,"F",NA
+"symptoms","Food Diary Geoff Holden",3,3,6,"F",NA
+"symptoms","food symptoms & allergy diary max und otto",3,3,6,"F",NA
+"symptoms","Food Symptoms & Allergy Diary Max und Otto",3,3,6,"F",NA
+"symptoms","healthwatch 360",3,3,6,"F",NA
+"symptoms","HealthWatch 360",3,3,6,"F",NA
+"symptoms","intolerance food diary alder agarik",3,3,6,"F",NA
+"symptoms","Intolerance Food Diary Alder Agarik",3,3,6,"F",NA
+"symptoms","mdietguru",3,3,6,"F",NA
+"symptoms","mDietGuru",3,3,6,"F",NA
+"symptoms","mysymptoms",3,3,6,"F",NA
+"symptoms","mySymptoms",5,5,10,"F",NA
+"suunto","api",3,3,6,"F",NA
+"suunto","rest api",3,3,6,"F",NA
+"suunto","strava",3,3,6,"F",NA
+"striiv activity tracker","humanapi.co",3,3,6,"F",NA
+"striiv activity tracker","validic",3,3,6,"F",NA
+"stress level","bowelle ibs tracker",3,3,6,"F",NA
+"stress level","foodprint diet",3,3,6,"F",NA
+"stress level","healthwatch 360",3,3,6,"F",NA
+"stress level","mysymptoms",3,3,6,"F",NA
+"steps","20/20 lifestyles",3,3,6,"F",NA
+"steps","20/20 LifeStyles",3,3,6,"F",NA
+"steps","Accelerometer",3,3,6,"F",NA
+"steps","accelerometry",5,1,6,"F",NA
+"steps","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"steps","Activ8rlives Health Monitoring and Food Diary App",3,3,6,"F",NA
+"steps","apple watch",3,3,6,"F",NA
+"steps","Apple Watch",3,3,6,"F",NA
+"steps","argus health & calorie counter",3,3,6,"F",NA
+"steps","Argus Health & Calorie Counter",3,3,6,"F",NA
+"steps","calorie counter+ nutratech",3,3,6,"F",NA
+"steps","Calorie Counter+ NutraTech",3,3,6,"F",NA
+"steps","carepredict tempo",3,3,6,"F",NA
+"steps","Carepredict Tempo",3,3,6,"F",NA
+"steps","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"steps","Diabetes & Diet Tracker MyNetDiary",3,3,6,"F",NA
+"steps","empatica",3,3,6,"F",NA
+"steps","Empatica",3,3,6,"F",NA
 "steps","excersis",3,3,6,"F",NA
+"steps","fitbit",3,3,6,"F",NA
+"steps","Fitbit",3,3,6,"F",NA
+"steps","fitbug orb",3,3,6,"F",NA
+"steps","Fitbug Orb",3,3,6,"F",NA
+"steps","fitwell fitness health diet",3,3,6,"F",NA
+"steps","FitWell Fitness Health Diet",3,3,6,"F",NA
+"steps","floka",3,3,6,"F",NA
+"steps","Floka",3,3,6,"F",NA
+"steps","garmin approach",3,3,6,"F",NA
+"steps","Garmin Approach",3,3,6,"F",NA
+"steps","hapicoach nutrition coaching",3,3,6,"F",NA
+"steps","HAPIcoach Nutrition Coaching",3,3,6,"F",NA
+"steps","healbe",3,3,6,"F",NA
+"steps","Healbe",3,3,6,"F",NA
+"steps","health & weight loss coach obino",3,3,6,"F",NA
+"steps","Health & Weight Loss Coach Obino",3,3,6,"F",NA
+"steps","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"steps","healthy 365 health promotion board",3,3,6,"F",NA
+"steps","Healthy 365 Health Promotion Board",3,3,6,"F",NA
+"steps","hexoskin",3,3,6,"F",NA
+"steps","hi droid infinity",3,3,6,"F",NA
+"steps","HI DROID INFINITY",3,3,6,"F",NA
+"steps","huawei talkband",3,3,6,"F",NA
+"steps","Huawei TalkBand",3,3,6,"F",NA
+"steps","ifit technologies",3,3,6,"F",NA
+"steps","iFit technologies",3,3,6,"F",NA
+"steps","ihealth",3,3,6,"F",NA
+"steps","iHealth",3,3,6,"F",NA
+"steps","intel basis peak",3,3,6,"F",NA
+"steps","Intel Basis Peak",3,3,6,"F",NA
+"steps","ironman move x20",3,3,6,"F",NA
+"steps","Ironman Move x20",3,3,6,"F",NA
+"steps","jawbone up",3,3,6,"F",NA
+"steps","Jawbone UP",3,3,6,"F",NA
+"steps","lechal shoe",3,3,6,"F",NA
+"steps","Lechal Shoe",3,3,6,"F",NA
+"steps","leikr gps sport watch",3,3,6,"F",NA
+"steps","Leikr GPS Sport Watch",3,3,6,"F",NA
+"steps","lg gizmopal vc100",3,3,6,"F",NA
+"steps","LG Gizmopal VC100",3,3,6,"F",NA
+"steps","lose it! fitnow",3,3,6,"F",NA
+"steps","Lose It! Fitnow",3,3,6,"F",NA
+"steps","lose weight with applause 12 labs",3,3,6,"F",NA
+"steps","Lose weight with Applause 12 Labs",3,3,6,"F",NA
+"steps","mdietguru",3,3,6,"F",NA
+"steps","mDietGuru",3,3,6,"F",NA
+"steps","miband3",3,5,8,"F",NA
+"steps","microsoft band",3,3,6,"F",NA
+"steps","Microsoft Band",3,3,6,"F",NA
+"steps","misfit",3,3,6,"F",NA
+"steps","Misfit",3,3,6,"F",NA
+"steps","moov personal coach",3,3,6,"F",NA
+"steps","Moov Personal Coach",3,3,6,"F",NA
+"steps","motiv ring",3,3,6,"F",NA
+"steps","Motiv Ring",3,3,6,"F",NA
+"steps","myfitnesspal",3,3,6,"F",NA
+"steps","MyFitnessPal",3,3,6,"F",NA
+"steps","mykronoz zefit",3,3,6,"F",NA
+"steps","MyKronoz ZeFit",3,3,6,"F",NA
+"steps","nevo watch",3,3,6,"F",NA
+"steps","Nevo watch",3,3,6,"F",NA
+"steps","nike fuelband",3,3,6,"F",NA
+"steps","Nike FuelBand",3,3,6,"F",NA
+"steps","noom coach health & weight",3,3,6,"F",NA
+"steps","Noom Coach Health & Weight",3,3,6,"F",NA
+"steps","o-synce",3,3,6,"F",NA
+"steps","O-Synce",3,3,6,"F",NA
+"steps","omsignal",3,3,6,"F",NA
+"steps","OMsignal",3,3,6,"F",NA
+"steps","oura",3,3,6,"F",NA
+"steps","Oura",3,3,6,"F",NA
+"steps","pebble watch",3,3,6,"F",NA
+"steps","Pebble watch",3,3,6,"F",NA
+"steps","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"steps","Pedometer & Weight Loss Coach Pacer Health",3,3,6,"F",NA
+"steps","pivotal living life1",3,3,6,"F",NA
+"steps","Pivotal Living Life1",3,3,6,"F",NA
+"steps","polar smartwatch",3,3,6,"F",NA
+"steps","Polar smartwatch",3,3,6,"F",NA
+"steps","recon jet",3,3,6,"F",NA
+"steps","Recon Jet",3,3,6,"F",NA
+"steps","samsung gear",3,3,6,"F",NA
+"steps","Samsung Gear",3,3,6,"F",NA
+"steps","scribe labs",3,3,6,"F",NA
+"steps","Scribe Labs",3,3,6,"F",NA
+"steps","sensecore",3,3,6,"F",NA
+"steps","SenseCore",3,3,6,"F",NA
+"steps","sony smartwatch",3,3,6,"F",NA
+"steps","Sony Smartwatch",3,3,6,"F",NA
+"steps","spire.io",3,3,6,"F",NA
+"steps","spree wearables",3,3,6,"F",NA
+"steps","Spree Wearables",3,3,6,"F",NA
+"steps","striiv activity tracker",3,3,6,"F",NA
+"steps","Striiv Activity Tracker",3,3,6,"F",NA
+"steps","suunto",3,3,6,"F",NA
+"steps","Suunto",3,3,6,"F",NA
+"steps","tomtom mysports",3,3,6,"F",NA
+"steps","TomTom MySports",3,3,6,"F",NA
+"steps","wahoo tickr",3,3,6,"F",NA
+"steps","Wahoo Tickr",3,3,6,"F",NA
+"steps","wearit smartwatch",3,3,6,"F",NA
+"steps","Wearit Smartwatch",3,3,6,"F",NA
+"steps","weight goals",3,3,6,"F",NA
+"steps","wellograph co. ltd.",3,3,6,"F",NA
+"steps","Wellograph Co. Ltd.",3,3,6,"F",NA
+"steps","whoop strap",3,3,6,"F",NA
+"steps","WHOOP Strap",3,3,6,"F",NA
+"steps","wisewear",3,3,6,"F",NA
+"steps","Wisewear",3,3,6,"F",NA
+"steps","withings activit",3,3,6,"F",NA
+"steps","Withings Activit",3,3,6,"F",NA
+"steps","withings move ecg",3,3,6,"F",NA
+"steps","Withings Move ECG",3,3,6,"F",NA
+"steps","zeblaze classic",3,3,6,"F",NA
+"steps","Zeblaze Classic",3,3,6,"F",NA
+"steps","zikto walk",3,3,6,"F",NA
+"steps","Zikto Walk",3,3,6,"F",NA
+"spirometer","contec",3,3,6,"F",NA
+"spire.io","rest api",3,3,6,"F",NA
+"sphygmomanometer","contec",3,3,6,"F",NA
+"sparkpeople","advices",3,3,6,"F",NA
+"sparkpeople","coaching",3,3,6,"F",NA
+"sparkpeople","file",3,3,6,"F",NA
+"sparkpeople","fitbit charge 2",3,3,6,"F",NA
+"sparkpeople","social support",3,3,6,"F",NA
+"sparkpeople","up24",3,3,6,"F",NA
+"sony smartwatch","api",3,3,6,"F",NA
+"sony smartwatch","google fit",3,3,6,"F",NA
+"sony smartwatch","rest api",3,3,6,"F",NA
+"snoring","beddit sleep monitor 3.5",3,3,6,"F",NA
+"snoring","Beddit Sleep Monitor 3.5",3,3,6,"F",NA
+"snoring","eversleep 2 personal sleep monitor",3,3,6,"F",NA
+"snoring","EverSleep 2 Personal Sleep Monitor",3,3,6,"F",NA
+"snoring","withings sleep",3,3,6,"F",NA
+"snoring","withings sleep tracking pad",3,3,6,"F",NA
+"snoring","Withings Sleep Tracking Pad",3,3,6,"F",NA
+"snoring","zeeq smart pillow",3,3,6,"F",NA
+"snoring","Zeeq Smart Pillow",3,3,6,"F",NA
+"smartertime","csv file",3,3,6,"F",NA
+"smartertime","CSV File",3,3,6,"F",NA
+"smart thermometer","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"smart body scale","fitbit",3,3,6,"F",NA
+"smart body scale","hapicoach nutrition coaching",3,3,6,"F",NA
+"smart body scale","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"smart body scale","qardio",3,3,6,"F",NA
+"smart body scale","record by under armour healthbox",3,3,6,"F",NA
+"smart body scale","withings",3,3,6,"F",NA
+"slow-carb diet parsida ab","faceook",3,3,6,"F",NA
+"slow-carb diet parsida ab","reminders/notifications",3,3,6,"F",NA
+"sleep rem","healbe",3,3,6,"F",NA
+"sleep cycles","ava fertility2.0",3,3,6,"F",NA
+"sleep cycles","beautyrest sleep tracker",3,3,6,"F",NA
+"sleep cycles","beddit sleep monitor 3.5",3,3,6,"F",NA
+"sleep cycles","dreem headband",3,3,6,"F",NA
+"sleep cycles","eversleep 2 personal sleep monitor",3,3,6,"F",NA
+"sleep cycles","fitbit",3,3,6,"F",NA
+"sleep cycles","go2sleep ring",3,3,6,"F",NA
+"sleep cycles","kokoon headphones",3,3,6,"F",NA
+"sleep cycles","lookee ring sleep monitor",3,3,6,"F",NA
+"sleep cycles","motiv ring",3,3,6,"F",NA
+"sleep cycles","neuroon",3,3,6,"F",NA
+"sleep cycles","omron heartguide",3,3,6,"F",NA
+"sleep cycles","oura",3,3,6,"F",NA
+"sleep cycles","phillips smartsleep",3,3,6,"F",NA
+"sleep cycles","s+ res med",3,3,6,"F",NA
+"sleep cycles","sleepcycle.com",3,3,6,"F",NA
+"sleep cycles","sleepscore max",3,3,6,"F",NA
+"sleep cycles","thim sleep tracking ring",3,3,6,"F",NA
+"sleep cycles","whoop strap",3,3,6,"F",NA
+"sleep cycles","withings sleep",3,3,6,"F",NA
+"sleep cycles","withings sleep tracking pad",3,3,6,"F",NA
+"Sleep cycle","miband3",3,3,6,"F",NA
+"sleep cycle","miband3",3,3,6,"F",NA
+"sleep apnea","apneaapp",3,3,6,"F",NA
+"sleep apnea","go2sleep ring",3,3,6,"F",NA
+"sleep apnea","lookee ring sleep monitor",3,3,6,"F",NA
+"sleep apnea","withings sleep tracking pad",3,3,6,"F",NA
+"sleep","accelerometry",5,1,6,"F",NA
+"sleep","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"sleep","aidlab",3,3,6,"F",NA
+"sleep","argus health & calorie counter",3,3,6,"F",NA
+"sleep","beddit sleep monitor 3.5",3,3,6,"F",NA
+"sleep","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"sleep","diet plan ab mobile apps",3,3,6,"F",NA
+"sleep","fitbit",3,3,6,"F",NA
+"sleep","fitbug orb",3,3,6,"F",NA
+"sleep","floka",3,3,6,"F",NA
+"sleep","foodprint diet",3,3,6,"F",NA
+"sleep","hapicoach nutrition coaching",3,3,6,"F",NA
+"sleep","healbe",3,3,6,"F",NA
+"sleep","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"sleep","hexoskin",3,3,6,"F",NA
+"sleep","hi droid infinity",3,3,6,"F",NA
+"sleep","huawei talkband",3,3,6,"F",NA
+"sleep","ifit technologies",3,3,6,"F",NA
+"sleep","ihealth",3,3,6,"F",NA
+"sleep","intel basis peak",3,3,6,"F",NA
+"sleep","jawbone up",3,3,6,"F",NA
+"sleep","lark personal weight loss coach & nutritionist",3,3,6,"F",NA
+"sleep","lg gizmopal vc100",3,3,6,"F",NA
+"sleep","mawi ecg band",3,3,6,"F",NA
+"sleep","miband3",4,5,9,"F",NA
+"sleep","microsoft band",3,3,6,"F",NA
+"sleep","mimo sleep tracker",3,3,6,"F",NA
+"sleep","misfit",3,3,6,"F",NA
+"sleep","moov personal coach",3,3,6,"F",NA
+"sleep","mykronoz zefit",3,3,6,"F",NA
+"sleep","mysymptoms",3,3,6,"F",NA
+"sleep","mySymptoms",4,3,7,"F",NA
+"sleep","nevo watch",3,3,6,"F",NA
+"sleep","nutritionist+ outlier",3,3,6,"F",NA
+"sleep","opter pose pendant",3,3,6,"F",NA
+"sleep","pebble watch",3,3,6,"F",NA
+"sleep","pivotal living life1",3,3,6,"F",NA
+"sleep","polar flow activity & sports analyzing",3,3,6,"F",NA
+"sleep","qmedic",3,3,6,"F",NA
+"sleep","record by under armour healthbox",3,3,6,"F",NA
+"sleep","samsung gear",3,3,6,"F",NA
+"sleep","sensmi band",3,3,6,"F",NA
+"sleep","sony smartwatch",3,3,6,"F",NA
+"sleep","striiv activity tracker",3,3,6,"F",NA
+"sleep","suunto",3,3,6,"F",NA
+"sleep","tomtom mysports",3,3,6,"F",NA
+"sleep","water drink reminder northpark.android",3,3,6,"F",NA
+"sleep","wellograph co. ltd.",3,3,6,"F",NA
+"sleep","whoop strap",3,3,6,"F",NA
+"sleep","wisewear",3,3,6,"F",NA
+"sleep","withings activit",3,3,6,"F",NA
+"sleep","withings sleep",3,3,6,"F",NA
+"sleep","zeblaze classic",3,3,6,"F",NA
+"sleep","zeeq smart pillow",3,3,6,"F",NA
+"sleep","zikto walk",3,3,6,"F",NA
+"skin temperature","aidlab",3,3,6,"F",NA
+"skin temperature","ava fertility2.0",3,3,6,"F",NA
+"skin temperature","intel basis peak",3,3,6,"F",NA
+"skin temperature","qardiocore",3,3,6,"F",NA
+"simple diet diary martin stone","file",3,3,6,"F",NA
+"senso devices inc.","api",3,3,6,"F",NA
+"senso devices inc.","breqlabs",3,3,6,"F",NA
+"senso devices inc.","chooseblocks.com",3,3,6,"F",NA
+"senso devices inc.","cyberglove systems",3,3,6,"F",NA
+"senso devices inc.","eagle portable optalert",3,3,6,"F",NA
+"senso devices inc.","empatica",3,3,6,"F",NA
+"senso devices inc.","finis aquapulse",3,3,6,"F",NA
+"senso devices inc.","healthkit",3,3,6,"F",NA
+"senso devices inc.","hexoskin",3,3,6,"F",NA
+"senso devices inc.","jawbone up",3,3,6,"F",NA
+"senso devices inc.","mi.mu gloves",3,3,6,"F",NA
+"senso devices inc.","microsoft band",3,3,6,"F",NA
+"senso devices inc.","myontec mbody",3,3,6,"F",NA
+"senso devices inc.","netatmo",3,3,6,"F",NA
+"senso devices inc.","neuroon",3,3,6,"F",NA
+"senso devices inc.","noitom hi5 vr glove",3,3,6,"F",NA
+"senso devices inc.","o-synce",3,3,6,"F",NA
+"senso devices inc.","opter pose pendant",3,3,6,"F",NA
+"senso devices inc.","owlet baby monitor",3,3,6,"F",NA
+"senso devices inc.","pico brilliant",3,3,6,"F",NA
+"senso devices inc.","polar flow activity & sports analyzing",3,3,6,"F",NA
+"senso devices inc.","polar smartwatch",3,3,6,"F",NA
+"senso devices inc.","qardioarm",3,3,6,"F",NA
+"senso devices inc.","qmedic",3,3,6,"F",NA
+"senso devices inc.","qsun uv exposure",3,3,6,"F",NA
+"senso devices inc.","samsung gear",3,3,6,"F",NA
+"senso devices inc.","sensecore",3,3,6,"F",NA
+"senso devices inc.","senseglove",3,3,6,"F",NA
+"senso devices inc.","siren.care",3,3,6,"F",NA
+"senso devices inc.","sms audio biosport",3,3,6,"F",NA
+"senso devices inc.","vancive medical technologies",3,3,6,"F",NA
+"senso devices inc.","whoop strap",3,3,6,"F",NA
+"senso devices inc.","zikto walk",3,3,6,"F",NA
+"senseglove","api",3,3,6,"F",NA
+"self-tracking","memento labs personal data scientist",3,3,6,"F",NA
+"see how you eat health revolution","reminders/notifications",3,3,6,"F",NA
+"secret of weight le secret du poids sas","connected users",3,3,6,"F",NA
+"Samsung Health","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"samsung health","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"samsung health","weight goals",3,3,6,"F",NA
+"samsung gear","poundaweek - calorie counter",3,3,6,"F",NA
+"samsung gear","samsung health",3,3,6,"F",NA
+"room temperature","beddit sleep monitor 3.5",3,3,6,"F",NA
+"rise up eating disorder","encouragements",3,3,6,"F",NA
+"rise up eating disorder","file",3,3,6,"F",NA
+"rise up eating disorder","reminders/notifications",3,3,6,"F",NA
+"rise up eating disorder","social support",3,3,6,"F",NA
+"revive weight loss","advices",3,3,6,"F",NA
+"restaurant dishes","20/20 lifestyles",3,3,6,"F",NA
+"restaurant dishes","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"restaurant dishes","calorie counter nutritionix",3,3,6,"F",NA
+"restaurant dishes","calorie counter+ nutratech",3,3,6,"F",NA
+"restaurant dishes","caloriesmart calorie tracker",3,3,6,"F",NA
+"restaurant dishes","fastfood.com",3,3,6,"F",NA
+"restaurant dishes","fitatu calorie counter",3,3,6,"F",NA
+"restaurant dishes","foodprint diet",3,3,6,"F",NA
+"restaurant dishes","healthifyme weight loss coach",3,3,6,"F",NA
+"restaurant dishes","itrackbites smart weight loss",3,3,6,"F",NA
+"restaurant dishes","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"restaurant dishes","myfitnesspal",3,3,6,"F",NA
+"restaurant dishes","pointweight watchers",3,3,6,"F",NA
+"restaurant dishes","poundaweek - calorie counter",3,3,6,"F",NA
+"restaurant dishes","restaurant nutrition unified lifestyle",3,3,6,"F",NA
+"restaurant dishes","tap & track nanobitsoftware",3,3,6,"F",NA
+"restaurant dishes","weight goals",3,3,6,"F",NA
+"rem phase","withings sleep",3,3,6,"F",NA
+"recuring food method","myplate demand media",3,3,6,"F",NA
+"recovery record eating disorder management","encouragements",3,3,6,"F",NA
+"recovery record eating disorder management","reminders/notifications",3,3,6,"F",NA
+"recovery record eating disorder management","social support",3,3,6,"F",NA
+"record by under armour healthbox","myfitnesspal",3,3,6,"F",NA
+"record by under armour healthbox","poundaweek - calorie counter",3,3,6,"F",NA
+"record by under armour","googlefit",3,3,6,"F",NA
+"record by under armour","healthkit",3,3,6,"F",NA
+"record by under armour","myfitnesspal",3,3,6,"F",NA
+"record by under armour","poundaweek - calorie counter",3,3,6,"F",NA
+"recon jet","api",3,3,6,"F",NA
+"recon jet","file",3,3,6,"F",NA
+"recipes","calorie counter by fatsecret",3,3,6,"F",NA
+"recipes","calorie counter+ nutratech",3,3,6,"F",NA
+"recipes","carbs & cals - diabetes & diet",3,3,6,"F",NA
+"recipes","dietgenie easy diet plans",3,3,6,"F",NA
+"recipes","fodmap monash university",3,3,6,"F",NA
+"recipes","foodprint diet",3,3,6,"F",NA
+"recipes","health & weight loss coach obino",3,3,6,"F",NA
+"recipes","healthwatch 360",3,3,6,"F",NA
+"recipes","lifesum health movement",3,3,6,"F",NA
+"recipes","lose it! fitnow",3,3,6,"F",NA
+"recipes","meal planner and food manager spoonacular",3,3,6,"F",NA
+"recipes","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"recipes","mydietist",3,3,6,"F",NA
+"recipes","myfitnesspal",3,3,6,"F",NA
+"recipes","noom coach health & weight",3,3,6,"F",NA
+"recipes","pic healthy photo food",3,3,6,"F",NA
+"recipes","pointweight watchers",3,3,6,"F",NA
+"recipes","secret of weight le secret du poids sas",3,3,6,"F",NA
+"recipes","tap & track nanobitsoftware",3,3,6,"F",NA
+"recipes","weight goals",3,3,6,"F",NA
+"recipes","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"recipe list","diet plan ab mobile apps",3,3,6,"F",NA
+"recipe list","lose weight without dieting harmonic soft",3,3,6,"F",NA
+"recipe list","meal planner and food manager spoonacular",3,3,6,"F",NA
+"recipe list","mevolife",3,3,6,"F",NA
+"recipe list","weight watchers mobile international",3,3,6,"F",NA
+"recently eaten foods","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"recently eaten foods","calories! stefan diener",3,3,6,"F",NA
+"recently eaten foods","cals & macros free designbyvh",3,3,6,"F",NA
+"recently eaten foods","food diary my daily bits",3,3,6,"F",NA
+"recently eaten foods","lifesum health movement",3,3,6,"F",NA
+"recently eaten foods","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"recently eaten foods","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"recently eaten foods","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"recently eaten foods","smartfoodtracker - food logger",3,3,6,"F",NA
+"recently eaten foods","tap & track nanobitsoftware",3,3,6,"F",NA
+"recently eaten foods","ultimate food value diary",3,3,6,"F",NA
+"recently eaten foods","weight goals",3,3,6,"F",NA
+"recently eaten foods","weight watchers mobile international",3,3,6,"F",NA
+"recently eaten foods","whatcalculator mp web designs",3,3,6,"F",NA
+"reboot with joe cross juice diet","advices",3,3,6,"F",NA
+"reboot with joe cross juice diet","connected users",3,3,6,"F",NA
+"reboot with joe cross juice diet","faceook",3,3,6,"F",NA
+"quantifiedmind","csv file",3,3,6,"F",NA
+"quantified_mind","CSV File",4,5,9,"F",NA
+"qardiocore","google fit",3,3,6,"F",NA
+"qardiocore","qardio",3,3,6,"F",NA
+"qardiocore","rest api",3,3,6,"F",NA
+"qardioarm","blood pressure",3,3,6,"F",NA
+"qardioarm","google fit",3,3,6,"F",NA
+"qardioarm","heart rate variability",3,3,6,"F",NA
+"qardioarm","qardio",3,3,6,"F",NA
+"qardioarm","rest api",3,3,6,"F",NA
+"pulse oximeter","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"pulse oximeter","ihealth",3,3,6,"F",NA
+"pulse","neuroon",3,3,6,"F",NA
+"pulmonary function","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"proximity sensor","microsoft band",3,3,6,"F",NA
+"proximity sensor","polar flow activity & sports analyzing",3,3,6,"F",NA
+"proximity sensor","samsung gear",3,3,6,"F",NA
+"proximity sensor","zikto walk",3,3,6,"F",NA
+"protracker plus watchers nutrition and exercise gossain software","file",3,3,6,"F",NA
+"protein","calories! stefan diener",3,3,6,"F",NA
+"protein","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"ppg","healbe",3,3,6,"F",NA
+"ppg","microsoft band",3,3,6,"F",NA
+"poundaweek - calorie counter","advices",3,3,6,"F",NA
+"poundaweek - calorie counter","googlefit",3,3,6,"F",NA
+"poundaweek - calorie counter","up24",3,3,6,"F",NA
+"polar smartwatch","polar flow",3,3,6,"F",NA
+"polar h10","polar flow",3,3,6,"F",NA
+"polar flow activity & sports analyzing","googlefit",3,3,6,"F",NA
+"polar flow activity & sports analyzing","healthkit",3,3,6,"F",NA
+"polar flow activity & sports analyzing","rest api",3,3,6,"F",NA
+"polar flow activity & sports analyzing","validic",3,3,6,"F",NA
+"pocket dietitian","advices",3,3,6,"F",NA
+"pku diet management","advices",3,3,6,"F",NA
+"pku diet management","file",3,3,6,"F",NA
+"Pic Healthy Photo Food","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"pic healthy photo food","advices",3,3,6,"F",NA
+"pic healthy photo food","challanges",3,3,6,"F",NA
+"pic healthy photo food","connected users",3,3,6,"F",NA
+"pic healthy photo food","faceook",3,3,6,"F",NA
+"pic healthy photo food","file",3,3,6,"F",NA
+"pic healthy photo food","fitbit charge 2",3,3,6,"F",NA
+"pic healthy photo food","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"pic healthy photo food","medhelp",3,3,6,"F",NA
+"pic healthy photo food","reminders/notifications",3,3,6,"F",NA
+"pic healthy photo food","social support",3,3,6,"F",NA
+"pic healthy photo food","up24",3,3,6,"F",NA
+"physical fitness","apple watch",3,3,6,"F",NA
+"physical fitness","fitwell fitness health diet",3,3,6,"F",NA
+"physical fitness","mevolife",3,3,6,"F",NA
+"physical fitness","nutrition tracker biostatus health",3,3,6,"F",NA
+"physical fitness","pebble watch",3,3,6,"F",NA
+"physical fitness","polar flow activity & sports analyzing",3,3,6,"F",NA
+"physical fitness","smart points calculator",3,3,6,"F",NA
+"photoplethysmography sensor","empatica",3,3,6,"F",NA
+"percenteat food diary","advices",3,3,6,"F",NA
+"percenteat food diary","file",3,3,6,"F",NA
+"pedometer & weight loss coach pacer health","file",3,3,6,"F",NA
+"pedometer & weight loss coach pacer health","reminders/notifications",3,3,6,"F",NA
+"pedometer","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"pedometer","hapicoach nutrition coaching",3,3,6,"F",NA
+"pedometer","healthy 365 health promotion board",3,3,6,"F",NA
+"pedometer","hexoskin",3,3,6,"F",NA
+"pedometer","samsung gear",3,3,6,"F",NA
+"pebble watch","api",3,3,6,"F",NA
+"pebble watch","google fit",3,3,6,"F",NA
+"pebble watch","rest api",3,3,6,"F",NA
+"pebble","googlefit",3,3,6,"F",NA
+"pebble","healthkit",3,3,6,"F",NA
+"peak flow meter","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"peak flow meter","contec",3,3,6,"F",NA
+"oxygen saturation","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"oxygen saturation","eventloggers",3,3,6,"F",NA
+"oxygen saturation","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"oxygen saturation","ihealth",3,3,6,"F",NA
+"oxygen saturation","nonin connect 3245",3,3,6,"F",NA
+"oxygen saturation","owlet baby monitor",3,3,6,"F",NA
+"oxygen saturation","withings scanwatch",3,3,6,"F",NA
+"openhumans.org","analysis",5,3,8,"F",NA
+"openhumans.org","CSV File",5,3,8,"F",NA
+"openaps","api",3,3,6,"F",NA
+"openaps","file",3,3,6,"F",NA
+"onetouch reveal","file",3,3,6,"F",NA
+"omron heartguide","blood pressure",3,3,6,"F",NA
+"omate","api",3,3,6,"F",NA
+"omate","google fit",3,3,6,"F",NA
+"omate","rest api",3,3,6,"F",NA
+"O-Synce","file format",3,3,6,"F",NA
+"o-synce","file format",3,3,6,"F",NA
+"nymi.com","api",3,3,6,"F",NA
+"nutritionist+ outlier","advices",3,3,6,"F",NA
+"nutritionist+ outlier","coaching",3,3,6,"F",NA
+"nutritionist+ outlier","personal feedback",3,3,6,"F",NA
+"nutritionist+ outlier","reminders/notifications",3,3,6,"F",NA
+"nutritional diseases","pocket dietitian",3,3,6,"F",NA
+"nutrition tracker biostatus health","advices",3,3,6,"F",NA
+"nutrition goals","20/20 lifestyles",3,3,6,"F",NA
+"nutrition goals","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"nutrition goals","all-in fitness by sport.com",3,3,6,"F",NA
+"nutrition goals","calorie carb & fat counter virtuagym",3,3,6,"F",NA
+"nutrition goals","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"nutrition goals","calorie counter by fatsecret",3,3,6,"F",NA
+"nutrition goals","calorie counter fddb ext. pro",3,3,6,"F",NA
+"nutrition goals","calorie tracker: stay on track",3,3,6,"F",NA
+"nutrition goals","calories calculator ebmacs",3,3,6,"F",NA
+"nutrition goals","calories count randomlychosenbytes",3,3,6,"F",NA
+"nutrition goals","caloriesmart calorie tracker",3,3,6,"F",NA
+"nutrition goals","carrot hunger - talking calorie counter",3,3,6,"F",NA
+"nutrition goals","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"nutrition goals","diet tracker joss giffard",3,3,6,"F",NA
+"nutrition goals","diet watch stettiner",3,3,6,"F",NA
+"nutrition goals","dietgenie easy diet plans",3,3,6,"F",NA
+"nutrition goals","eat this much meal planner",3,3,6,"F",NA
+"nutrition goals","edibles world media group",3,3,6,"F",NA
+"nutrition goals","everydayhealth.com",3,3,6,"F",NA
+"nutrition goals","fitatu calorie counter",3,3,6,"F",NA
+"nutrition goals","fitbit",3,3,6,"F",NA
+"nutrition goals","food calorie calculator pione studio",3,3,6,"F",NA
+"nutrition goals","food diary & weight control opunktschmidt",3,3,6,"F",NA
+"nutrition goals","foodprint diet",3,3,6,"F",NA
+"nutrition goals","foodtrackerpro aspyre solutions",3,3,6,"F",NA
+"nutrition goals","health & weight loss coach obino",3,3,6,"F",NA
+"nutrition goals","healthifyme weight loss coach",3,3,6,"F",NA
+"nutrition goals","healthwatch 360",3,3,6,"F",NA
+"nutrition goals","ifood lite: calorie counter",3,3,6,"F",NA
+"nutrition goals","jawbone up",3,3,6,"F",NA
+"nutrition goals","keto low carb venn interactive",3,3,6,"F",NA
+"nutrition goals","lifesum health movement",3,3,6,"F",NA
+"nutrition goals","lose it! fitnow",3,3,6,"F",NA
+"nutrition goals","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"nutrition goals","macros appmoto",3,3,6,"F",NA
+"nutrition goals","meallogger wellness foundry",3,3,6,"F",NA
+"nutrition goals","my daily plate",3,3,6,"F",NA
+"nutrition goals","my diet coach - weight loss inspiredapps",3,3,6,"F",NA
+"nutrition goals","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"nutrition goals","my score plus weight loss watchers llc",3,3,6,"F",NA
+"nutrition goals","myfitnesspal",3,3,6,"F",NA
+"nutrition goals","myketo diet guide & calculator",3,3,6,"F",NA
+"nutrition goals","myplate demand media",3,3,6,"F",NA
+"nutrition goals","nutrition tracker meuuha apps",3,3,6,"F",NA
+"nutrition goals","on the regimen macros mike vacanti",3,3,6,"F",NA
+"nutrition goals","percenteat food diary",3,3,6,"F",NA
+"nutrition goals","pic healthy photo food",3,3,6,"F",NA
+"nutrition goals","poundaweek - calorie counter",3,3,6,"F",NA
+"nutrition goals","protracker plus watchers nutrition and exercise gossain software",3,3,6,"F",NA
+"nutrition goals","recovery record eating disorder management",3,3,6,"F",NA
+"nutrition goals","simple calorie counter subassistant",3,3,6,"F",NA
+"nutrition goals","simple diet diary martin stone",3,3,6,"F",NA
+"nutrition goals","simple macro calorie counter",3,3,6,"F",NA
+"nutrition goals","smartfoodtracker - food logger",3,3,6,"F",NA
+"nutrition goals","trainer labs workout & nutrition",3,3,6,"F",NA
+"nutrition goals","weighfit weightbmi mz development",3,3,6,"F",NA
+"nutrition goals","weight goals",3,3,6,"F",NA
+"nutrition goals","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"nutrition diary softsysdroid","dri display",3,3,6,"F",NA
+"nutratech","healthkit",3,3,6,"F",NA
+"Noom Coach Health & Weight","healthkit",3,3,6,"F",NA
+"noom coach health & weight","challanges",3,3,6,"F",NA
+"noom coach health & weight","coaching",3,3,6,"F",NA
+"noom coach health & weight","faceook",3,3,6,"F",NA
+"noom coach health & weight","googlefit",3,3,6,"F",NA
+"noom coach health & weight","healthkit",3,3,6,"F",NA
+"noom coach health & weight","personal feedback",3,3,6,"F",NA
+"noom coach health & weight","reminders/notifications",3,3,6,"F",NA
+"noom coach health & weight","s health",3,3,6,"F",NA
+"noom coach health & weight","sdk",3,3,6,"F",NA
+"non-invasive blood pressure","contec",3,3,6,"F",NA
+"nixon the mission","api",3,3,6,"F",NA
+"nixon the mission","google fit",3,3,6,"F",NA
+"nixon the mission","rest api",3,3,6,"F",NA
+"nike fuelband","rest api",3,3,6,"F",NA
+"nibp","contec",3,3,6,"F",NA
+"nevo watch","google fit",3,3,6,"F",NA
+"mySymptoms","CSV File",5,5,10,"F",NA
+"mysymptoms","csv file",3,3,6,"F",NA
+"mysymptoms","file",3,3,6,"F",NA
+"mySugr Diabetes Logbook","healthkit",3,3,6,"F",NA
+"mysugr diabetes logbook","challanges",3,3,6,"F",NA
+"mysugr diabetes logbook","encouragements",3,3,6,"F",NA
+"mysugr diabetes logbook","file",3,3,6,"F",NA
+"mysugr diabetes logbook","healthkit",3,3,6,"F",NA
+"mysugr diabetes logbook","personal feedback",3,3,6,"F",NA
+"MyPlate Demand Media","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"MyPlate Demand Media","healthkit",3,3,6,"F",NA
+"myplate demand media","advices",3,3,6,"F",NA
+"myplate demand media","file",3,3,6,"F",NA
+"myplate demand media","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"myplate demand media","healthkit",3,3,6,"F",NA
+"myplate demand media","reminders/notifications",3,3,6,"F",NA
+"myplate demand media","social support",3,3,6,"F",NA
+"myplate calorie tracker","healthkit",3,3,6,"F",NA
+"myketo diet guide & calculator","advices",3,3,6,"F",NA
+"MyFitnessPal","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"MyFitnessPal","healthkit",3,3,6,"F",NA
+"MyFitnessPal","validic",3,3,6,"F",NA
+"myfitnesspal","advices",3,3,6,"F",NA
+"myfitnesspal","challanges",3,3,6,"F",NA
+"myfitnesspal","faceook",3,3,6,"F",NA
+"myfitnesspal","fitbit charge 2",3,3,6,"F",NA
+"myfitnesspal","googlefit",3,3,6,"F",NA
+"myfitnesspal","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"myfitnesspal","healthgraph",3,3,6,"F",NA
+"myfitnesspal","healthkit",3,3,6,"F",NA
+"myfitnesspal","humanapi.co",3,3,6,"F",NA
+"myfitnesspal","lifesum health movement",3,3,6,"F",NA
+"myfitnesspal","personal feedback",3,3,6,"F",NA
+"myfitnesspal","reminders/notifications",3,3,6,"F",NA
+"myfitnesspal","up24",3,3,6,"F",NA
+"myfitnesspal","validic",3,3,6,"F",NA
+"myfitnesspal","web api",3,3,6,"F",NA
+"mydietist","coaching",3,3,6,"F",NA
+"mydietist","reminders/notifications",3,3,6,"F",NA
+"My Macros+ Diet Weight and Calorie Tracker Jason Loewy","healthkit",3,3,6,"F",NA
+"my macros+ diet weight and calorie tracker jason loewy","healthkit",3,3,6,"F",NA
+"my macros+","healthkit",3,3,6,"F",NA
+"my diet journal harvey g. payne","faceook",3,3,6,"F",NA
+"my diet journal harvey g. payne","reminders/notifications",3,3,6,"F",NA
+"My Diet Coach - Weight Loss InspiredApps","healthkit",3,3,6,"F",NA
+"my diet coach - weight loss inspiredapps","advices",3,3,6,"F",NA
+"my diet coach - weight loss inspiredapps","challanges",3,3,6,"F",NA
+"my diet coach - weight loss inspiredapps","healthkit",3,3,6,"F",NA
+"my diet coach - weight loss inspiredapps","reminders/notifications",3,3,6,"F",NA
+"my diet coach - weight loss inspiredapps","social support",3,3,6,"F",NA
+"my daily plate","advices",3,3,6,"F",NA
+"my daily plate","challanges",3,3,6,"F",NA
+"my daily plate","file",3,3,6,"F",NA
+"my daily plate","reminders/notifications",3,3,6,"F",NA
+"muscular strength","sparkpeople",3,3,6,"F",NA
+"muscular strength","trainer labs workout & nutrition",3,3,6,"F",NA
+"mumoactive diabetes sugar tracker","encouragements",3,3,6,"F",NA
+"mumoactive diabetes sugar tracker","social support",3,3,6,"F",NA
+"multiple inertial measurement unit sensors","senseglove",3,3,6,"F",NA
+"multiple inertial measurement unit sensors","senso devices inc.",3,3,6,"F",NA
+"moto 360","api",3,3,6,"F",NA
+"moto 360","google fit",3,3,6,"F",NA
+"moto 360","rest api",3,3,6,"F",NA
+"motivation","lose weight with applause 12 labs",3,3,6,"F",NA
+"motivation","sparkpeople",3,3,6,"F",NA
+"moov personal coach","google fit",3,3,6,"F",NA
+"moov personal coach","rest api",3,3,6,"F",NA
+"misfit","fitnesssyncer",3,3,6,"F",NA
+"misfit","google fit",3,3,6,"F",NA
+"misfit","healthkit",3,3,6,"F",NA
+"misfit","humanapi.co",3,3,6,"F",NA
+"misfit","ifttt",3,3,6,"F",NA
+"misfit","lose it! fitnow",3,3,6,"F",NA
+"misfit","lose it! weight loss program and calorie counter",3,3,6,"F",NA
+"misfit","my diet diary calorie counter app",3,3,6,"F",NA
+"misfit","myfitnesspal",3,3,6,"F",NA
+"misfit","pic healthy photo food",3,3,6,"F",NA
+"misfit","poundaweek - calorie counter",3,3,6,"F",NA
+"misfit","rest api",3,3,6,"F",NA
+"misfit","samsung health",3,3,6,"F",NA
+"misfit","sparkpeople",3,3,6,"F",NA
+"misfit","validic",3,3,6,"F",NA
+"misfit","weight goals",3,3,6,"F",NA
+"misfit","weight watchers",3,3,6,"F",NA
+"misfit","weight watchers mobile international",3,3,6,"F",NA
+"misfit","zenobase",3,3,6,"F",NA
+"mio link","google fit",3,3,6,"F",NA
+"microsoft band","api",3,3,6,"F",NA
+"microsoft band","healthkit",3,3,6,"F",NA
+"microsoft band","healthvault",3,3,6,"F",NA
+"microsoft band","humanapi.co",3,3,6,"F",NA
+"microsoft band","rest api",3,3,6,"F",NA
+"microsoft band","strava",3,3,6,"F",NA
+"microsoft band","validic",3,3,6,"F",NA
+"microsoft band","zenobase",3,3,6,"F",NA
+"microphone","maven co-pilot",3,3,6,"F",NA
+"microphone","microsoft band",3,3,6,"F",NA
+"microphone","polar flow activity & sports analyzing",3,3,6,"F",NA
+"microphone","recon jet",3,3,6,"F",NA
+"microphone","theatro.com",3,3,6,"F",NA
+"michael kors access","api",3,3,6,"F",NA
+"michael kors access","google fit",3,3,6,"F",NA
+"michael kors access","rest api",3,3,6,"F",NA
+"miband3","googlefit",4,4,8,"F",NA
+"mevolife","advices",3,3,6,"F",NA
+"mevolife","coaching",3,3,6,"F",NA
+"mevolife","connected users",3,3,6,"F",NA
+"mevolife","fitbit charge 2",3,3,6,"F",NA
+"mevolife","googlefit",3,3,6,"F",NA
+"mevolife","reminders/notifications",3,3,6,"F",NA
+"mevolife","social support",3,3,6,"F",NA
+"mevo - weight loss & fitness","googlefit",3,3,6,"F",NA
+"Medtronics","glooko",3,3,6,"F",NA
+"medtronics","glooko",3,3,6,"F",NA
+"medtronics","googlefit",3,3,6,"F",NA
+"medtronics","tidepool",3,3,6,"F",NA
+"meditation","floka",3,3,6,"F",NA
+"meditation","Floka",3,3,6,"F",NA
+"meditation","muse interaxo",3,3,6,"F",NA
+"meditation","Muse InteraXo",3,3,6,"F",NA
+"meditation","neuroon",3,3,6,"F",NA
+"meditation","Neuroon",3,3,6,"F",NA
+"medications","21 day tummy tracker",3,3,6,"F",NA
+"medications","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"medications","diabetes diary glucose tracker designcity.pl",3,3,6,"F",NA
+"medications","diet diary can yapan",3,3,6,"F",NA
+"medications","eventloggers",3,3,6,"F",NA
+"medications","glucose buddy diabetes log",3,3,6,"F",NA
+"medications","healthwatch 360",3,3,6,"F",NA
+"medications","mumoactive diabetes sugar tracker",3,3,6,"F",NA
+"medications","mydietist",3,3,6,"F",NA
+"medications","mysugr diabetes logbook",3,3,6,"F",NA
+"medications","mysymptoms",3,3,6,"F",NA
+"medications","nutrition tracker biostatus health",3,3,6,"F",NA
+"medications","wellness: mood meds & health anchorshed",3,3,6,"F",NA
+"medical risk predictions","nutrition tracker biostatus health",3,3,6,"F",NA
+"medical history","nutrition tracker biostatus health",3,3,6,"F",NA
+"meallogger wellness foundry","advices",3,3,6,"F",NA
+"meallogger wellness foundry","coaching",3,3,6,"F",NA
+"meallogger wellness foundry","connected users",3,3,6,"F",NA
+"meallogger wellness foundry","fitbit charge 2",3,3,6,"F",NA
+"meallogger wellness foundry","healthgraph",3,3,6,"F",NA
+"meallogger","healthgraph",3,3,6,"F",NA
+"mdietguru","advices",3,3,6,"F",NA
+"mbientlabs","CSV File",5,3,8,"F",NA
+"maternal heart rate","monica healthcare",3,3,6,"F",NA
+"manus vr","api",3,3,6,"F",NA
 "manual_entry","CSV File",5,5,10,"F",NA
+"magnetometer","kiwi glance",3,3,6,"F",NA
+"magnetometer","lumo body tech",3,3,6,"F",NA
+"magnetometer","lumus sleek",3,3,6,"F",NA
+"magnetometer","manus vr",3,3,6,"F",NA
+"magnetometer","maven co-pilot",3,3,6,"F",NA
+"magnetometer","misfit",3,3,6,"F",NA
+"magnetometer","moov personal coach",3,3,6,"F",NA
+"magnetometer","narrative clip",3,3,6,"F",NA
+"magnetometer","optinvent",3,3,6,"F",NA
+"magnetometer","razer nabu",3,3,6,"F",NA
+"magnetometer","recon jet",3,3,6,"F",NA
+"magnetometer","reemohealth",3,3,6,"F",NA
+"magnetometer","sony smartwatch",3,3,6,"F",NA
+"magnetometer","wearnotch",3,3,6,"F",NA
+"magnetometer","wellograph co. ltd.",3,3,6,"F",NA
+"magnetometer","xensr air",3,3,6,"F",NA
+"magnetometer","xmetrics fit",3,3,6,"F",NA
+"magnetometer","xsens mvn",3,3,6,"F",NA
+"macronutrients","calories! stefan diener",3,3,6,"F",NA
+"macronutrients","linear software body fat calculator",3,3,6,"F",NA
+"macronutrients","simple macro calorie counter",3,3,6,"F",NA
+"macronutrients","ww tools free",3,3,6,"F",NA
+"lumo body tech","rest api",3,3,6,"F",NA
+"lumens","mbientlabs",4,4,8,"F",NA
+"lumafit","google fit",3,3,6,"F",NA
+"Low GI Diet- glycemic index & load counter with search","healthkit",3,3,6,"F",NA
+"Low GI Diet- glycemic index & load counter with search",NA,3,3,6,"F",NA
+"low gi diet- glycemic index & load counter with search","connected users",3,3,6,"F",NA
+"low gi diet- glycemic index & load counter with search","file",3,3,6,"F",NA
+"low gi diet- glycemic index & load counter with search","healthkit",3,3,6,"F",NA
+"lose weight without dieting harmonic soft","advices",3,3,6,"F",NA
+"lose weight without dieting harmonic soft","reminders/notifications",3,3,6,"F",NA
+"lose weight with applause 12 labs","advices",3,3,6,"F",NA
+"lose weight with applause 12 labs","coaching",3,3,6,"F",NA
+"lose weight with applause 12 labs","connected users",3,3,6,"F",NA
+"lose weight with applause 12 labs","personal feedback",3,3,6,"F",NA
+"lose weight with applause 12 labs","reminders/notifications",3,3,6,"F",NA
+"lose weight with applause 12 labs","social support",3,3,6,"F",NA
+"lose it! weight loss program and calorie counter","googlefit",3,3,6,"F",NA
+"lose it! weight loss program and calorie counter","healthgraph",3,3,6,"F",NA
+"lose it! weight loss program and calorie counter","healthkit",3,3,6,"F",NA
+"Lose It! Fitnow","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"Lose It! Fitnow","healthkit",3,3,6,"F",NA
+"lose it! fitnow","challanges",3,3,6,"F",NA
+"lose it! fitnow","faceook",3,3,6,"F",NA
+"lose it! fitnow","file",3,3,6,"F",NA
+"lose it! fitnow","fitbit charge 2",3,3,6,"F",NA
+"lose it! fitnow","googlefit",3,3,6,"F",NA
+"lose it! fitnow","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"lose it! fitnow","healthgraph",3,3,6,"F",NA
+"lose it! fitnow","healthkit",3,3,6,"F",NA
+"lose it! fitnow","social support",3,3,6,"F",NA
+"lose it! fitnow","up24",3,3,6,"F",NA
+"lose it! fitnow","weight goals",3,3,6,"F",NA
+"loopkit","api",3,3,6,"F",NA
+"loopkit","file",3,3,6,"F",NA
+"location","foursquare",3,3,6,"F",NA
+"location","Foursquare",3,3,6,"F",NA
+"location","mysymptoms",3,3,6,"F",NA
+"location","mySymptoms",2,2,4,"F",NA
+"location","smartertime",5,5,10,"F",NA
+"Linear Software Body Fat Calculator","healthkit",3,3,6,"F",NA
+"linear software body fat calculator","file",3,3,6,"F",NA
+"linear software body fat calculator","healthkit",3,3,6,"F",NA
+"light spectrum","lys button 1.0",3,3,6,"F",NA
+"Lifesum Health Movement","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"Lifesum Health Movement","healthkit",3,3,6,"F",NA
+"lifesum health movement","advices",3,3,6,"F",NA
+"lifesum health movement","coaching",3,3,6,"F",NA
+"lifesum health movement","connected users",3,3,6,"F",NA
+"lifesum health movement","fitbit charge 2",3,3,6,"F",NA
+"lifesum health movement","googlefit",3,3,6,"F",NA
+"lifesum health movement","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"lifesum health movement","healthgraph",3,3,6,"F",NA
+"lifesum health movement","healthkit",3,3,6,"F",NA
+"lifesum health movement","myfitnesspal",3,3,6,"F",NA
+"lifesum health movement","personal feedback",3,3,6,"F",NA
+"lifesum health movement","progress displays",3,3,6,"F",NA
+"lifesum health movement","s health",3,3,6,"F",NA
+"lifesum health movement","samsung health",3,3,6,"F",NA
+"lifesum health movement","up24",3,3,6,"F",NA
+"lifelogging","daily tracker+ lumen spark",3,3,6,"F",NA
+"lg gizmopal vc100","api",3,3,6,"F",NA
+"lg gizmopal vc100","google fit",3,3,6,"F",NA
+"lg gizmopal vc100","rest api",3,3,6,"F",NA
+"leikr gps sport watch","mapmyfitness",3,3,6,"F",NA
+"leikr gps sport watch","strava",3,3,6,"F",NA
+"lark personal weight loss coach & nutritionist","advices",3,3,6,"F",NA
+"lark personal weight loss coach & nutritionist","coaching",3,3,6,"F",NA
+"lark personal weight loss coach & nutritionist","personal feedback",3,3,6,"F",NA
+"keto low carb venn interactive","advices",3,3,6,"F",NA
+"journal_notes","mysymptoms",3,3,6,"F",NA
+"journal_notes","mySymptoms",3,2,5,"F",NA
+"Jawbone UP","glooko",3,3,6,"F",NA
+"jawbone up","advices",3,3,6,"F",NA
+"jawbone up","faceook",3,3,6,"F",NA
+"jawbone up","fitnesssyncer",3,3,6,"F",NA
+"jawbone up","foodprint diet",3,3,6,"F",NA
+"jawbone up","glooko",3,3,6,"F",NA
+"jawbone up","lifesum health movement",3,3,6,"F",NA
+"jawbone up","lose it! weight loss program and calorie counter",3,3,6,"F",NA
+"jawbone up","my diet diary calorie counter app",3,3,6,"F",NA
+"jawbone up","myfitnesspal",3,3,6,"F",NA
+"jawbone up","personal feedback",3,3,6,"F",NA
+"jawbone up","poundaweek - calorie counter",3,3,6,"F",NA
+"jawbone up","rest api",3,3,6,"F",NA
+"jawbone up","sdk",3,3,6,"F",NA
+"jawbone up","sparkpeople",3,3,6,"F",NA
+"jawbone up","ultimate food value diary plus - diet & weight tracker",3,3,6,"F",NA
+"jawbone up","web api",3,3,6,"F",NA
+"jawbone up","weight goals",3,3,6,"F",NA
+"iTrackBites Smart Weight Loss","healthkit",3,3,6,"F",NA
+"itrackbites smart weight loss","healthkit",3,3,6,"F",NA
+"iskinny","allowance badge",3,3,6,"F",NA
+"iskinny","reminders/notifications",3,3,6,"F",NA
+"ironman move x20","api",3,3,6,"F",NA
+"ironman move x20","rest api",3,3,6,"F",NA
+"ironman move x20","strava",3,3,6,"F",NA
+"intolerance food diary alder agarik","advices",3,3,6,"F",NA
+"intolerance food diary alder agarik","file",3,3,6,"F",NA
+"intel basis peak","google fit",3,3,6,"F",NA
+"intel basis peak","rest api",3,3,6,"F",NA
+"intel basis peak","strava",3,3,6,"F",NA
+"insuline levels","diabetes diary glucose tracker designcity.pl",3,3,6,"F",NA
+"insuline levels","glucose buddy diabetes log",3,3,6,"F",NA
+"insuline levels","mumoactive diabetes sugar tracker",3,3,6,"F",NA
+"insuline levels","onetouch reveal",3,3,6,"F",NA
+"insuline levels","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"insuline levels","weight goals",3,3,6,"F",NA
+"Insulet Omnipod","glooko",3,3,6,"F",NA
+"insulet omnipod","glooko",3,3,6,"F",NA
+"insulet omnipod","googlefit",3,3,6,"F",NA
+"insulet omnipod","tidepool",3,3,6,"F",NA
+"inr","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"inertial measurement unit sensor","breqlabs",3,3,6,"F",NA
+"inertial measurement unit sensor","BreqLabs",3,3,6,"F",NA
+"inertial measurement unit sensor","cyberglove systems",3,3,6,"F",NA
+"inertial measurement unit sensor","CyberGlove Systems",3,3,6,"F",NA
+"inertial measurement unit sensor","mi.mu gloves",3,3,6,"F",NA
+"inertial measurement unit sensor","noitom hi5 vr glove",3,3,6,"F",NA
+"inertial measurement unit sensor","Noitom Hi5 VR Glove",3,3,6,"F",NA
+"indian food diary","advices",3,3,6,"F",NA
+"impedance sensor","jawbone up",3,3,6,"F",NA
+"ihealth smart","blood glucose",3,3,6,"F",NA
+"ihealth smart","ihealth",3,3,6,"F",NA
+"ihealth sense","blood pressure",3,3,6,"F",NA
+"ihealth sense","heart rate variability",3,3,6,"F",NA
+"ihealth feel","blood pressure",3,3,6,"F",NA
+"ihealth feel","heart rate variability",3,3,6,"F",NA
+"ihealth feel","ihealth",3,3,6,"F",NA
+"ihealth align","blood glucose",3,3,6,"F",NA
+"ifttt","dropbox",3,3,6,"F",NA
+"ibs symptoms","bowelle ibs tracker",3,3,6,"F",NA
+"ibs symptoms","fodmap monash university",3,3,6,"F",NA
+"ibs symptoms","food allergyfree",3,3,6,"F",NA
+"ibs symptoms","food and symptoms diary nmi-portal / panthera.cc",3,3,6,"F",NA
+"ibs symptoms","food diary geoff holden",3,3,6,"F",NA
+"ibs symptoms","mysymptoms",3,3,6,"F",NA
+"hydro coach - drink water","fitbit charge 2",3,3,6,"F",NA
+"hydro coach - drink water","googlefit",3,3,6,"F",NA
+"hydro coach - drink water","reminders/notifications",3,3,6,"F",NA
+"hydro coach - drink water","s health",3,3,6,"F",NA
+"hydro coach - drink water","samsung health",3,3,6,"F",NA
+"hydration","h2opal smart bottle",3,3,6,"F",NA
+"hydration","healbe",3,3,6,"F",NA
+"hydration","lvl fitness tracker",3,3,6,"F",NA
+"hydration","ozmo active",3,3,6,"F",NA
+"hydration","ulla labs",3,3,6,"F",NA
+"hunger","baritastic bariatric tracker",3,3,6,"F",NA
+"hunger","healthwatch 360",3,3,6,"F",NA
 "humanbenchmark","manual_entry",2,2,4,"F",NA
+"humanbenchmark","text_editor",3,3,6,"F",NA
+"huawei talkband","api",3,3,6,"F",NA
+"huawei talkband","google fit",3,3,6,"F",NA
+"huawei talkband","googlefit",3,3,6,"F",NA
+"huawei talkband","rest api",3,3,6,"F",NA
+"hrv","chooseblocks.com",3,3,6,"F",NA
+"hrv","mc10 biostamp",3,3,6,"F",NA
+"hovr infinite smart shoe","under armour",3,3,6,"F",NA
+"hi droid infinity","google drive",3,3,6,"F",NA
 "hexoskin","astroskin",5,5,10,"F",NA
+"hexoskin","csv file",3,3,6,"F",NA
+"hexoskin","CSV File",3,3,6,"F",NA
+"hexoskin","rest api",3,3,6,"F",NA
+"heartrate","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"heartrate","Activ8rlives Health Monitoring and Food Diary App",3,3,6,"F",NA
+"heartrate","aktiia complete blood pressure monitor",3,3,6,"F",NA
+"heartrate","Aktiia Complete Blood Pressure Monitor",3,3,6,"F",NA
+"heartrate","amiigo",3,3,6,"F",NA
+"heartrate","apple watch",3,3,6,"F",NA
+"heartrate","Apple Watch",3,3,6,"F",NA
+"heartrate","argus health & calorie counter",3,3,6,"F",NA
+"heartrate","Argus Health & Calorie Counter",3,3,6,"F",NA
+"heartrate","ava fertility2.0",3,3,6,"F",NA
+"heartrate","Ava Fertility2.0",3,3,6,"F",NA
+"heartrate","beautyrest sleep tracker",3,3,6,"F",NA
+"heartrate","BeautyRest Sleep Tracker",3,3,6,"F",NA
+"heartrate","beddit sleep monitor 3.5",3,3,6,"F",NA
+"heartrate","Beddit Sleep Monitor 3.5",3,3,6,"F",NA
+"heartrate","ekg",3,3,6,"F",NA
+"heartrate","EKG",3,3,6,"F",NA
+"heartrate","empatica",3,3,6,"F",NA
+"heartrate","Empatica",3,3,6,"F",NA
+"heartrate","eversleep 2 personal sleep monitor",3,3,6,"F",NA
+"heartrate","EverSleep 2 Personal Sleep Monitor",3,3,6,"F",NA
+"heartrate","fitbit",3,3,6,"F",NA
+"heartrate","Fitbit",3,3,6,"F",NA
+"heartrate","garmin approach",3,3,6,"F",NA
+"heartrate","Garmin Approach",3,3,6,"F",NA
+"heartrate","go2sleep ring",3,3,6,"F",NA
+"heartrate","GO2Sleep Ring",3,3,6,"F",NA
+"heartrate","healbe",3,3,6,"F",NA
+"heartrate","Healbe",3,3,6,"F",NA
+"heartrate","heartcheck pen",3,3,6,"F",NA
+"heartrate","HeartCheck PEN",3,3,6,"F",NA
+"heartrate","hi droid infinity",3,3,6,"F",NA
+"heartrate","HI DROID INFINITY",3,3,6,"F",NA
+"heartrate","illume health sauna tracker",3,3,6,"F",NA
+"heartrate","Illume Health Sauna Tracker",3,3,6,"F",NA
+"heartrate","jawbone up",3,3,6,"F",NA
+"heartrate","Jawbone UP",3,3,6,"F",NA
+"heartrate","kardiamobile",3,3,6,"F",NA
+"heartrate","KardiaMobile",3,3,6,"F",NA
+"heartrate","lookee ring sleep monitor",3,3,6,"F",NA
+"heartrate","Lookee Ring Sleep Monitor",3,3,6,"F",NA
+"heartrate","lvl fitness tracker",3,3,6,"F",NA
+"heartrate","LVL Fitness Tracker",3,3,6,"F",NA
+"heartrate","mawi ecg band",3,3,6,"F",NA
+"heartrate","Mawi ECG band",3,3,6,"F",NA
+"heartrate","miband3",3,3,6,"F",NA
+"heartrate","microsoft band",3,3,6,"F",NA
+"heartrate","Microsoft Band",3,3,6,"F",NA
+"heartrate","nutrition tracker biostatus health",3,3,6,"F",NA
+"heartrate","Nutrition Tracker BioStatus Health",3,3,6,"F",NA
+"heartrate","omsignal",3,3,6,"F",NA
+"heartrate","OMsignal",3,3,6,"F",NA
+"heartrate","oura",3,3,6,"F",NA
+"heartrate","Oura",3,3,6,"F",NA
+"heartrate","phyode w/me",3,3,6,"F",NA
+"heartrate","Phyode W/Me",3,3,6,"F",NA
+"heartrate","polar h10",3,3,6,"F",NA
+"heartrate","Polar H10",3,3,6,"F",NA
+"heartrate","preventice bodyguardian",3,3,6,"F",NA
+"heartrate","Preventice BodyGuardian",3,3,6,"F",NA
+"heartrate","qardiocore",3,3,6,"F",NA
+"heartrate","QardioCore",3,3,6,"F",NA
+"heartrate","samsung gear",3,3,6,"F",NA
+"heartrate","Samsung Gear",3,3,6,"F",NA
+"heartrate","Samsung Health",3,3,6,"F",NA
+"heartrate","sms audio biosport",3,3,6,"F",NA
+"heartrate","SMS Audio Biosport",3,3,6,"F",NA
+"heartrate","striiv activity tracker",3,3,6,"F",NA
+"heartrate","Striiv Activity Tracker",3,3,6,"F",NA
+"heartrate","tomtom mysports",3,3,6,"F",NA
+"heartrate","TomTom MySports",3,3,6,"F",NA
+"heartrate","vitali smart bra",3,3,6,"F",NA
+"heartrate","Vitali Smart Bra",3,3,6,"F",NA
+"heartrate","vivowatch bp",3,3,6,"F",NA
+"heartrate","VivoWatch BP",3,3,6,"F",NA
+"heartrate","whoop strap",3,3,6,"F",NA
+"heartrate","WHOOP Strap",3,3,6,"F",NA
+"heartrate","wisewear",3,3,6,"F",NA
+"heartrate","Wisewear",3,3,6,"F",NA
+"heartrate","withings bpm core",3,3,6,"F",NA
+"heartrate","Withings BPM Core",3,3,6,"F",NA
+"heartrate","withings sleep",3,3,6,"F",NA
+"heartrate","withings sleep tracking pad",3,3,6,"F",NA
+"heartrate","Withings Sleep Tracking Pad",3,3,6,"F",NA
+"heartrate","zephyr bioharness 3",3,3,6,"F",NA
+"heartrate","Zephyr BioHarness 3",3,3,6,"F",NA
+"heart_rate","ECG",4,4,8,"F",NA
+"heart_rate","miband3",1,5,6,"F",NA
+"heart rate sensor","finis aquapulse",3,3,6,"F",NA
+"heart rate sensor","owlet baby monitor",3,3,6,"F",NA
+"heart rate sensor","polar smartwatch",3,3,6,"F",NA
+"heart rate sensor","qardioarm",3,3,6,"F",NA
+"heart rate sensor","sms audio biosport",3,3,6,"F",NA
+"heart rate and sleep","spire health tag",3,3,6,"F",NA
+"heart rate","apple watch",3,3,6,"F",NA
+"heart rate","bragi dash",3,3,6,"F",NA
+"heart rate","chooseblocks.com",3,3,6,"F",NA
+"heart rate","contec",3,3,6,"F",NA
+"heart rate","empatica",3,3,6,"F",NA
+"heart rate","finis aquapulse",3,3,6,"F",NA
+"heart rate","fitbit",3,3,6,"F",NA
+"heart rate","fossil sport smartwatch",3,3,6,"F",NA
+"heart rate","hexoskin",3,3,6,"F",NA
+"heart rate","intel basis peak",3,3,6,"F",NA
+"heart rate","irythm zio xt patch",3,3,6,"F",NA
+"heart rate","jabra",3,3,6,"F",NA
+"heart rate","jawbone up",3,3,6,"F",NA
+"heart rate","lg gizmopal vc100",3,3,6,"F",NA
+"heart rate","lumafit",3,3,6,"F",NA
+"heart rate","microsoft band",3,3,6,"F",NA
+"heart rate","mio link",3,3,6,"F",NA
+"heart rate","misfit",3,3,6,"F",NA
+"heart rate","moov personal coach",3,3,6,"F",NA
+"heart rate","motiv ring",3,3,6,"F",NA
+"heart rate","moto 360",3,3,6,"F",NA
+"heart rate","mykronoz zefit",3,3,6,"F",NA
+"heart rate","nymi.com",3,3,6,"F",NA
+"heart rate","o-synce",3,3,6,"F",NA
+"heart rate","omron heartguide",3,3,6,"F",NA
+"heart rate","owlet baby monitor",3,3,6,"F",NA
+"heart rate","pebble watch",3,3,6,"F",NA
+"heart rate","phyode w/me",3,3,6,"F",NA
+"heart rate","polar flow activity & sports analyzing",3,3,6,"F",NA
+"heart rate","polar h10",3,3,6,"F",NA
+"heart rate","polar smartwatch",3,3,6,"F",NA
+"heart rate","preventice bodyguardian",3,3,6,"F",NA
+"heart rate","qardioarm",3,3,6,"F",NA
+"heart rate","samsung gear",3,3,6,"F",NA
+"heart rate","sms audio biosport",3,3,6,"F",NA
+"heart rate","spree wearables",3,3,6,"F",NA
+"heart rate","suunto",3,3,6,"F",NA
+"heart rate","tomtom mysports",3,3,6,"F",NA
+"heart rate","wahoo tickr",3,3,6,"F",NA
+"heart rate","wellograph co. ltd.",3,3,6,"F",NA
+"heart rate","whoop strap",3,3,6,"F",NA
+"heart rate","wisewear",3,3,6,"F",NA
+"heart rate","withings blood pressure monitor",3,3,6,"F",NA
+"heart rate","zephyr bioharness 3",3,3,6,"F",NA
+"healthy 365 health promotion board","allowance badge",3,3,6,"F",NA
+"healthy 365 health promotion board","challanges",3,3,6,"F",NA
+"healthy 365 health promotion board","fitbit charge 2",3,3,6,"F",NA
+"healthy 365 health promotion board","s health",3,3,6,"F",NA
+"healthy 365 health promotion board","samsung health",3,3,6,"F",NA
+"HealthWatch 360","healthkit",3,3,6,"F",NA
+"healthwatch 360","advices",3,3,6,"F",NA
+"healthwatch 360","fitbit charge 2",3,3,6,"F",NA
+"healthwatch 360","healthkit",3,3,6,"F",NA
+"healthifyme weight loss coach","coaching",3,3,6,"F",NA
+"healthifyme weight loss coach","fitbit charge 2",3,3,6,"F",NA
+"healthifyme weight loss coach","googlefit",3,3,6,"F",NA
+"healthifyme weight loss coach","social support",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","cron-o-meter",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","CRON-O-Meter",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","cronometer",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Diabetes & Diet Tracker MyNetDiary",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","fitbit",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Fitbit",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","fitbit charge 2",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","fitnesssyncer",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Fitnesssyncer",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","foodprint diet",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","FoodPrint Diet",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","googlefit",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","GoogleFit",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","healthgraph",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Healthgraph",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","healthkit",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","healthvault",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","HealthVault",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Human Api",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","humanapi.co",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","ifttt",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","lifesum health movement",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Lifesum Health Movement",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","lose it! fitnow",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Lose It! Fitnow",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","lose it! weight loss program and calorie counter",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","myfitnesspal",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","MyFitnessPal",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","myplate calorie tracker",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","myplate demand media",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","MyPlate Demand Media",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","poundaweek - calorie counter",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Poundaweek - Calorie Counter",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","tactio health",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Tactio Health",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","validic",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","weight goals",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","weight watchers",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","weight watchers mobile international",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Weight Watchers Mobile International",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","zenobase",3,3,6,"F",NA
+"health mate steps tracker & life coach by withings","Zenobase",3,3,6,"F",NA
+"health goals","foodprint diet",3,3,6,"F",NA
+"health goals","healthwatch 360",3,3,6,"F",NA
+"health goals","lose it! fitnow",3,3,6,"F",NA
+"health goals","my diet journal harvey g. payne",3,3,6,"F",NA
+"health goals","mysugr diabetes logbook",3,3,6,"F",NA
+"health goals","noom coach health & weight",3,3,6,"F",NA
+"health goals","weight goals",3,3,6,"F",NA
+"health goals","weight loss & fitness program healthkart",3,3,6,"F",NA
+"health & weight loss coach obino","advices",3,3,6,"F",NA
+"health & weight loss coach obino","coaching",3,3,6,"F",NA
+"health & weight loss coach obino","reminders/notifications",3,3,6,"F",NA
+"healbe","rest api",3,3,6,"F",NA
+"hapicoach nutrition coaching","coaching",3,3,6,"F",NA
+"hapicoach nutrition coaching","personal feedback",3,3,6,"F",NA
+"gyrosco.pe","apple watch",3,3,6,"F",NA
+"gyrosco.pe","biosensics",3,3,6,"F",NA
+"gyrosco.pe","bragi dash",3,3,6,"F",NA
+"gyrosco.pe","chooseblocks.com",3,3,6,"F",NA
+"gyrosco.pe","fitbit",3,3,6,"F",NA
+"gyrosco.pe","fitbug orb",3,3,6,"F",NA
+"gyrosco.pe","fossil sport smartwatch",3,3,6,"F",NA
+"gyrosco.pe","icedot crash sensor",3,3,6,"F",NA
+"gyrosco.pe","ifit technologies",3,3,6,"F",NA
+"gyrosco.pe","ihealth",3,3,6,"F",NA
+"gyrosco.pe","intel basis peak",3,3,6,"F",NA
+"gyrosco.pe","jawbone up",3,3,6,"F",NA
+"gyrosco.pe","jumpstartcsr",3,3,6,"F",NA
+"gyrosco.pe","kiwi glance",3,3,6,"F",NA
+"gyrosco.pe","lechal shoe",3,3,6,"F",NA
+"gyrosco.pe","lg gizmopal vc100",3,3,6,"F",NA
+"gyrosco.pe","lumo body tech",3,3,6,"F",NA
+"gyrosco.pe","lumus sleek",3,3,6,"F",NA
+"gyrosco.pe","manus vr",3,3,6,"F",NA
+"gyrosco.pe","maven co-pilot",3,3,6,"F",NA
+"gyrosco.pe","michael kors access",3,3,6,"F",NA
+"gyrosco.pe","microsoft band",3,3,6,"F",NA
+"gyrosco.pe","misfit",3,3,6,"F",NA
+"gyrosco.pe","moff.mobi",3,3,6,"F",NA
+"gyrosco.pe","moov personal coach",3,3,6,"F",NA
+"gyrosco.pe","nike fuelband",3,3,6,"F",NA
+"gyrosco.pe","nixon the mission",3,3,6,"F",NA
+"gyrosco.pe","nymi.com",3,3,6,"F",NA
+"gyrosco.pe","optinvent",3,3,6,"F",NA
+"gyrosco.pe","pebble watch",3,3,6,"F",NA
+"gyrosco.pe","polar flow activity & sports analyzing",3,3,6,"F",NA
+"gyrosco.pe","polar smartwatch",3,3,6,"F",NA
+"gyrosco.pe","purecarbon",3,3,6,"F",NA
+"gyrosco.pe","razer nabu",3,3,6,"F",NA
+"gyrosco.pe","recon jet",3,3,6,"F",NA
+"gyrosco.pe","record by under armour healthbox",3,3,6,"F",NA
+"gyrosco.pe","reemohealth",3,3,6,"F",NA
+"gyrosco.pe","rip curl searchgps",3,3,6,"F",NA
+"gyrosco.pe","rufus cuff",3,3,6,"F",NA
+"gyrosco.pe","samsung gear",3,3,6,"F",NA
+"gyrosco.pe","scribe labs",3,3,6,"F",NA
+"gyrosco.pe","senso devices inc.",3,3,6,"F",NA
+"gyrosco.pe","sony smartwatch",3,3,6,"F",NA
+"gyrosco.pe","striketec",3,3,6,"F",NA
+"gyrosco.pe","tag heuer connected",3,3,6,"F",NA
+"gyrosco.pe","wearit smartwatch",3,3,6,"F",NA
+"gyrosco.pe","wearnotch",3,3,6,"F",NA
+"gyrosco.pe","wellograph co. ltd.",3,3,6,"F",NA
+"gyrosco.pe","withings activit",3,3,6,"F",NA
+"gyrosco.pe","xensr air",3,3,6,"F",NA
+"gyrosco.pe","xmetrics fit",3,3,6,"F",NA
+"gyrosco.pe","xsens mvn",3,3,6,"F",NA
+"gyrosco.pe","zeblaze classic",3,3,6,"F",NA
+"gyrosco.pe","zikto walk",3,3,6,"F",NA
+"gsr","aidlab",3,3,6,"F",NA
+"gsr","chooseblocks.com",3,3,6,"F",NA
+"gsr","empatica",3,3,6,"F",NA
+"gsr","healbe",3,3,6,"F",NA
+"gsr","intel basis peak",3,3,6,"F",NA
+"gsr","jawbone up",3,3,6,"F",NA
+"gsr","microsoft band",3,3,6,"F",NA
+"gsr","sensmi band",3,3,6,"F",NA
+"gps","dash",3,3,6,"F",NA
+"gps","flow plume labs",3,3,6,"F",NA
+"glucose buddy diabetes log","azumio",3,3,6,"F",NA
+"glucose buddy diabetes log","file",3,3,6,"F",NA
+"glucose buddy diabetes log","reminders/notifications",3,3,6,"F",NA
+"global positioning system","apple watch",3,3,6,"F",NA
+"global positioning system","biosensics",3,3,6,"F",NA
+"global positioning system","chooseblocks.com",3,3,6,"F",NA
+"global positioning system","garmin approach",3,3,6,"F",NA
+"global positioning system","intel basis peak",3,3,6,"F",NA
+"global positioning system","ironman move x20",3,3,6,"F",NA
+"global positioning system","kms",3,3,6,"F",NA
+"global positioning system","leikr gps sport watch",3,3,6,"F",NA
+"global positioning system","lg gizmopal vc100",3,3,6,"F",NA
+"global positioning system","microsoft band",3,3,6,"F",NA
+"global positioning system","narrative clip",3,3,6,"F",NA
+"global positioning system","nike fuelband",3,3,6,"F",NA
+"global positioning system","optinvent",3,3,6,"F",NA
+"global positioning system","pfo safety bracelet",3,3,6,"F",NA
+"global positioning system","recon jet",3,3,6,"F",NA
+"global positioning system","rufus cuff",3,3,6,"F",NA
+"global positioning system","safelet",3,3,6,"F",NA
+"global positioning system","samsung gear",3,3,6,"F",NA
+"global positioning system","scribe labs",3,3,6,"F",NA
+"global positioning system","smartcap edan safe",3,3,6,"F",NA
+"global positioning system","sony smartwatch",3,3,6,"F",NA
+"global positioning system","spree wearables",3,3,6,"F",NA
+"global positioning system","suunto",3,3,6,"F",NA
+"global positioning system","tinitell",3,3,6,"F",NA
+"global positioning system","unaliwear",3,3,6,"F",NA
+"global positioning system","voice input caddie",3,3,6,"F",NA
+"global positioning system","wearit smartwatch",3,3,6,"F",NA
+"global positioning system","wisewear",3,3,6,"F",NA
+"global positioning system","xensr air",3,3,6,"F",NA
+"global positioning system","zeblaze classic",3,3,6,"F",NA
+"garmin connect mobile","fitnesssyncer",3,3,6,"F",NA
+"garmin connect mobile","googlefit",3,3,6,"F",NA
+"garmin connect mobile","healthkit",3,3,6,"F",NA
+"garmin connect mobile","humanapi.co",3,3,6,"F",NA
+"garmin connect mobile","myfitnesspal",3,3,6,"F",NA
+"garmin connect mobile","poundaweek - calorie counter",3,3,6,"F",NA
+"garmin connect mobile","samsung health",3,3,6,"F",NA
+"garmin connect mobile","sparkpeople",3,3,6,"F",NA
+"garmin connect mobile","tactio health",3,3,6,"F",NA
+"garmin connect mobile","validic",3,3,6,"F",NA
+"garmin connect mobile","weight watchers mobile international",3,3,6,"F",NA
+"garmin approach","file",3,3,6,"F",NA
+"garmin approach","googlefit",3,3,6,"F",NA
+"garmin approach","myfitnesspal",3,3,6,"F",NA
+"garmin approach","poundaweek - calorie counter",3,3,6,"F",NA
+"garmin approach","sparkpeople",3,3,6,"F",NA
+"garmin approach","weight goals",3,3,6,"F",NA
+"garmin approach","weight watchers",3,3,6,"F",NA
+"frequently eaten foods","calculator &for wwpp",3,3,6,"F",NA
+"frequently eaten foods","cals & macros free designbyvh",3,3,6,"F",NA
+"frequently eaten foods","daily calorie balance",3,3,6,"F",NA
+"frequently eaten foods","fitatu calorie counter",3,3,6,"F",NA
+"frequently eaten foods","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"frequently eaten foods","food diary my daily bits",3,3,6,"F",NA
+"frequently eaten foods","healthifyme weight loss coach",3,3,6,"F",NA
+"frequently eaten foods","lifesum health movement",3,3,6,"F",NA
+"frequently eaten foods","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"frequently eaten foods","pku diet management",3,3,6,"F",NA
+"frequently eaten foods","smartfoodtracker - food logger",3,3,6,"F",NA
+"frequently eaten foods","ultimate food value diary",3,3,6,"F",NA
+"frequently eaten foods","weight goals",3,3,6,"F",NA
+"frequently eaten foods","whatcalculator mp web designs",3,3,6,"F",NA
+"foursquare","ifttt",3,3,6,"F",NA
+"foursquare","zenobase",3,3,6,"F",NA
+"fossil sport smartwatch","api",3,3,6,"F",NA
+"fossil sport smartwatch","google fit",3,3,6,"F",NA
+"fossil sport smartwatch","rest api",3,3,6,"F",NA
+"FoodPrint Diet","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"foodprint diet","advices",3,3,6,"F",NA
+"foodprint diet","fitbit charge 2",3,3,6,"F",NA
+"foodprint diet","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"foodprint diet","healthgraph",3,3,6,"F",NA
+"foodprint diet","up24",3,3,6,"F",NA
+"food scores","pro points uk",3,3,6,"F",NA
+"food scores","smart points calculator",3,3,6,"F",NA
+"food diary my daily bits","advices",3,3,6,"F",NA
+"food diary my daily bits","reminders/notifications",3,3,6,"F",NA
+"food diary geoff holden","file",3,3,6,"F",NA
+"food and symptoms diary nmi-portal / panthera.cc","file",3,3,6,"F",NA
+"food","bitesnap",4,2,6,"F",NA
+"food","eventloggers",3,3,6,"F",NA
+"food","EventLoggers",3,3,6,"F",NA
+"food","sparkpeople",3,3,6,"F",NA
+"food","SparkPeople",3,3,6,"F",NA
+"food","tylerburleigh nutritionr",3,3,6,"F",NA
+"food","tylerburleigh nutritionR",3,3,6,"F",NA
+"fodmap monash university","challanges",3,3,6,"F",NA
+"FitWell Fitness Health Diet","healthkit",3,3,6,"F",NA
+"fitwell fitness health diet","advices",3,3,6,"F",NA
+"fitwell fitness health diet","coaching",3,3,6,"F",NA
+"fitwell fitness health diet","googlefit",3,3,6,"F",NA
+"fitwell fitness health diet","healthkit",3,3,6,"F",NA
+"fitwell fitness health diet","reminders/notifications",3,3,6,"F",NA
+"fitwell fitness","googlefit",3,3,6,"F",NA
+"fitwell fitness","healthkit",3,3,6,"F",NA
+"fitnesssyncer","dropbox",3,3,6,"F",NA
+"fitness goals","caloriesmart calorie tracker",3,3,6,"F",NA
+"fitness goals","easy fit calorie counter",3,3,6,"F",NA
+"fitness goals","fitbit",3,3,6,"F",NA
+"fitness goals","fitwell fitness health diet",3,3,6,"F",NA
+"fitness goals","foodprint diet",3,3,6,"F",NA
+"fitness goals","healthifyme weight loss coach",3,3,6,"F",NA
+"fitness goals","lose it! fitnow",3,3,6,"F",NA
+"fitness goals","mydietist",3,3,6,"F",NA
+"fitness goals","polar flow activity & sports analyzing",3,3,6,"F",NA
+"fitness goals","tomtom mysports",3,3,6,"F",NA
+"fitness goals","trainer labs workout & nutrition",3,3,6,"F",NA
+"fitbit versa","heart rate variability",3,3,6,"F",NA
+"fitbit surge","heart rate variability",3,3,6,"F",NA
+"fitbit ionic","heart rate variability",3,3,6,"F",NA
+"fitbit charge hr","heart rate variability",3,3,6,"F",NA
+"fitbit charge 2","calorie counter nutritionix",3,3,6,"F",NA
+"fitbit charge 2","calorie counter+ nutratech",3,3,6,"F",NA
+"fitbit charge 2","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"fitbit charge 2","fitbitr",3,3,6,"F",NA
+"fitbit charge 2","fitnesssyncer",3,3,6,"F",NA
+"fitbit charge 2","foodprint diet",3,3,6,"F",NA
+"fitbit charge 2","healthifyme weight loss coach",3,3,6,"F",NA
+"fitbit charge 2","healthvault",3,3,6,"F",NA
+"fitbit charge 2","healthwatch 360",3,3,6,"F",NA
+"fitbit charge 2","healthy 365 health promotion board",3,3,6,"F",NA
+"fitbit charge 2","heart rate variability",3,3,6,"F",NA
+"fitbit charge 2","humanapi.co",3,3,6,"F",NA
+"fitbit charge 2","hydro coach - drink water",3,3,6,"F",NA
+"fitbit charge 2","ifttt",3,3,6,"F",NA
+"fitbit charge 2","lifesum health movement",3,3,6,"F",NA
+"fitbit charge 2","lose it! fitnow",3,3,6,"F",NA
+"fitbit charge 2","meallogger wellness foundry",3,3,6,"F",NA
+"fitbit charge 2","mevolife",3,3,6,"F",NA
+"fitbit charge 2","myfitnesspal",3,3,6,"F",NA
+"fitbit charge 2","nudge health tracking",3,3,6,"F",NA
+"fitbit charge 2","pic healthy photo food",3,3,6,"F",NA
+"fitbit charge 2","samsung health",3,3,6,"F",NA
+"fitbit charge 2","sparkpeople",3,3,6,"F",NA
+"fitbit charge 2","tactio health",3,3,6,"F",NA
+"fitbit charge 2","ultimate food value diary",3,3,6,"F",NA
+"fitbit charge 2","validic",3,3,6,"F",NA
+"fitbit charge 2","weight goals",3,3,6,"F",NA
+"fitbit charge 2","weight loss & fitness program healthkart",3,3,6,"F",NA
+"fitbit charge 2","zenobase",3,3,6,"F",NA
+"fitbit blaze","heart rate variability",3,3,6,"F",NA
+"fitbit alta hr","heart rate variability",3,3,6,"F",NA
+"Fitbit","glooko",3,3,6,"F",NA
+"fitbit","calorie counter nutritionix",3,3,6,"F",NA
+"fitbit","challanges",3,3,6,"F",NA
+"fitbit","connected users",3,3,6,"F",NA
+"fitbit","file",3,3,6,"F",NA
+"fitbit","fitbitr",3,3,6,"F",NA
+"fitbit","foodprint diet",3,3,6,"F",NA
+"fitbit","glooko",3,3,6,"F",NA
+"fitbit","googlefit",3,3,6,"F",NA
+"fitbit","healthifyme weight loss coach",3,3,6,"F",NA
+"fitbit","healthwatch 360",3,3,6,"F",NA
+"fitbit","healthy 365 health promotion board",3,3,6,"F",NA
+"fitbit","hydro coach - drink water",3,3,6,"F",NA
+"fitbit","lifesum health movement",3,3,6,"F",NA
+"fitbit","lose it! weight loss program and calorie counter",3,3,6,"F",NA
+"fitbit","meallogger",3,3,6,"F",NA
+"fitbit","mevo - weight loss & fitness",3,3,6,"F",NA
+"fitbit","my diet diary calorie counter app",3,3,6,"F",NA
+"fitbit","myfitnesspal",3,3,6,"F",NA
+"fitbit","nutratech",3,3,6,"F",NA
+"fitbit","reminders/notifications",3,3,6,"F",NA
+"fitbit","rest api",3,3,6,"F",NA
+"fitbit","senso devices inc.",3,3,6,"F",NA
+"fitbit","sparkcoach",3,3,6,"F",NA
+"fitbit","sparkpeople",3,3,6,"F",NA
+"fitbit","ultimate food value diary plus - diet & weight tracker",3,3,6,"F",NA
+"fitbit","web api",3,3,6,"F",NA
+"fitbit","weight goals",3,3,6,"F",NA
+"fitbit","weight loss & fitness program",3,3,6,"F",NA
+"Fitatu Calorie Counter","healthkit",3,3,6,"F",NA
+"fitatu calorie counter","advices",3,3,6,"F",NA
+"fitatu calorie counter","googlefit",3,3,6,"F",NA
+"fitatu calorie counter","healthkit",3,3,6,"F",NA
+"fetal heart rate","monica healthcare",3,3,6,"F",NA
+"favorite eaten foods","calculator &for wwpp",3,3,6,"F",NA
+"favorite eaten foods","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"favorite eaten foods","calorie counter fddb ext. pro",3,3,6,"F",NA
+"favorite eaten foods","calories! stefan diener",3,3,6,"F",NA
+"favorite eaten foods","caloriesmart calorie tracker",3,3,6,"F",NA
+"favorite eaten foods","cals & macros free designbyvh",3,3,6,"F",NA
+"favorite eaten foods","daily calorie balance",3,3,6,"F",NA
+"favorite eaten foods","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"favorite eaten foods","diet watchers diary croc software",3,3,6,"F",NA
+"favorite eaten foods","fastfood.com",3,3,6,"F",NA
+"favorite eaten foods","fitatu calorie counter",3,3,6,"F",NA
+"favorite eaten foods","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"favorite eaten foods","fitwell fitness health diet",3,3,6,"F",NA
+"favorite eaten foods","iskinny",3,3,6,"F",NA
+"favorite eaten foods","lifesum health movement",3,3,6,"F",NA
+"favorite eaten foods","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"favorite eaten foods","my score plus weight loss watchers llc",3,3,6,"F",NA
+"favorite eaten foods","myfitnesspal",3,3,6,"F",NA
+"favorite eaten foods","nutritionist+ outlier",3,3,6,"F",NA
+"favorite eaten foods","pku diet management",3,3,6,"F",NA
+"favorite eaten foods","secret of weight le secret du poids sas",3,3,6,"F",NA
+"favorite eaten foods","simple macro calorie counter",3,3,6,"F",NA
+"favorite eaten foods","smartfoodtracker - food logger",3,3,6,"F",NA
+"favorite eaten foods","tap & track nanobitsoftware",3,3,6,"F",NA
+"favorite eaten foods","weight goals",3,3,6,"F",NA
+"favorite eaten foods","weight watchers mobile international",3,3,6,"F",NA
+"favorite eaten foods","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"fasting","myketo diet guide & calculator",3,3,6,"F",NA
+"fasting","zero big sky health",3,3,6,"F",NA
+"fasting","Zero Big Sky Health",3,3,6,"F",NA
+"faceook","ifttt",3,3,6,"F",NA
+"excersis","time_tracking",4,2,6,"F",NA
+"excercise","21 day tummy tracker",3,3,6,"F",NA
+"excercise","all-in fitness by sport.com",3,3,6,"F",NA
+"excercise","apple watch",3,3,6,"F",NA
+"excercise","calorie counter by fatsecret",3,3,6,"F",NA
+"excercise","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"excercise","calorie counter fddb ext. pro",3,3,6,"F",NA
+"excercise","calorie counter plus yauheni bulat",3,3,6,"F",NA
+"excercise","calorie counter+ nutratech",3,3,6,"F",NA
+"excercise","calories! stefan diener",3,3,6,"F",NA
+"excercise","caloriesmart calorie tracker",3,3,6,"F",NA
+"excercise","cals & macros free designbyvh",3,3,6,"F",NA
+"excercise","carrot hunger - talking calorie counter",3,3,6,"F",NA
+"excercise","cron-o-meter",3,3,6,"F",NA
+"excercise","daily calories offline mohsen raeisi",3,3,6,"F",NA
+"excercise","desi calorie meter",3,3,6,"F",NA
+"excercise","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"excercise","diet and weight loss nutrisoft brazil",3,3,6,"F",NA
+"excercise","diet plan ab mobile apps",3,3,6,"F",NA
+"excercise","diet tracker joss giffard",3,3,6,"F",NA
+"excercise","diet2 go free",3,3,6,"F",NA
+"excercise","easy fit calorie counter",3,3,6,"F",NA
+"excercise","edibles world media group",3,3,6,"F",NA
+"excercise","everydayhealth.com",3,3,6,"F",NA
+"excercise","fitbit",3,3,6,"F",NA
+"excercise","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"excercise","fitwell fitness health diet",3,3,6,"F",NA
+"excercise","foodprint diet",3,3,6,"F",NA
+"excercise","garmin approach",3,3,6,"F",NA
+"excercise","glucose buddy diabetes log",3,3,6,"F",NA
+"excercise","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"excercise","healthifyme weight loss coach",3,3,6,"F",NA
+"excercise","healthwatch 360",3,3,6,"F",NA
+"excercise","iskinny",3,3,6,"F",NA
+"excercise","jawbone up",3,3,6,"F",NA
+"excercise","lifesum health movement",3,3,6,"F",NA
+"excercise","lose it! fitnow",3,3,6,"F",NA
+"excercise","lose weight with applause 12 labs",3,3,6,"F",NA
+"excercise","lose weight without dieting harmonic soft",3,3,6,"F",NA
+"excercise","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"excercise","mdietguru",3,3,6,"F",NA
+"excercise","mevolife",3,3,6,"F",NA
+"excercise","my diet journal harvey g. payne",3,3,6,"F",NA
+"excercise","my score plus weight loss watchers llc",3,3,6,"F",NA
+"excercise","myplate demand media",3,3,6,"F",NA
+"excercise","mysymptoms",3,3,6,"F",NA
+"excercise","noom coach health & weight",3,3,6,"F",NA
+"excercise","onetouch reveal",3,3,6,"F",NA
+"excercise","pebble watch",3,3,6,"F",NA
+"excercise","pic healthy photo food",3,3,6,"F",NA
+"excercise","polar flow activity & sports analyzing",3,3,6,"F",NA
+"excercise","protracker plus watchers nutrition and exercise gossain software",3,3,6,"F",NA
+"excercise","reboot with joe cross juice diet",3,3,6,"F",NA
+"excercise","record by under armour healthbox",3,3,6,"F",NA
+"excercise","samsung gear",3,3,6,"F",NA
+"excercise","simple diet diary martin stone",3,3,6,"F",NA
+"excercise","sparkpeople",3,3,6,"F",NA
+"excercise","tap & track nanobitsoftware",3,3,6,"F",NA
+"excercise","trainer labs workout & nutrition",3,3,6,"F",NA
+"excercise","ultimate food value diary",3,3,6,"F",NA
+"excercise","weight calorie watch baskaran arunasalam",3,3,6,"F",NA
+"excercise","weight goals",3,3,6,"F",NA
+"excercise","whatcalculator mp web designs",3,3,6,"F",NA
+"excercise","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"everydayhealth.com","advices",3,3,6,"F",NA
+"everydayhealth.com","coaching",3,3,6,"F",NA
+"everydayhealth.com","personal feedback",3,3,6,"F",NA
+"everydayhealth.com","reminders/notifications",3,3,6,"F",NA
+"everydayhealth.com","social support",3,3,6,"F",NA
+"epoc","sensecore",3,3,6,"F",NA
+"eog","neuroon",3,3,6,"F",NA
+"energy expenditure","carepredict tempo",3,3,6,"F",NA
+"energy expenditure","Carepredict Tempo",3,3,6,"F",NA
+"energy expenditure","empatica",3,3,6,"F",NA
+"energy expenditure","Empatica",3,3,6,"F",NA
+"energy expenditure","fitbit",3,3,6,"F",NA
+"energy expenditure","Fitbit",3,3,6,"F",NA
+"energy expenditure","fitbug orb",3,3,6,"F",NA
+"energy expenditure","Fitbug Orb",3,3,6,"F",NA
+"energy expenditure","garmin approach",3,3,6,"F",NA
+"energy expenditure","Garmin Approach",3,3,6,"F",NA
+"energy expenditure","healbe",3,3,6,"F",NA
+"energy expenditure","Healbe",3,3,6,"F",NA
+"energy expenditure","hexoskin",3,3,6,"F",NA
+"energy expenditure","huawei talkband",3,3,6,"F",NA
+"energy expenditure","Huawei TalkBand",3,3,6,"F",NA
+"energy expenditure","ifit technologies",3,3,6,"F",NA
+"energy expenditure","iFit technologies",3,3,6,"F",NA
+"energy expenditure","ihealth",3,3,6,"F",NA
+"energy expenditure","iHealth",3,3,6,"F",NA
+"energy expenditure","intel basis peak",3,3,6,"F",NA
+"energy expenditure","Intel Basis Peak",3,3,6,"F",NA
+"energy expenditure","ironman move x20",3,3,6,"F",NA
+"energy expenditure","Ironman Move x20",3,3,6,"F",NA
+"energy expenditure","jawbone up",3,3,6,"F",NA
+"energy expenditure","Jawbone UP",3,3,6,"F",NA
+"energy expenditure","lechal shoe",3,3,6,"F",NA
+"energy expenditure","Lechal Shoe",3,3,6,"F",NA
+"energy expenditure","leikr gps sport watch",3,3,6,"F",NA
+"energy expenditure","Leikr GPS Sport Watch",3,3,6,"F",NA
+"energy expenditure","lg gizmopal vc100",3,3,6,"F",NA
+"energy expenditure","LG Gizmopal VC100",3,3,6,"F",NA
+"energy expenditure","microsoft band",3,3,6,"F",NA
+"energy expenditure","Microsoft Band",3,3,6,"F",NA
+"energy expenditure","misfit",3,3,6,"F",NA
+"energy expenditure","Misfit",3,3,6,"F",NA
+"energy expenditure","moov personal coach",3,3,6,"F",NA
+"energy expenditure","Moov Personal Coach",3,3,6,"F",NA
+"energy expenditure","mykronoz zefit",3,3,6,"F",NA
+"energy expenditure","MyKronoz ZeFit",3,3,6,"F",NA
+"energy expenditure","nevo watch",3,3,6,"F",NA
+"energy expenditure","Nevo watch",3,3,6,"F",NA
+"energy expenditure","nike fuelband",3,3,6,"F",NA
+"energy expenditure","Nike FuelBand",3,3,6,"F",NA
+"energy expenditure","o-synce",3,3,6,"F",NA
+"energy expenditure","O-Synce",3,3,6,"F",NA
+"energy expenditure","omsignal",3,3,6,"F",NA
+"energy expenditure","OMsignal",3,3,6,"F",NA
+"energy expenditure","pebble watch",3,3,6,"F",NA
+"energy expenditure","Pebble watch",3,3,6,"F",NA
+"energy expenditure","pivotal living life1",3,3,6,"F",NA
+"energy expenditure","Pivotal Living Life1",3,3,6,"F",NA
+"energy expenditure","polar smartwatch",3,3,6,"F",NA
+"energy expenditure","Polar smartwatch",3,3,6,"F",NA
+"energy expenditure","recon jet",3,3,6,"F",NA
+"energy expenditure","Recon Jet",3,3,6,"F",NA
+"energy expenditure","samsung gear",3,3,6,"F",NA
+"energy expenditure","Samsung Gear",3,3,6,"F",NA
+"energy expenditure","scribe labs",3,3,6,"F",NA
+"energy expenditure","Scribe Labs",3,3,6,"F",NA
+"energy expenditure","sensecore",3,3,6,"F",NA
+"energy expenditure","SenseCore",3,3,6,"F",NA
+"energy expenditure","sony smartwatch",3,3,6,"F",NA
+"energy expenditure","Sony Smartwatch",3,3,6,"F",NA
+"energy expenditure","spire.io",3,3,6,"F",NA
+"energy expenditure","spree wearables",3,3,6,"F",NA
+"energy expenditure","Spree Wearables",3,3,6,"F",NA
+"energy expenditure","suunto",3,3,6,"F",NA
+"energy expenditure","Suunto",3,3,6,"F",NA
+"energy expenditure","tomtom mysports",3,3,6,"F",NA
+"energy expenditure","TomTom MySports",3,3,6,"F",NA
+"energy expenditure","wahoo tickr",3,3,6,"F",NA
+"energy expenditure","Wahoo Tickr",3,3,6,"F",NA
+"energy expenditure","wearit smartwatch",3,3,6,"F",NA
+"energy expenditure","Wearit Smartwatch",3,3,6,"F",NA
+"energy expenditure","wellograph co. ltd.",3,3,6,"F",NA
+"energy expenditure","Wellograph Co. Ltd.",3,3,6,"F",NA
+"energy expenditure","whoop strap",3,3,6,"F",NA
+"energy expenditure","WHOOP Strap",3,3,6,"F",NA
+"energy expenditure","wisewear",3,3,6,"F",NA
+"energy expenditure","Wisewear",3,3,6,"F",NA
+"energy expenditure","withings activit",3,3,6,"F",NA
+"energy expenditure","Withings Activit",3,3,6,"F",NA
+"energy expenditure","xmetrics fit",3,3,6,"F",NA
+"energy expenditure","Xmetrics Fit",3,3,6,"F",NA
+"energy expenditure","zeblaze classic",3,3,6,"F",NA
+"energy expenditure","Zeblaze Classic",3,3,6,"F",NA
+"energy expenditure","zikto walk",3,3,6,"F",NA
+"energy expenditure","Zikto Walk",3,3,6,"F",NA
+"end-tidal carbon dioxide","contec",3,3,6,"F",NA
+"emotions","baritastic bariatric tracker",3,3,6,"F",NA
+"emotions","bowelle ibs tracker",3,3,6,"F",NA
+"emotions","calorie counter+ nutratech",3,3,6,"F",NA
+"emotions","healthwatch 360",3,3,6,"F",NA
+"emotions","jawbone up",3,3,6,"F",NA
+"emotions","lose weight with applause 12 labs",3,3,6,"F",NA
+"emotions","mumoactive diabetes sugar tracker",3,3,6,"F",NA
+"emotions","reboot with joe cross juice diet",3,3,6,"F",NA
+"emotions","recovery record eating disorder management",3,3,6,"F",NA
+"emotions","rise up eating disorder",3,3,6,"F",NA
+"emg","monica healthcare",3,3,6,"F",NA
+"emg","rslsteeper",3,3,6,"F",NA
+"emg","somaxis",3,3,6,"F",NA
+"emg","thalmic labs",3,3,6,"F",NA
+"elevation","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"electronic health record","Health data aggregators",3,3,6,"F",NA
+"electroencephalography","neuroon",3,3,6,"F",NA
+"electroencephalography","smartcap edan safe",3,3,6,"F",NA
+"electroencephalography","somaxis",3,3,6,"F",NA
+"electrocardiogram","biosensics",3,3,6,"F",NA
+"electrocardiogram","hexoskin",3,3,6,"F",NA
+"electrocardiogram","monica healthcare",3,3,6,"F",NA
+"electrocardiogram","nuubo",3,3,6,"F",NA
+"electrocardiogram","preventice bodyguardian",3,3,6,"F",NA
+"electrocardiogram","qardiocore",3,3,6,"F",NA
+"electrocardiogram","sensecore",3,3,6,"F",NA
+"electrocardiogram","somaxis",3,3,6,"F",NA
+"EKG","hexoskin",3,3,6,"F",NA
+"ekg","hexoskin",3,3,6,"F",NA
+"eeg","contec",3,3,6,"F",NA
+"eeg","dreem headband",3,3,6,"F",NA
+"eeg","emotiv insight",3,3,6,"F",NA
+"eeg","kokoon headphones",3,3,6,"F",NA
+"eeg","muse interaxo",3,3,6,"F",NA
+"eeg","neuroon",3,3,6,"F",NA
+"eeg","phillips smartsleep",3,3,6,"F",NA
+"ECG","hexoskin",4,2,6,"F",NA
+"ecg","aidlab",3,3,6,"F",NA
+"ecg","apple watch",3,3,6,"F",NA
+"ecg","contec",3,3,6,"F",NA
+"ecg","heartcheck pen",3,3,6,"F",NA
+"ecg","kardiamobile",3,3,6,"F",NA
+"ecg","mawi ecg band",3,3,6,"F",NA
+"ecg","qardiocore",3,3,6,"F",NA
+"ecg","vivowatch bp",3,3,6,"F",NA
+"ecg","withings bpm core",3,3,6,"F",NA
+"ecg","withings move ecg",3,3,6,"F",NA
+"Eat This Much Meal Planner","healthkit",3,3,6,"F",NA
+"eat this much meal planner","faceook",3,3,6,"F",NA
+"eat this much meal planner","healthkit",3,3,6,"F",NA
+"eat this much","healthkit",3,3,6,"F",NA
+"easy fit calorie counter","advices",3,3,6,"F",NA
+"easy fit calorie counter","reminders/notifications",3,3,6,"F",NA
+"distance moved","apple watch",3,3,6,"F",NA
+"distance moved","garmin approach",3,3,6,"F",NA
+"distance moved","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"distance moved","jawbone up",3,3,6,"F",NA
+"distance moved","misfit",3,3,6,"F",NA
+"distance moved","pebble watch",3,3,6,"F",NA
+"distance moved","record by under armour healthbox",3,3,6,"F",NA
+"distance moved","samsung gear",3,3,6,"F",NA
+"distance moved","striiv activity tracker",3,3,6,"F",NA
+"distance moved","tomtom mysports",3,3,6,"F",NA
+"dietgenie easy diet plans","reminders/notifications",3,3,6,"F",NA
+"dietcamera.com","healthkit",3,3,6,"F",NA
+"diet watchers diary croc software","dropbox",3,3,6,"F",NA
+"diet watchers diary croc software","file",3,3,6,"F",NA
+"diet watch stettiner","googlefit",3,3,6,"F",NA
+"diet watch stettiner","reminders/notifications",3,3,6,"F",NA
+"diet tracker joss giffard","advices",3,3,6,"F",NA
+"diet plans","20/20 lifestyles",3,3,6,"F",NA
+"diet plans","calorie carb & fat counter virtuagym",3,3,6,"F",NA
+"diet plans","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"diet plans","calorie counter+ nutratech",3,3,6,"F",NA
+"diet plans","checkoff diet tracker",3,3,6,"F",NA
+"diet plans","ckttc bodybuilding diet workout plan",3,3,6,"F",NA
+"diet plans","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"diet plans","diet and weight loss nutrisoft brazil",3,3,6,"F",NA
+"diet plans","diet assistant alberto portela",3,3,6,"F",NA
+"diet plans","diet plan ab mobile apps",3,3,6,"F",NA
+"diet plans","diet watch stettiner",3,3,6,"F",NA
+"diet plans","diet watchers diary croc software",3,3,6,"F",NA
+"diet plans","diet2 go free",3,3,6,"F",NA
+"diet plans","dietgenie easy diet plans",3,3,6,"F",NA
+"diet plans","eat this much meal planner",3,3,6,"F",NA
+"diet plans","everydayhealth.com",3,3,6,"F",NA
+"diet plans","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"diet plans","fitwell fitness health diet",3,3,6,"F",NA
+"diet plans","fodmap monash university",3,3,6,"F",NA
+"diet plans","foodprint diet",3,3,6,"F",NA
+"diet plans","health & weight loss coach obino",3,3,6,"F",NA
+"diet plans","healthifyme weight loss coach",3,3,6,"F",NA
+"diet plans","keto low carb venn interactive",3,3,6,"F",NA
+"diet plans","lose it! fitnow",3,3,6,"F",NA
+"diet plans","lose weight with applause 12 labs",3,3,6,"F",NA
+"diet plans","lose weight without dieting harmonic soft",3,3,6,"F",NA
+"diet plans","mdietguru",3,3,6,"F",NA
+"diet plans","meal planner and food manager spoonacular",3,3,6,"F",NA
+"diet plans","meallogger wellness foundry",3,3,6,"F",NA
+"diet plans","mevolife",3,3,6,"F",NA
+"diet plans","mydietist",3,3,6,"F",NA
+"diet plans","nutritionist+ outlier",3,3,6,"F",NA
+"diet plans","poundaweek - calorie counter",3,3,6,"F",NA
+"diet plans","reboot with joe cross juice diet",3,3,6,"F",NA
+"diet plans","recovery record eating disorder management",3,3,6,"F",NA
+"diet plans","weight goals",3,3,6,"F",NA
+"diet plans","weight loss & fitness program healthkart",3,3,6,"F",NA
+"diet plans","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"diet plan ab mobile apps","advices",3,3,6,"F",NA
+"diet plan ab mobile apps","encouragements",3,3,6,"F",NA
+"diet plan ab mobile apps","reminders/notifications",3,3,6,"F",NA
+"diet diary can yapan","file",3,3,6,"F",NA
+"diet diary can yapan","reminders/notifications",3,3,6,"F",NA
+"diet assistant alberto portela","advices",3,3,6,"F",NA
+"diet assistant alberto portela","faceook",3,3,6,"F",NA
+"diet assistant alberto portela","file",3,3,6,"F",NA
+"diet assistant alberto portela","reminders/notifications",3,3,6,"F",NA
+"diet and weight loss nutrisoft brazil","advices",3,3,6,"F",NA
+"diet and weight loss nutrisoft brazil","challanges",3,3,6,"F",NA
+"diet and weight loss nutrisoft brazil","reminders/notifications",3,3,6,"F",NA
+"diabetes diary glucose tracker designcity.pl","file",3,3,6,"F",NA
+"Diabetes & Diet Tracker MyNetDiary","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"Diabetes & Diet Tracker MyNetDiary","healthkit",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","advices",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","file",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","fitbit charge 2",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","healthkit",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","personal feedback",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","reminders/notifications",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","up24",3,3,6,"F",NA
+"diabetes & diet tracker mynetdiary","weight goals",3,3,6,"F",NA
+"Dexcom","glooko",3,3,6,"F",NA
+"dexcom","blood glucose",3,3,6,"F",NA
+"dexcom","glooko",3,3,6,"F",NA
+"dexcom","googlefit",3,3,6,"F",NA
+"dexcom","tidepool",3,3,6,"F",NA
+"data access","dropbox",3,3,6,"F",NA
+"Daily Water Free Maxwell Software","healthkit",3,3,6,"F",NA
+"daily water free maxwell software","dropbox",3,3,6,"F",NA
+"daily water free maxwell software","healthkit",3,3,6,"F",NA
+"daily water free maxwell software","reminders/notifications",3,3,6,"F",NA
+"daily water free","healthkit",3,3,6,"F",NA
+"daily tracker+ lumen spark","file",3,3,6,"F",NA
+"cyberglove systems","api",3,3,6,"F",NA
+"cyberglove systems","file",3,3,6,"F",NA
+"CSV File","openhumans.org",5,3,8,"F",NA
+"cronometer","healthkit",3,3,6,"F",NA
+"CRON-O-Meter","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"CRON-O-Meter","healthkit",3,3,6,"F",NA
+"cron-o-meter","file",3,3,6,"F",NA
+"cron-o-meter","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"cron-o-meter","healthkit",3,3,6,"F",NA
+"continuous blood pressure","contec",3,3,6,"F",NA
+"computer_time","activitywatch",4,4,8,"F",NA
+"computer_time","smartertime",4,4,8,"F",NA
+"computer_time","time_tracking",3,2,5,"F",NA
+"complete blood count","nutrition tracker biostatus health",3,3,6,"F",NA
+"cognitive","quantifiedmind",3,3,6,"F",NA
+"circadian rhythm","nutrition tracker biostatus health",3,3,6,"F",NA
+"chooseblocks.com","api",3,3,6,"F",NA
+"chooseblocks.com","file",3,3,6,"F",NA
+"cholesterol","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"cholesterol","healthwatch 360",3,3,6,"F",NA
+"cholesterol","nutrition tracker biostatus health",3,3,6,"F",NA
+"cholesterol","pic healthy photo food",3,3,6,"F",NA
+"cgm","abbott navigator",3,3,6,"F",NA
+"cgm","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"cgm","animas ping",3,3,6,"F",NA
+"cgm","dexcom",3,3,6,"F",NA
+"cgm","dia-vit tracker",3,3,6,"F",NA
+"cgm","diabetes diary glucose tracker designcity.pl",3,3,6,"F",NA
+"cgm","g4roche accu-chek combo",3,3,6,"F",NA
+"cgm","glucose buddy diabetes log",3,3,6,"F",NA
+"cgm","glucotrack",3,3,6,"F",NA
+"cgm","healthwatch 360",3,3,6,"F",NA
+"cgm","insulet omnipod",3,3,6,"F",NA
+"cgm","medtronics",3,3,6,"F",NA
+"cgm","mumoactive diabetes sugar tracker",3,3,6,"F",NA
+"cgm","nemaura medical",3,3,6,"F",NA
+"cgm","noom coach health & weight",3,3,6,"F",NA
+"cgm","nutrition tracker biostatus health",3,3,6,"F",NA
+"cgm","onetouch reveal",3,3,6,"F",NA
+"cgm","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"cgm","sooil dana r insulin pump",3,3,6,"F",NA
+"cgm","tandem diabetes care",3,3,6,"F",NA
+"cgm","weight goals",3,3,6,"F",NA
+"CARROT Hunger - Talking Calorie Counter","healthkit",3,3,6,"F",NA
+"carrot hunger - talking calorie counter","dropbox",3,3,6,"F",NA
+"carrot hunger - talking calorie counter","healthkit",3,3,6,"F",NA
+"carrot hunger - talking calorie counter","punishment",3,3,6,"F",NA
+"carrot hunger - talking calorie counter","reminders/notifications",3,3,6,"F",NA
+"carrot hunger","healthkit",3,3,6,"F",NA
+"Careot Nutrition Tracker","healthkit",3,3,6,"F",NA
+"careot nutrition tracker","connected users",3,3,6,"F",NA
+"careot nutrition tracker","healthkit",3,3,6,"F",NA
+"carbohydrates","glucose buddy diabetes log",3,3,6,"F",NA
+"carbohydrates","mumoactive diabetes sugar tracker",3,3,6,"F",NA
+"carbohydrates","mysugr diabetes logbook",3,3,6,"F",NA
+"carbohydrates","onetouch reveal",3,3,6,"F",NA
+"carbohydrates","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"carbohydrates","weight goals",3,3,6,"F",NA
+"capnograph","contec",3,3,6,"F",NA
+"camera","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"camera","memini",3,3,6,"F",NA
+"camera","smi eye tracking glasses",3,3,6,"F",NA
+"camera","zebra dart tag",3,3,6,"F",NA
+"cals & macros free designbyvh","faceook",3,3,6,"F",NA
+"cals & macros free designbyvh","file",3,3,6,"F",NA
+"caloriesmart calorie tracker","file",3,3,6,"F",NA
+"calories! stefan diener","advices",3,3,6,"F",NA
+"calories! stefan diener","googlefit",3,3,6,"F",NA
+"calories carb prot fat counter","googlefit",3,3,6,"F",NA
+"calories burned","apple watch",3,3,6,"F",NA
+"calories burned","garmin approach",3,3,6,"F",NA
+"calories burned","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"calories burned","jawbone up",3,3,6,"F",NA
+"calories burned","microsoft band",3,3,6,"F",NA
+"calories burned","misfit",3,3,6,"F",NA
+"calories burned","polar flow activity & sports analyzing",3,3,6,"F",NA
+"calories burned","record by under armour healthbox",3,3,6,"F",NA
+"calories burned","samsung gear",3,3,6,"F",NA
+"calories burned","striiv activity tracker",3,3,6,"F",NA
+"calories burned","tomtom mysports",3,3,6,"F",NA
+"calories","cron-o-meter",3,3,6,"F",NA
+"Calorie Counter+ NutraTech","healthkit",3,3,6,"F",NA
+"calorie counter+ nutratech","challanges",3,3,6,"F",NA
+"calorie counter+ nutratech","connected users",3,3,6,"F",NA
+"calorie counter+ nutratech","fitbit charge 2",3,3,6,"F",NA
+"calorie counter+ nutratech","healthkit",3,3,6,"F",NA
+"calorie counter+ nutratech","social support",3,3,6,"F",NA
+"calorie counter plus yauheni bulat","connected users",3,3,6,"F",NA
+"Calorie Counter Nutritionix","healthkit",3,3,6,"F",NA
+"calorie counter nutritionix","fitbit charge 2",3,3,6,"F",NA
+"calorie counter nutritionix","googlefit",3,3,6,"F",NA
+"calorie counter nutritionix","healthkit",3,3,6,"F",NA
+"calorie counter nutritionix","reminders/notifications",3,3,6,"F",NA
+"calorie counter fddb ext. pro","calorie counter by fatsecret",3,3,6,"F",NA
+"calorie counter easyfoodplan.com","advices",3,3,6,"F",NA
+"calorie counter easyfoodplan.com","faceook",3,3,6,"F",NA
+"Calorie Counter by FatSecret","healthkit",3,3,6,"F",NA
+"Calorie Counter by FatSecret","validic",3,3,6,"F",NA
+"calorie counter by fatsecret","advices",3,3,6,"F",NA
+"calorie counter by fatsecret","challanges",3,3,6,"F",NA
+"calorie counter by fatsecret","coaching",3,3,6,"F",NA
+"calorie counter by fatsecret","connected users",3,3,6,"F",NA
+"calorie counter by fatsecret","file",3,3,6,"F",NA
+"calorie counter by fatsecret","fitnesssyncer",3,3,6,"F",NA
+"calorie counter by fatsecret","googlefit",3,3,6,"F",NA
+"calorie counter by fatsecret","healthkit",3,3,6,"F",NA
+"calorie counter by fatsecret","humanapi.co",3,3,6,"F",NA
+"calorie counter by fatsecret","personal feedback",3,3,6,"F",NA
+"calorie counter by fatsecret","validic",3,3,6,"F",NA
+"calorie counter and diet by calorie count about inc","connected users",3,3,6,"F",NA
+"calorie counter and diet by calorie count about inc","social support",3,3,6,"F",NA
+"calorie count bolshakov aleksandr","advices",3,3,6,"F",NA
+"Calorie Carb & Fat Counter Virtuagym","healthkit",3,3,6,"F",NA
+"calorie carb & fat counter virtuagym","advices",3,3,6,"F",NA
+"calorie carb & fat counter virtuagym","coaching",3,3,6,"F",NA
+"calorie carb & fat counter virtuagym","file",3,3,6,"F",NA
+"calorie carb & fat counter virtuagym","healthkit",3,3,6,"F",NA
+"calorie carb & fat counter virtuagym","web api",3,3,6,"F",NA
+"bulk up! protein wombat apps","healthkit",3,3,6,"F",NA
+"breqlabs","api",3,3,6,"F",NA
+"breathing","beddit sleep monitor 3.5",3,3,6,"F",NA
+"breathing","Beddit Sleep Monitor 3.5",3,3,6,"F",NA
+"breathing","omsignal",3,3,6,"F",NA
+"breathing","spire.io",3,3,6,"F",NA
+"bragi dash","api",3,3,6,"F",NA
+"bragi dash","google fit",3,3,6,"F",NA
+"bowels","mysymptoms",3,3,6,"F",NA
+"body weight","20/20 lifestyles",3,3,6,"F",NA
+"body weight","bariatric iq",3,3,6,"F",NA
+"body weight","calorie count bolshakov aleksandr",3,3,6,"F",NA
+"body weight","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"body weight","calorie counter by fatsecret",3,3,6,"F",NA
+"body weight","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"body weight","calorie counter fat alien pro",3,3,6,"F",NA
+"body weight","calorie counter+ nutratech",3,3,6,"F",NA
+"body weight","calories calculator ebmacs",3,3,6,"F",NA
+"body weight","calories! stefan diener",3,3,6,"F",NA
+"body weight","caloriesmart calorie tracker",3,3,6,"F",NA
+"body weight","cals & macros free designbyvh",3,3,6,"F",NA
+"body weight","careot nutrition tracker",3,3,6,"F",NA
+"body weight","desi calorie meter",3,3,6,"F",NA
+"body weight","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"body weight","diet assistant alberto portela",3,3,6,"F",NA
+"body weight","diet diary eonsoft",3,3,6,"F",NA
+"body weight","diet plan ab mobile apps",3,3,6,"F",NA
+"body weight","diet watch stettiner",3,3,6,"F",NA
+"body weight","diet watchers diary croc software",3,3,6,"F",NA
+"body weight","dietcamera.com",3,3,6,"F",NA
+"body weight","easy fit calorie counter",3,3,6,"F",NA
+"body weight","edibles world media group",3,3,6,"F",NA
+"body weight","everydayhealth.com",3,3,6,"F",NA
+"body weight","fitatu calorie counter",3,3,6,"F",NA
+"body weight","fitbit",3,3,6,"F",NA
+"body weight","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"body weight","food diary & weight control opunktschmidt",3,3,6,"F",NA
+"body weight","food tracker christian knobloch",3,3,6,"F",NA
+"body weight","foodprint diet",3,3,6,"F",NA
+"body weight","hapicoach nutrition coaching",3,3,6,"F",NA
+"body weight","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"body weight","healthifyme weight loss coach",3,3,6,"F",NA
+"body weight","hi droid infinity",3,3,6,"F",NA
+"body weight","hydro coach - drink water",3,3,6,"F",NA
+"body weight","iskinny",3,3,6,"F",NA
+"body weight","itrackbites smart weight loss",3,3,6,"F",NA
+"body weight","lifesum health movement",3,3,6,"F",NA
+"body weight","linear software body fat calculator",3,3,6,"F",NA
+"body weight","lose it! fitnow",3,3,6,"F",NA
+"body weight","lose weight with applause 12 labs",3,3,6,"F",NA
+"body weight","lose weight without dieting harmonic soft",3,3,6,"F",NA
+"body weight","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"body weight","mevolife",3,3,6,"F",NA
+"body weight","my diet coach - weight loss inspiredapps",3,3,6,"F",NA
+"body weight","my diet journal harvey g. payne",3,3,6,"F",NA
+"body weight","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"body weight","noom coach health & weight",3,3,6,"F",NA
+"body weight","nutrition diary tino nimmerjahn",3,3,6,"F",NA
+"body weight","nutrition tracker biostatus health",3,3,6,"F",NA
+"body weight","nutritionist+ outlier",3,3,6,"F",NA
+"body weight","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"body weight","pic healthy photo food",3,3,6,"F",NA
+"body weight","pku diet management",3,3,6,"F",NA
+"body weight","poundaweek - calorie counter",3,3,6,"F",NA
+"body weight","protracker plus watchers nutrition and exercise gossain software",3,3,6,"F",NA
+"body weight","reboot with joe cross juice diet",3,3,6,"F",NA
+"body weight","record by under armour healthbox",3,3,6,"F",NA
+"body weight","revive weight loss",3,3,6,"F",NA
+"body weight","slimming tracker worrall studios",3,3,6,"F",NA
+"body weight","smartfoodtracker - food logger",3,3,6,"F",NA
+"body weight","sparkpeople",3,3,6,"F",NA
+"body weight","striiv activity tracker",3,3,6,"F",NA
+"body weight","tap & track nanobitsoftware",3,3,6,"F",NA
+"body weight","ultimate food value diary",3,3,6,"F",NA
+"body weight","water drink reminder northpark.android",3,3,6,"F",NA
+"body weight","weight calorie watch baskaran arunasalam",3,3,6,"F",NA
+"body weight","weight goals",3,3,6,"F",NA
+"body weight","weight watchers mobile international",3,3,6,"F",NA
+"body weight","weightobserver infobest",3,3,6,"F",NA
+"body weight","weightwar clevapps",3,3,6,"F",NA
+"body weight","whatcalculator mp web designs",3,3,6,"F",NA
+"body weight","ww tools free",3,3,6,"F",NA
+"body weight","wwdiary",3,3,6,"F",NA
+"body weight","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"body temperature","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"body temperature","daysy personal fertility tracker",3,3,6,"F",NA
+"body temperature","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"body temperature","jawbone up",3,3,6,"F",NA
+"body temperature","nutrition tracker biostatus health",3,3,6,"F",NA
+"body temperature","oura",3,3,6,"F",NA
+"body temperature","wink fertility tracker",3,3,6,"F",NA
+"body temperature","yono ovulation earbuds",3,3,6,"F",NA
+"body measurements","calorie count bolshakov aleksandr",3,3,6,"F",NA
+"body measurements","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"body measurements","diet plan ab mobile apps",3,3,6,"F",NA
+"body measurements","fitatu calorie counter",3,3,6,"F",NA
+"body measurements","lifesum health movement",3,3,6,"F",NA
+"body measurements","lose weight without dieting harmonic soft",3,3,6,"F",NA
+"body measurements","nutrition tracker biostatus health",3,3,6,"F",NA
+"body measurements","nutritionist+ outlier",3,3,6,"F",NA
+"body measurements","ultimate food value diary",3,3,6,"F",NA
+"body image","all-in fitness by sport.com",3,3,6,"F",NA
+"body image","bariatric iq",3,3,6,"F",NA
+"body image","baritastic bariatric tracker",3,3,6,"F",NA
+"body image","linear software body fat calculator",3,3,6,"F",NA
+"body image","my diet coach - weight loss inspiredapps",3,3,6,"F",NA
+"body image","nutritionist+ outlier",3,3,6,"F",NA
+"body image","on the regimen macros mike vacanti",3,3,6,"F",NA
+"body image","weighfit weightbmi mz development",3,3,6,"F",NA
+"body image","weight goals",3,3,6,"F",NA
+"body composition","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"body composition","baritastic bariatric tracker",3,3,6,"F",NA
+"body composition","fitbit",3,3,6,"F",NA
+"body composition","hapicoach nutrition coaching",3,3,6,"F",NA
+"body composition","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"body composition","hi droid infinity",3,3,6,"F",NA
+"body composition","ihealth",3,3,6,"F",NA
+"body composition","linear software body fat calculator",3,3,6,"F",NA
+"body composition","my diet journal harvey g. payne",3,3,6,"F",NA
+"body composition","nutrition tracker biostatus health",3,3,6,"F",NA
+"body composition","record by under armour healthbox",3,3,6,"F",NA
+"body composition","tomtom mysports",3,3,6,"F",NA
+"body composition","ultimate food value diary",3,3,6,"F",NA
+"body composition","weighfit weightbmi mz development",3,3,6,"F",NA
+"body composition","withings body+",3,3,6,"F",NA
+"bmr","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"bmr","calories calculator ebmacs",3,3,6,"F",NA
+"bmr","daily calorie balance",3,3,6,"F",NA
+"bmr","mydietist",3,3,6,"F",NA
+"bmr","nutrition tracker biostatus health",3,3,6,"F",NA
+"bmr","tap & track nanobitsoftware",3,3,6,"F",NA
+"bmr","weightwar clevapps",3,3,6,"F",NA
+"bmi","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"bmi","all-in fitness by sport.com",3,3,6,"F",NA
+"bmi","calorie counter easyfoodplan.com",3,3,6,"F",NA
+"bmi","calorie counter plus yauheni bulat",3,3,6,"F",NA
+"bmi","calorie counter+ nutratech",3,3,6,"F",NA
+"bmi","diet and weight loss nutrisoft brazil",3,3,6,"F",NA
+"bmi","diet assistant alberto portela",3,3,6,"F",NA
+"bmi","diet watch stettiner",3,3,6,"F",NA
+"bmi","easy fit calorie counter",3,3,6,"F",NA
+"bmi","edibles world media group",3,3,6,"F",NA
+"bmi","fitwell fitness health diet",3,3,6,"F",NA
+"bmi","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"bmi","hi droid infinity",3,3,6,"F",NA
+"bmi","iskinny",3,3,6,"F",NA
+"bmi","lifesum health movement",3,3,6,"F",NA
+"bmi","my diet coach - weight loss inspiredapps",3,3,6,"F",NA
+"bmi","mydietist",3,3,6,"F",NA
+"bmi","nutrition diary tino nimmerjahn",3,3,6,"F",NA
+"bmi","sparkpeople",3,3,6,"F",NA
+"bmi","tap & track nanobitsoftware",3,3,6,"F",NA
+"bmi","weighfit weightbmi mz development",3,3,6,"F",NA
+"bmi","weight calorie watch baskaran arunasalam",3,3,6,"F",NA
+"bmi","weight goals",3,3,6,"F",NA
+"bmi","weightwar clevapps",3,3,6,"F",NA
+"bmi","withings body+",3,3,6,"F",NA
+"blood volume pulse","empatica",3,3,6,"F",NA
+"blood type","careot nutrition tracker",3,3,6,"F",NA
+"blood sugar","mysugr diabetes logbook",3,3,6,"F",NA
+"blood pressure monitor","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"blood pressure monitor","hapicoach nutrition coaching",3,3,6,"F",NA
+"blood pressure","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
+"blood pressure","Activ8rlives Health Monitoring and Food Diary App",3,3,6,"F",NA
+"blood pressure","aktiia complete blood pressure monitor",3,3,6,"F",NA
+"blood pressure","Aktiia Complete Blood Pressure Monitor",3,3,6,"F",NA
+"blood pressure","chooseblocks.com",3,3,6,"F",NA
+"blood pressure","ekg",3,3,6,"F",NA
+"blood pressure","eventloggers",3,3,6,"F",NA
+"blood pressure","EventLoggers",3,3,6,"F",NA
+"blood pressure","hapicoach nutrition coaching",3,3,6,"F",NA
+"blood pressure","HAPIcoach Nutrition Coaching",3,3,6,"F",NA
+"blood pressure","healbe",3,3,6,"F",NA
+"blood pressure","Healbe",3,3,6,"F",NA
+"blood pressure","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"blood pressure","healthwatch 360",3,3,6,"F",NA
+"blood pressure","HealthWatch 360",3,3,6,"F",NA
+"blood pressure","hi droid infinity",3,3,6,"F",NA
+"blood pressure","HI DROID INFINITY",3,3,6,"F",NA
+"blood pressure","my diet journal harvey g. payne",3,3,6,"F",NA
+"blood pressure","my Diet Journal Harvey G. Payne",3,3,6,"F",NA
+"blood pressure","noom coach health & weight",3,3,6,"F",NA
+"blood pressure","Noom Coach Health & Weight",3,3,6,"F",NA
+"blood pressure","nutrition tracker biostatus health",3,3,6,"F",NA
+"blood pressure","Nutrition Tracker BioStatus Health",3,3,6,"F",NA
+"blood pressure","OME Health",3,3,6,"F",NA
+"blood pressure","omron heartguide",3,3,6,"F",NA
+"blood pressure","Omron HeartGuide",3,3,6,"F",NA
+"blood pressure","pedometer & weight loss coach pacer health",3,3,6,"F",NA
+"blood pressure","Pedometer & Weight Loss Coach Pacer Health",3,3,6,"F",NA
+"blood pressure","qardio",3,3,6,"F",NA
+"blood pressure","Qardio",3,3,6,"F",NA
+"blood pressure","qardioarm",3,3,6,"F",NA
+"blood pressure","QardioArm",3,3,6,"F",NA
+"blood pressure","vivowatch bp",3,3,6,"F",NA
+"blood pressure","VivoWatch BP",3,3,6,"F",NA
+"blood pressure","weight goals",3,3,6,"F",NA
+"blood pressure","withings blood pressure monitor",3,3,6,"F",NA
+"blood pressure","Withings Blood Pressure Monitor",3,3,6,"F",NA
+"blood pressure","withings bpm core",3,3,6,"F",NA
+"blood pressure","Withings BPM Core",3,3,6,"F",NA
+"blood pressure","zeblaze classic",3,3,6,"F",NA
+"blood pressure","Zeblaze Classic",3,3,6,"F",NA
+"blood glucose meter","onetouch reveal",3,3,6,"F",NA
+"blood glucose","Abbott Navigator",3,3,6,"F",NA
+"blood glucose","Activ8rlives Health Monitoring and Food Diary App",3,3,6,"F",NA
+"blood glucose","Animas Ping",3,3,6,"F",NA
+"blood glucose","Dexcom",3,3,6,"F",NA
+"blood glucose","Dia-Vit Tracker",3,3,6,"F",NA
+"blood glucose","Diabetes Diary Glucose Tracker Designcity.pl",3,3,6,"F",NA
+"blood glucose","G4Roche Accu-Chek Combo",3,3,6,"F",NA
+"blood glucose","Glucose Buddy Diabetes Log",3,3,6,"F",NA
+"blood glucose","GlucoTrack",3,3,6,"F",NA
+"blood glucose","HealthWatch 360",3,3,6,"F",NA
+"blood glucose","Insulet Omnipod",3,3,6,"F",NA
+"blood glucose","Medtronics",3,3,6,"F",NA
+"blood glucose","mumoActive diabetes sugar tracker",3,3,6,"F",NA
+"blood glucose","Nemaura Medical",3,3,6,"F",NA
+"blood glucose","Noom Coach Health & Weight",3,3,6,"F",NA
+"blood glucose","Nutrition Tracker BioStatus Health",3,3,6,"F",NA
+"blood glucose","OneTouch Reveal",3,3,6,"F",NA
+"blood glucose","Pedometer & Weight Loss Coach Pacer Health",3,3,6,"F",NA
+"blood glucose","Samsung Health",3,3,6,"F",NA
+"blood glucose","Sooil DANA R Insulin pump",3,3,6,"F",NA
+"blood glucose","Tandem Diabetes Care",3,3,6,"F",NA
+"bitesnap","csv file",3,3,6,"F",NA
+"bitesnap","CSV File",4,4,8,"F",NA
+"biometrics","cron-o-meter",3,3,6,"F",NA
+"biometrics","CRON-O-Meter",3,3,6,"F",NA
+"biochemistry analyzer","contec",3,3,6,"F",NA
+"biochemistry analyzer","Contec",3,3,6,"F",NA
+"barometric pressure","atmotube plus",3,3,6,"F",NA
+"barometer","kiwi glance",3,3,6,"F",NA
+"barometer","lg gizmopal vc100",3,3,6,"F",NA
+"barometer","microsoft band",3,3,6,"F",NA
+"barometer","nixon the mission",3,3,6,"F",NA
+"barometer","polar flow activity & sports analyzing",3,3,6,"F",NA
+"barometer","recon jet",3,3,6,"F",NA
+"barometer","samsung gear",3,3,6,"F",NA
+"barometer","suunto",3,3,6,"F",NA
+"Baritastic Bariatric Tracker","healthkit",3,3,6,"F",NA
+"baritastic bariatric tracker","healthkit",3,3,6,"F",NA
+"baritastic bariatric tracker","reminders/notifications",3,3,6,"F",NA
+"baritastic bariatric tracker","social support",3,3,6,"F",NA
+"bariatric iq","advices",3,3,6,"F",NA
+"bariatric iq","encouragements",3,3,6,"F",NA
+"bariatric iq","personal feedback",3,3,6,"F",NA
+"bariatric iq","social support",3,3,6,"F",NA
+"bariapps","healthkit",3,3,6,"F",NA
+"barcode scanning","argus health & calorie counter",3,3,6,"F",NA
+"barcode scanning","calorie carb & fat counter virtuagym",3,3,6,"F",NA
+"barcode scanning","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"barcode scanning","calorie counter by fatsecret",3,3,6,"F",NA
+"barcode scanning","calorie counter fddb ext. pro",3,3,6,"F",NA
+"barcode scanning","calorie counter nutritionix",3,3,6,"F",NA
+"barcode scanning","calorie counter+ nutratech",3,3,6,"F",NA
+"barcode scanning","calories! stefan diener",3,3,6,"F",NA
+"barcode scanning","cals & macros free designbyvh",3,3,6,"F",NA
+"barcode scanning","carrot hunger - talking calorie counter",3,3,6,"F",NA
+"barcode scanning","daily calories offline mohsen raeisi",3,3,6,"F",NA
+"barcode scanning","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"barcode scanning","diet watchers diary croc software",3,3,6,"F",NA
+"barcode scanning","everydayhealth.com",3,3,6,"F",NA
+"barcode scanning","fitbit",3,3,6,"F",NA
+"barcode scanning","healthwatch 360",3,3,6,"F",NA
+"barcode scanning","hi droid infinity",3,3,6,"F",NA
+"barcode scanning","itrackbites smart weight loss",3,3,6,"F",NA
+"barcode scanning","jawbone up",3,3,6,"F",NA
+"barcode scanning","lifesum health movement",3,3,6,"F",NA
+"barcode scanning","lose it! fitnow",3,3,6,"F",NA
+"barcode scanning","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"barcode scanning","macros appmoto",3,3,6,"F",NA
+"barcode scanning","my diet journal harvey g. payne",3,3,6,"F",NA
+"barcode scanning","my macros+ diet weight and calorie tracker jason loewy",3,3,6,"F",NA
+"barcode scanning","myfitnesspal",3,3,6,"F",NA
+"barcode scanning","myplate demand media",3,3,6,"F",NA
+"barcode scanning","nutrition diary tino nimmerjahn",3,3,6,"F",NA
+"barcode scanning","nutritionist+ outlier",3,3,6,"F",NA
+"barcode scanning","pku diet management",3,3,6,"F",NA
+"barcode scanning","poundaweek - calorie counter",3,3,6,"F",NA
+"barcode scanning","protracker plus watchers nutrition and exercise gossain software",3,3,6,"F",NA
+"barcode scanning","sparkpeople",3,3,6,"F",NA
+"barcode scanning","ultimate food value diary",3,3,6,"F",NA
+"barcode scanning","weight goals",3,3,6,"F",NA
+"barcode scanning","wwdiary",3,3,6,"F",NA
+"barcode scanning","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"astroskin","CSV File",3,3,6,"F",NA
+"Argus Health & Calorie Counter","healthkit",3,3,6,"F",NA
+"argus health & calorie counter","advices",3,3,6,"F",NA
+"argus health & calorie counter","allowance badge",3,3,6,"F",NA
+"argus health & calorie counter","challanges",3,3,6,"F",NA
+"argus health & calorie counter","connected users",3,3,6,"F",NA
+"argus health & calorie counter","healthkit",3,3,6,"F",NA
+"argus health & calorie counter","humanapi.co",3,3,6,"F",NA
+"apple watch","api",3,3,6,"F",NA
+"apple watch","rest api",3,3,6,"F",NA
+"api","beeminder",3,3,6,"F",NA
+"api","trackthisforme",3,3,6,"F",NA
+"animas ping","tidepool",3,3,6,"F",NA
+"androidaps","api",3,3,6,"F",NA
+"androidaps","file",3,3,6,"F",NA
+"analysis","floka",3,3,6,"F",NA
+"analysis","memento labs personal data scientist",3,3,6,"F",NA
+"ambient light","microsoft band",3,3,6,"F",NA
+"ambient light","Microsoft Band",3,3,6,"F",NA
+"all-in fitness by sport.com","advices",3,3,6,"F",NA
+"all-in fitness by sport.com","coaching",3,3,6,"F",NA
+"all-in fitness by sport.com","connected users",3,3,6,"F",NA
+"all-in fitness by sport.com","faceook",3,3,6,"F",NA
+"all-in fitness by sport.com","social support",3,3,6,"F",NA
+"air pressure","netatmo",3,3,6,"F",NA
 "activitywatch","CSV File",5,4,9,"F",NA
+"activity","aidlab",3,3,6,"F",NA
+"activity","apple watch",3,3,6,"F",NA
+"activity","argus health & calorie counter",3,3,6,"F",NA
+"activity","calorie counter and diet by calorie count about inc",3,3,6,"F",NA
+"activity","calorie counter fddb ext. pro",3,3,6,"F",NA
+"activity","calories calculator ebmacs",3,3,6,"F",NA
+"activity","calories! stefan diener",3,3,6,"F",NA
+"activity","daily calorie balance",3,3,6,"F",NA
+"activity","daily calories offline mohsen raeisi",3,3,6,"F",NA
+"activity","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
+"activity","diabetes diary glucose tracker designcity.pl",3,3,6,"F",NA
+"activity","diet diary can yapan",3,3,6,"F",NA
+"activity","easy fit calorie counter",3,3,6,"F",NA
+"activity","fitbit",3,3,6,"F",NA
+"activity","fitday - free diet and weight loss journal",3,3,6,"F",NA
+"activity","fossil sport smartwatch",3,3,6,"F",NA
+"activity","garmin approach",3,3,6,"F",NA
+"activity","glucose buddy diabetes log",3,3,6,"F",NA
+"activity","health & weight loss coach obino",3,3,6,"F",NA
+"activity","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"activity","hi droid infinity",3,3,6,"F",NA
+"activity","itrackbites smart weight loss",3,3,6,"F",NA
+"activity","jawbone up",3,3,6,"F",NA
+"activity","lark personal weight loss coach & nutritionist",3,3,6,"F",NA
+"activity","lose weight without dieting harmonic soft",3,3,6,"F",NA
+"activity","low gi diet- glycemic index & load counter with search",3,3,6,"F",NA
+"activity","lvl fitness tracker",3,3,6,"F",NA
+"activity","mawi ecg band",3,3,6,"F",NA
+"activity","mdietguru",3,3,6,"F",NA
+"activity","microsoft band",3,3,6,"F",NA
+"activity","mijia smart shoes",3,3,6,"F",NA
+"activity","motiv ring",3,3,6,"F",NA
+"activity","mysugr diabetes logbook",3,3,6,"F",NA
+"activity","mysymptoms",3,3,6,"F",NA
+"activity","nutritionist+ outlier",3,3,6,"F",NA
+"activity","omron heartguide",3,3,6,"F",NA
+"activity","oura",3,3,6,"F",NA
+"activity","pebble watch",3,3,6,"F",NA
+"activity","polar flow activity & sports analyzing",3,3,6,"F",NA
+"activity","polar smartwatch",3,3,6,"F",NA
+"activity","pro points uk",3,3,6,"F",NA
+"activity","qardiocore",3,3,6,"F",NA
+"activity","reboot with joe cross juice diet",3,3,6,"F",NA
+"activity","record by under armour healthbox",3,3,6,"F",NA
+"activity","samsung gear",3,3,6,"F",NA
+"activity","simple calorie counter subassistant",3,3,6,"F",NA
+"activity","spire health tag",3,3,6,"F",NA
+"activity","striiv activity tracker",3,3,6,"F",NA
+"activity","tomtom mysports",3,3,6,"F",NA
+"activity","weight goals",3,3,6,"F",NA
+"activity","weightobserver infobest",3,3,6,"F",NA
+"activity","withings move ecg",3,3,6,"F",NA
+"activity","wwdiary",3,3,6,"F",NA
+"activity","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"activity","zephyr bioharness 3",3,3,6,"F",NA
+"Activ8rlives Health Monitoring and Food Diary App","healthkit",3,3,6,"F",NA
+"activ8rlives health monitoring and food diary app","challanges",3,3,6,"F",NA
+"activ8rlives health monitoring and food diary app","file",3,3,6,"F",NA
+"activ8rlives health monitoring and food diary app","healthkit",3,3,6,"F",NA
+"activ8rlives health monitoring and food diary app","social support",3,3,6,"F",NA
+"Accelerometer","mbientlabs",3,3,6,"F",NA
+"accelerometer","apple watch",3,3,6,"F",NA
+"accelerometer","biosensics",3,3,6,"F",NA
+"accelerometer","bragi dash",3,3,6,"F",NA
+"accelerometer","carepredict tempo",3,3,6,"F",NA
+"accelerometer","chooseblocks.com",3,3,6,"F",NA
+"accelerometer","empatica",3,3,6,"F",NA
+"accelerometer","fitbit",3,3,6,"F",NA
+"accelerometer","fitbug orb",3,3,6,"F",NA
+"accelerometer","fossil sport smartwatch",3,3,6,"F",NA
+"accelerometer","fun'iki ambient glasses",3,3,6,"F",NA
+"accelerometer","garmin approach",3,3,6,"F",NA
+"accelerometer","geopalz",3,3,6,"F",NA
+"accelerometer","hapicoach nutrition coaching",3,3,6,"F",NA
+"accelerometer","healbe",3,3,6,"F",NA
+"accelerometer","health mate steps tracker & life coach by withings",3,3,6,"F",NA
+"accelerometer","hexoskin",3,3,6,"F",NA
+"accelerometer","huawei talkband",3,3,6,"F",NA
+"accelerometer","icedot crash sensor",3,3,6,"F",NA
+"accelerometer","ifit technologies",3,3,6,"F",NA
+"accelerometer","ihealth",3,3,6,"F",NA
+"accelerometer","intel basis peak",3,3,6,"F",NA
+"accelerometer","ironman move x20",3,3,6,"F",NA
+"accelerometer","jawbone up",3,3,6,"F",NA
+"accelerometer","jumpstartcsr",3,3,6,"F",NA
+"accelerometer","kiwi glance",3,3,6,"F",NA
+"accelerometer","lechal shoe",3,3,6,"F",NA
+"accelerometer","lg gizmopal vc100",3,3,6,"F",NA
+"accelerometer","logbar ring",3,3,6,"F",NA
+"accelerometer","lumo body tech",3,3,6,"F",NA
+"accelerometer","lumus sleek",3,3,6,"F",NA
+"accelerometer","manus vr",3,3,6,"F",NA
+"accelerometer","maven co-pilot",3,3,6,"F",NA
+"accelerometer","mc10 biostamp",3,3,6,"F",NA
+"accelerometer","michael kors access",3,3,6,"F",NA
+"accelerometer","microsoft band",3,3,6,"F",NA
+"accelerometer","mimo sleep tracker",3,3,6,"F",NA
+"accelerometer","mio link",3,3,6,"F",NA
+"accelerometer","misfit",3,3,6,"F",NA
+"accelerometer","moff.mobi",3,3,6,"F",NA
+"accelerometer","mondevices",3,3,6,"F",NA
+"accelerometer","moov personal coach",3,3,6,"F",NA
+"accelerometer","moticon opengo",3,3,6,"F",NA
+"accelerometer","moto 360",3,3,6,"F",NA
+"accelerometer","mykronoz zefit",3,3,6,"F",NA
+"accelerometer","myontec mbody",3,3,6,"F",NA
+"accelerometer","narrative clip",3,3,6,"F",NA
+"accelerometer","neuroon",3,3,6,"F",NA
+"accelerometer","nevo watch",3,3,6,"F",NA
+"accelerometer","nike fuelband",3,3,6,"F",NA
+"accelerometer","nixon the mission",3,3,6,"F",NA
+"accelerometer","nuubo",3,3,6,"F",NA
+"accelerometer","nymi.com",3,3,6,"F",NA
+"accelerometer","omsignal",3,3,6,"F",NA
+"accelerometer","optinvent",3,3,6,"F",NA
+"accelerometer","pebble watch",3,3,6,"F",NA
+"accelerometer","pivotal living life1",3,3,6,"F",NA
+"accelerometer","polar flow activity & sports analyzing",3,3,6,"F",NA
+"accelerometer","polar smartwatch",3,3,6,"F",NA
+"accelerometer","purecarbon",3,3,6,"F",NA
+"accelerometer","qmedic",3,3,6,"F",NA
+"accelerometer","quellrelief.com",3,3,6,"F",NA
+"accelerometer","razer nabu",3,3,6,"F",NA
+"accelerometer","recon jet",3,3,6,"F",NA
+"accelerometer","record by under armour healthbox",3,3,6,"F",NA
+"accelerometer","reebok checklight",3,3,6,"F",NA
+"accelerometer","reemohealth",3,3,6,"F",NA
+"accelerometer","rip curl searchgps",3,3,6,"F",NA
+"accelerometer","rufus cuff",3,3,6,"F",NA
+"accelerometer","samsung gear",3,3,6,"F",NA
+"accelerometer","scribe labs",3,3,6,"F",NA
+"accelerometer","sensecore",3,3,6,"F",NA
+"accelerometer","sensmi band",3,3,6,"F",NA
+"accelerometer","senso devices inc.",3,3,6,"F",NA
+"accelerometer","sony smartwatch",3,3,6,"F",NA
+"accelerometer","spire.io",3,3,6,"F",NA
+"accelerometer","spree wearables",3,3,6,"F",NA
+"accelerometer","striiv activity tracker",3,3,6,"F",NA
+"accelerometer","striketec",3,3,6,"F",NA
+"accelerometer","suunto",3,3,6,"F",NA
+"accelerometer","tag heuer connected",3,3,6,"F",NA
+"accelerometer","thalmic labs",3,3,6,"F",NA
+"accelerometer","tinitell",3,3,6,"F",NA
+"accelerometer","tomtom mysports",3,3,6,"F",NA
+"accelerometer","unaliwear",3,3,6,"F",NA
+"accelerometer","vancive medical technologies",3,3,6,"F",NA
+"accelerometer","wahoo tickr",3,3,6,"F",NA
+"accelerometer","wearit smartwatch",3,3,6,"F",NA
+"accelerometer","wearnotch",3,3,6,"F",NA
+"accelerometer","wellograph co. ltd.",3,3,6,"F",NA
+"accelerometer","whoop strap",3,3,6,"F",NA
+"accelerometer","wisewear",3,3,6,"F",NA
+"accelerometer","withings activit",3,3,6,"F",NA
+"accelerometer","xensr air",3,3,6,"F",NA
+"accelerometer","xmetrics fit",3,3,6,"F",NA
+"accelerometer","xsens mvn",3,3,6,"F",NA
+"accelerometer","zeblaze classic",3,3,6,"F",NA
+"accelerometer","zikto walk",3,3,6,"F",NA
+"abbott navigator","googlefit",3,3,6,"F",NA
+"abbott navigator","tidepool",3,3,6,"F",NA
+"7 day food journal challenge","social support",3,3,6,"F",NA
+"20/20 lifestyles","advices",3,3,6,"F",NA
+"20/20 lifestyles","healthvault",3,3,6,"F",NA
