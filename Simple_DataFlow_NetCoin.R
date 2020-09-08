@@ -32,6 +32,7 @@ bad.cat <-
 print(paste("Bad Categories - "
             ,Ns$Name[bad.cat]))
 #Ns$Category[bad.cat]<-"unk"
+Ns$Category[Ns$Category %in% c("person","community")]<-"concept"
 Ns$Category[Ns$Category %in% c("app","device","wear")]<-"app-device"
 Ns<-Ns[(Ns$Category !="app-device"),]
 Ns$Category[Ns$Category %in% c("test","sensor")]<-"sensor-test"

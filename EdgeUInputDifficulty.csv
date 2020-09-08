@@ -1,22 +1,25 @@
 "in_data","out_data","Aggregation","Difficulty","Weit","ConnectInGraph","Explanation"
-"air_pressure","mbientlabs",4,3,7,"T","also sound up to 20Hz"
 "zenobase","file",3,3,6,"T",NA
 "zenobase","web api",3,3,6,"T",NA
 "workout","fitnesssyncer",3,3,6,"T",NA
 "workout","healthgraph",3,3,6,"T",NA
 "workout","sportycloud",3,3,6,"T",NA
 "workout","stridekick",3,3,6,"T",NA
+"weight goals","bmi",3,3,6,"T",NA
 "weight goals","healthkit",3,3,6,"T",NA
 "water","samsung health",3,3,6,"T",NA
 "validic","web api",3,3,6,"T",NA
 "time tracking","flaredown",3,3,6,"T",NA
 "text_editor","csv file",3,3,6,"T",NA
 "temperature","body temperature",3,3,6,"T",NA
+"temperature","near_body_temperature",3,3,6,"T",NA
+"temperature","room_temp",3,3,6,"T",NA
 "tactio health","file",3,3,6,"T",NA
 "stress level","samsung health",3,3,6,"T",NA
 "steps","accelerometer",3,3,6,"T",NA
+"steps","pedometer",3,3,6,"T",NA
+"steps","vitadock",3,3,6,"T",NA
 "sleep","accelerometer",3,3,6,"T",NA
-"sleep","astroskin",3,3,6,"T",NA
 "sleep","samsung health",3,3,6,"T",NA
 "samsung health","advices",3,3,6,"T",NA
 "samsung health","challanges",3,3,6,"T",NA
@@ -26,21 +29,21 @@
 "samsung health","sdk",3,3,6,"T",NA
 "samsung health","web api",3,3,6,"T",NA
 "s health","fitnesssyncer",3,3,6,"T",NA
-"room_temp","mbientlabs",3,3,6,"T",NA
+"pulse oximeter","vitadock",3,3,6,"T",NA
 "pedometer","samsung health",3,3,6,"T",NA
 "oxygen saturation","ppg",3,3,6,"T",NA
 "oxygen saturation","samsung health",3,3,6,"T",NA
 "open humans","analysis",3,3,6,"T",NA
 "open humans","csv file",3,3,6,"T",NA
 "nutrition goals","samsung health",3,3,6,"T",NA
-"near_body_temperature","mbientlabs",4,3,7,"T",NA
-"mbientlabs","csv file",3,3,6,"T",NA
+"nutrition","fitnescity",3,3,6,"T",NA
 "macronutrients","healthkit",3,3,6,"T",NA
 "journal_notes","text_editor",4,4,8,"T",NA
 "ifttt","file",3,3,6,"T",NA
 "ifttt","google drive",3,3,6,"T",NA
 "ifttt","web api",3,3,6,"T",NA
 "humanapi.co","web api",3,3,6,"T",NA
+"heartrate","ekg",3,3,6,"T",NA
 "heartrate","samsung health",3,3,6,"T",NA
 "heart rate variability","heartrate",3,3,6,"T",NA
 "healthvault","file",3,3,6,"T",NA
@@ -55,35 +58,38 @@
 "googlefit","file",3,3,6,"T",NA
 "googlefit","google drive",3,3,6,"T",NA
 "googlefit","web api",3,3,6,"T",NA
-"glooko","blood glucose",3,3,6,"T",NA
 "food","flaredown",3,3,6,"T",NA
 "fitnesssyncer","file",3,3,6,"T",NA
 "fitnesssyncer","google drive",3,3,6,"T",NA
 "fitness goals","samsung health",3,3,6,"T",NA
 "fitness goals","weight goals",3,3,6,"T",NA
-"excersis","steps",3,3,6,"T",NA
-"excersis","time tracking",3,3,6,"T",NA
 "excercise","samsung health",3,3,6,"T",NA
+"excercise","steps",3,3,6,"T",NA
+"excercise","time tracking",3,3,6,"T",NA
+"electronic health record","data schema",3,3,6,"T",NA
 "electronic health record","health data aggregators",3,3,6,"T",NA
 "data schema","data access",3,3,6,"T",NA
 "data access","file format",3,3,6,"T",NA
 "csv file","open humans",3,3,6,"T",NA
+"continuous blood pressure","vitadock",3,3,6,"T",NA
 "computer_time","time tracking",3,3,6,"T",NA
 "cgm","samsung health",3,3,6,"T",NA
 "calories","healthkit",3,3,6,"T",NA
 "body weight","samsung health",3,3,6,"T",NA
 "body composition","samsung health",3,3,6,"T",NA
+"body composition","vitadock",3,3,6,"T",NA
 "bmr","healthkit",3,3,6,"T",NA
+"bmi","body composition",3,3,6,"T",NA
 "bmi","healthkit",3,3,6,"T",NA
+"blood pressure","ekg",3,3,6,"T",NA
 "blood pressure","ome health",3,3,6,"T",NA
 "blood pressure","ppg",3,3,6,"T",NA
-"astroskin","csv file",3,3,6,"T",NA
-"ambient light","mbientlabs",3,3,6,"T",NA
+"blood pressure","vitadock",3,3,6,"T",NA
+"blood glucose","glooko",3,3,6,"T",NA
 "activity","healthkit",3,3,6,"T",NA
 "activity","humanapi.co",3,3,6,"T",NA
 "activity","samsung health",3,3,6,"T",NA
 "accelerometer","inertial measurement unit sensor",3,3,6,"T",NA
-"accelerometer","mbientlabs",3,3,6,"T",NA
 "googlefit","CSV File",3,4,11,"F","will need ot be kept together[kw]"
 "activity","hexoskin",3,3,6,"F","what about without quotes"
 "cognitive","quantified_mind",4,2,6,"F","tests from ""formal published papers"
@@ -91,6 +97,7 @@
 "bitesnap","googlefit",3,5,8,"F","jk,jk"
 "cognitive","humanbenchmark",3,3,6,"F","fun but not rigorous"
 "bowels","mySymptoms",5,3,8,"F","Bristol!"
+"air_pressure","mbientlabs",4,3,7,"F","also sound up to 20Hz"
 "accelerometry","mbientlabs",5,2,7,"F","9dof but fills up memory fast"
 "zebra dart tag","api",3,3,6,"F",NA
 "Yazio Calorie Counter & Diet Tracker","healthkit",3,3,6,"F",NA
@@ -554,6 +561,7 @@
 "sleep","activ8rlives health monitoring and food diary app",3,3,6,"F",NA
 "sleep","aidlab",3,3,6,"F",NA
 "sleep","argus health & calorie counter",3,3,6,"F",NA
+"sleep","astroskin",3,3,6,"F",NA
 "sleep","beddit sleep monitor 3.5",3,3,6,"F",NA
 "sleep","diabetes & diet tracker mynetdiary",3,3,6,"F",NA
 "sleep","diet plan ab mobile apps",3,3,6,"F",NA
@@ -652,6 +660,7 @@
 "samsung health","weight goals",3,3,6,"F",NA
 "samsung gear","poundaweek - calorie counter",3,3,6,"F",NA
 "samsung gear","samsung health",3,3,6,"F",NA
+"room_temp","mbientlabs",3,3,6,"F",NA
 "room temperature","beddit sleep monitor 3.5",3,3,6,"F",NA
 "rise up eating disorder","encouragements",3,3,6,"F",NA
 "rise up eating disorder","file",3,3,6,"F",NA
@@ -904,6 +913,7 @@
 "nike fuelband","rest api",3,3,6,"F",NA
 "nibp","contec",3,3,6,"F",NA
 "nevo watch","google fit",3,3,6,"F",NA
+"near_body_temperature","mbientlabs",4,3,7,"F",NA
 "mySymptoms","CSV File",5,5,10,"F",NA
 "mysymptoms","csv file",3,3,6,"F",NA
 "mysymptoms","file",3,3,6,"F",NA
@@ -1048,6 +1058,7 @@
 "meallogger wellness foundry","healthgraph",3,3,6,"F",NA
 "meallogger","healthgraph",3,3,6,"F",NA
 "mdietguru","advices",3,3,6,"F",NA
+"mbientlabs","csv file",3,3,6,"F",NA
 "mbientlabs","CSV File",5,3,8,"F",NA
 "maternal heart rate","monica healthcare",3,3,6,"F",NA
 "manus vr","api",3,3,6,"F",NA
@@ -1251,7 +1262,6 @@
 "heartrate","BeautyRest Sleep Tracker",3,3,6,"F",NA
 "heartrate","beddit sleep monitor 3.5",3,3,6,"F",NA
 "heartrate","Beddit Sleep Monitor 3.5",3,3,6,"F",NA
-"heartrate","ekg",3,3,6,"F",NA
 "heartrate","EKG",3,3,6,"F",NA
 "heartrate","empatica",3,3,6,"F",NA
 "heartrate","Empatica",3,3,6,"F",NA
@@ -1511,6 +1521,7 @@
 "glucose buddy diabetes log","azumio",3,3,6,"F",NA
 "glucose buddy diabetes log","file",3,3,6,"F",NA
 "glucose buddy diabetes log","reminders/notifications",3,3,6,"F",NA
+"glooko","blood glucose",3,3,6,"F",NA
 "global positioning system","apple watch",3,3,6,"F",NA
 "global positioning system","biosensics",3,3,6,"F",NA
 "global positioning system","chooseblocks.com",3,3,6,"F",NA
@@ -1718,6 +1729,8 @@
 "fasting","zero big sky health",3,3,6,"F",NA
 "fasting","Zero Big Sky Health",3,3,6,"F",NA
 "faceook","ifttt",3,3,6,"F",NA
+"excersis","steps",3,3,6,"F",NA
+"excersis","time tracking",3,3,6,"F",NA
 "excersis","time_tracking",4,2,6,"F",NA
 "excercise","21 day tummy tracker",3,3,6,"F",NA
 "excercise","all-in fitness by sport.com",3,3,6,"F",NA
@@ -2307,7 +2320,6 @@
 "blood pressure","aktiia complete blood pressure monitor",3,3,6,"F",NA
 "blood pressure","Aktiia Complete Blood Pressure Monitor",3,3,6,"F",NA
 "blood pressure","chooseblocks.com",3,3,6,"F",NA
-"blood pressure","ekg",3,3,6,"F",NA
 "blood pressure","eventloggers",3,3,6,"F",NA
 "blood pressure","EventLoggers",3,3,6,"F",NA
 "blood pressure","hapicoach nutrition coaching",3,3,6,"F",NA
@@ -2426,6 +2438,7 @@
 "barcode scanning","weight goals",3,3,6,"F",NA
 "barcode scanning","wwdiary",3,3,6,"F",NA
 "barcode scanning","yazio calorie counter & diet tracker",3,3,6,"F",NA
+"astroskin","csv file",3,3,6,"F",NA
 "astroskin","CSV File",3,3,6,"F",NA
 "Argus Health & Calorie Counter","healthkit",3,3,6,"F",NA
 "argus health & calorie counter","advices",3,3,6,"F",NA
@@ -2443,6 +2456,7 @@
 "androidaps","file",3,3,6,"F",NA
 "analysis","floka",3,3,6,"F",NA
 "analysis","memento labs personal data scientist",3,3,6,"F",NA
+"ambient light","mbientlabs",3,3,6,"F",NA
 "ambient light","microsoft band",3,3,6,"F",NA
 "ambient light","Microsoft Band",3,3,6,"F",NA
 "all-in fitness by sport.com","advices",3,3,6,"F",NA
@@ -2545,6 +2559,7 @@
 "accelerometer","lumus sleek",3,3,6,"F",NA
 "accelerometer","manus vr",3,3,6,"F",NA
 "accelerometer","maven co-pilot",3,3,6,"F",NA
+"accelerometer","mbientlabs",3,3,6,"F",NA
 "accelerometer","mc10 biostamp",3,3,6,"F",NA
 "accelerometer","michael kors access",3,3,6,"F",NA
 "accelerometer","microsoft band",3,3,6,"F",NA
