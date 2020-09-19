@@ -1,12 +1,8 @@
 # QS-data-flow-network-graph
 # Network Graph of Quantified Self Health Tracking Ecosystem and Data Flow
-Lots of apps and devices can be used to track many different things relevant to QS. 
-Most apps do not export their data in any form and those that do usualy require some convoluted process.
-Network graphs by netCoin package can easily vizualise these processes.
-While at this I tried to use every aesthetic to convey usefull info.
-A curated menue of apps and devices is better for beginers but noone should curate without this project. 
+Lots of apps and devices are used in QS, biohacking and lifeloging. Public needs a guide. One option for the it's form is an outline with notes, like woop's AwesomeQS. Such an outline can hold any data needed except relationships beyond the first. So I used a dataset. A script can produce outlines from this dataset. Most apps do not export their data in any form and those that do usualy require intermediary programs. Network graphs by netCoin can visualize most data types in one graph (if not many items), especialy the flow of data.
 
-![Snapshot after 3 days](CaptureOfAnEarlyState.PNG)
+# Personal QS Graph Example
 ![Snapshot after 5 days](ScreenCapOfMyQSDataFlow2020aftdays.PNG)
 
 # Instructions
@@ -68,3 +64,5 @@ https://forum.quantifiedself.com/t/mapping-qs-data-flows-and-apis/977
 https://www.reddit.com/r/QuantifiedSelf/comments/fuagyz/start_here_directories_of_qs_resources/
 
 https://doi.org/10.6084/m9.figshare.9702122
+
+A. Hasan, Handbook of Blood Gas/Acid-Base Interpretation,DOI 10.1007/978-1-4471-4315-4_2, © Springer-Verlag London 2013 chapter 2
