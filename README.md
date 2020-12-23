@@ -70,3 +70,8 @@ A. Hasan, Handbook of Blood Gas/Acid-Base Interpretation,DOI 10.1007/978-1-4471-
 https://www.quantifiedbob.com/resources/
 
 https://trackmystack.com/
+
+good devices
+https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm?start_search=1&establishmentName=&regNum=&StateName=&CountryName=&RegistrationNumber=&OwnerOperatorNumber=10025156&OwnerOperatorName=&ProductCode=&DeviceName=&ProprietaryName=&establishmentType=&PAGENUM=10&SortColumn=
+by sensor type
+https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfStandards/detail.cfm?standard__identification_no=31334
