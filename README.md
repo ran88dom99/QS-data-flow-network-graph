@@ -75,6 +75,7 @@ good devices
 https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfRL/rl.cfm?start_search=1&establishmentName=&regNum=&StateName=&CountryName=&RegistrationNumber=&OwnerOperatorNumber=10025156&OwnerOperatorName=&ProductCode=&DeviceName=&ProprietaryName=&establishmentType=&PAGENUM=10&SortColumn=
 by sensor type
 https://www.accessdata.fda.gov/scripts/cdrh/cfdocs/cfStandards/detail.cfm?standard__identification_no=31334
+Other ontologies: HL7 MESH ?CE
 
 DARPA_LifeLog ml4qs.org www.2004-2040.com (Neff And Nafus)
 
