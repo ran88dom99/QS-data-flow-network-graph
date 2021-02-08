@@ -27,7 +27,7 @@ Devices may be open source but their category is selected based on buying price.
 
 # Adding Data
 It is helpfull if you post a link to a page of an app's integrations to a forum
- but learning git and instructions bellow would be more usefull.
+but learning git and instructions bellow would be more useful.
  
 Data is in form of spreadsheets. 
 Items added to Connections.csv must include name and category.
