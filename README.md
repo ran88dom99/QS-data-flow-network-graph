@@ -79,4 +79,6 @@ Other ontologies: HL7 MESH ?CE
 
 DARPA_LifeLog ml4qs.org www.2004-2040.com (Neff And Nafus)
 
+https://github.com/woop/awesome-quantified-self
 
+biomindmap.com
