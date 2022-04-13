@@ -1,4 +1,5 @@
-Beginners shoudl read the [Personal Science Wiki](https://wiki.openhumans.org/wiki/Personal_Science_Wiki)
+Beginners should read the [Personal Science Wiki](https://wiki.openhumans.org/wiki/Personal_Science_Wiki) where all of the effort that would have gone to this project has gone now.
+
 # QS-data-flow-network-graph
 # Network Graph of Quantified Self Health Tracking Ecosystem and Data Flow
 Lots of apps and devices are used in QS, biohacking and lifeloging. Public needs a guide. One option for the it's form is an outline with notes, like woop's AwesomeQS. Such an outline can hold any data needed except relationships beyond the first. So I used a dataset. A script can produce outlines from this dataset. Most apps do not export their data in any form and those that do usualy require intermediary programs. Network graphs by netCoin can visualize most data types in one graph (if not many items), especialy the flow of data.
